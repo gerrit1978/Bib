@@ -5,10 +5,34 @@
 @import "components/smartphone";
 @import "components/elements";
 
+/* General */
+body {
+  font-size: 16px;
+}
+
+/* Layout */
 #wrapper {
   margin-top: 10px;
 }
+.row {
+  &.last {
+    margin-top: 40px;
+  }
+}
 
+#header {
+  .logo {
+    a {
+      display: block;
+      text-indent: -999em;
+      overflow: hidden;
+      background-image: url(../images/sprite.png);
+    }
+  }
+}
+
+
+/* Links & buttons */
 .button {
   display: block;
   text-align: center;
@@ -31,23 +55,6 @@
     &.blue {
       background: $blue url(../images/sprite.png) right top;
     }
-  }
-}
-
-#header {
-  .logo {
-    a {
-      display: block;
-      text-indent: -999em;
-      overflow: hidden;
-      background-image: url(../images/sprite.png);
-    }
-  }
-}
-
-.row {
-  &.last {
-    margin-top: 40px;
   }
 }
 
@@ -76,6 +83,7 @@ ul.steps {
   }
 }
 
+/* General section styles */
 .section {
   .item {
     margin-bottom: 0.5em;
@@ -95,6 +103,17 @@ ul.steps {
 	&.last {
 	  margin-top: 40px;
 	}
+}
+
+/* Specific section styles */
+.section {
+  &.remove {
+    border-top: 1px dotted $lightGrey;
+    padding-top: 20px;
+    a {
+      display: block;
+    }
+  }
 }
 
 /* Lijst met items */
@@ -162,3 +181,20 @@ ul.items {
     }
   }
 }
+
+/* Checkbox - TODO: checkbox image is missing in PSD! */
+/*input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: green;
+    cursor:pointer;
+}
+input[type="checkbox"]:checked + label span {
+    background: red;
+}*/

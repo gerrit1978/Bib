@@ -34,14 +34,15 @@
     <form method="post">
       <div class="form-item form-item-text">
 	      <label for="username">Kies je gebruikersnaam</label>
-	      <input type="text" class="form-text" name="username" id="username" />
+	      <input type="text" class="form-text" name="username" id="username" /><span class="validation true"></span>
 	    </div>
       <div class="form-item form-item-email">
-	      <label for="email">E-mailadres</label>
+	      <label for="email">E-mailadres</label><span class="validation false"></span>
 	      <input type="email" class="form-email" name="email" id="email" />
+        <div class="message error">E-mailadres is al in gebruik.</div>
 	    </div>
       <div class="form-item form-item-email">
-	      <label for="email-confirm">E-mailadres (bevestig)</label>
+	      <label for="email-confirm">E-mailadres (bevestig)</label><span class="validation false"></span>
 	      <input type="email" class="form-email" name="email-confirm" id="email-confirm" />
 	    </div>
       <div class="form-item form-item-text">
@@ -198,14 +199,14 @@
       </div>
       <div class="form-item form-item-password">
         <label for="password">Paswoord</label>
-        <input type="password" class="form-password" name="password" id="password" />
+        <input type="password" class="form-password" name="password" id="password" /><span class="validation"></span>
       </div>
       <div class="form-item form-item-password">
         <label for="password-confirm">Paswoord (bevestig)</label>
-        <input type="password" class="form-password" name="password-confirm" id="password-confirm" />
+        <input type="password" class="form-password" name="password-confirm" id="password-confirm" /><span class="validation false"></span>
       </div>
 
-      <div class="form-item form-item-checkbox">
+      <div class="form-item form-item-checkbox clearfix">
         <input type="checkbox" name="terms" id="terms" />
         <label for="terms">Ik stem in met de <a href="#">gebruikersvoorwaarden.</a></label>
       </div>
