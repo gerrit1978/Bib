@@ -1,0 +1,110 @@
+/* Desktop and tablet */
+@media all and (min-width: 641px) {
+  body {
+    background: url(../images/bg-page.png) repeat;
+  }
+
+  .resp-true {
+    display: none;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .form-submit {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  #header {
+	  .logo {
+	    width: 67px;
+	    height: 70px;
+	    a {
+	      height: 70px;
+	      background-position: left -143px;
+	    }
+	  }
+  }
+  
+  #main {
+	  .container {
+	    background: $white;
+	    margin-top: 30px;
+	  }
+	  
+	  .main-content {
+	    padding-bottom: 3em;
+	    margin-bottom: 1em;
+	    .inner {
+	      background: url(../images/bg-main.png) no-repeat left top;
+	      padding: 20px;
+	    }
+	  }
+  }
+  
+  /* Main menu */
+  #main {
+    .sidebar-first {
+      padding-top: 55px;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          color: $lightGrey;
+          line-height: 36px;
+          border-bottom: 1px dotted $lightGrey;
+          a {
+            color: $lightGrey;
+            display: block;
+	          &.title {
+	            text-transform: uppercase;
+	          }
+	          &.active {
+	            color: white;
+	            background: url(../images/sprite.png) no-repeat right -256px;
+	            position: relative;
+	            left: -15px;
+	            padding-left: 15px;
+	            z-index: 100;
+	            width: 126%;
+	          }
+          }
+          ul {
+            li {
+              border-bottom: none;
+            }
+          }
+          &.last {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }  
+  
+  h1.title {
+    margin-left: 25%;
+    padding-left: 10px;
+  }
+    
+  /* Temporary: color for steps in registration form */
+  ul.steps {
+    li.step {
+      color: $black !important;
+      a {
+        color: $black !important;
+      }
+    }
+  }
+}
+
+/* Desktop only */
+@media all and (min-width: 1023px) {
+  #wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

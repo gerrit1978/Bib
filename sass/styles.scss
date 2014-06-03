@@ -1,0 +1,164 @@
+@import "bootstrap";
+@import "components/variables";
+@import "components/desktop";
+@import "components/tablet";
+@import "components/smartphone";
+@import "components/elements";
+
+#wrapper {
+  margin-top: 10px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  padding: 9px 0;
+  font-size: 1.25em;
+  @include rounded;
+  &.blue {
+    color: white;
+    background: $blue;
+  }
+  &.red {
+    color: white;
+    background: $red;
+  }
+  &.next {
+    &.red {
+      background: $red url(../images/sprite.png) right top;    
+    }
+    &.blue {
+      background: $blue url(../images/sprite.png) right top;
+    }
+  }
+}
+
+#header {
+  .logo {
+    a {
+      display: block;
+      text-indent: -999em;
+      overflow: hidden;
+      background-image: url(../images/sprite.png);
+    }
+  }
+}
+
+.row {
+  &.last {
+    margin-top: 40px;
+  }
+}
+
+ul.steps {
+  margin: 0;
+  padding: 0;
+  li.step {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    font-weight: 800;
+    color: white;
+    a {
+      color: white;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.section {
+  .item {
+    margin-bottom: 0.5em;
+		.label {
+		  color: $black;
+		  padding: 0;
+		  margin: 0;
+		  font-size: 1em;
+		  font-weight: 400;
+		}
+		
+		.value {
+		  color: $blue;
+		  font-weight: 600;
+		}
+	}
+	&.last {
+	  margin-top: 40px;
+	}
+}
+
+/* Lijst met items */
+ul.items {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px dotted $lightGrey;
+  li.item {
+    padding-bottom: 1em;
+    list-style: none;
+    border-bottom: 1px  dotted $lightGrey;
+    .title {
+      color: $blue;
+    }
+    .dates {
+    }
+    .actions {
+      margin-top: 0.5em;
+      a {
+        display: block;
+        text-align: center;
+        height: 2em;
+        line-height: 2em;
+        font-size: 1.25em;
+        @include rounded;
+        &.blue {
+          color: $blue;
+          border: 2px solid $blue;
+        }
+        &.red {
+          color: $red;
+          border: 2px solid $red;
+        }
+      }
+    }
+  }
+}
+
+/* Secondary Menu */
+#secondary-menu {
+  background: $menuGreyDark;
+  color: $menuGreyText;
+  height: 30px;
+  line-height: 30px;
+  a {
+    color: $menuGreyText;
+  }
+  .container {
+    text-align: right;
+    span {
+      border-right: 1px solid $menuGreyText;
+      padding: 0 0.7em;
+      &.last {
+        border-right: none;
+      }
+      &.action {
+        background: $menuGreyLight;
+        padding-right: 0.7em;
+        display: inline-block;
+        height: 30px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
