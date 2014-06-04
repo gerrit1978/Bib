@@ -8296,28 +8296,34 @@ h2 {
 }
 
 /* line 16, ../sass/components/_elements.scss */
+h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+/* line 21, ../sass/components/_elements.scss */
 a {
   text-decoration: none;
 }
 
 /* Form elements */
-/* line 21, ../sass/components/_elements.scss */
+/* line 26, ../sass/components/_elements.scss */
 .form-item {
   margin-bottom: 1em;
 }
-/* line 23, ../sass/components/_elements.scss */
+/* line 28, ../sass/components/_elements.scss */
 .form-item label {
   display: block;
   font-weight: 500;
   line-height: 1;
 }
 
-/* line 31, ../sass/components/_elements.scss */
+/* line 36, ../sass/components/_elements.scss */
 .form-item-checkbox label {
   display: inline-block;
 }
 
-/* line 36, ../sass/components/_elements.scss */
+/* line 41, ../sass/components/_elements.scss */
 .form-text, .form-password, .form-email {
   border: 1px solid #a6a6a6;
   width: 100%;
@@ -8327,12 +8333,12 @@ a {
   padding-right: 0.5em;
 }
 
-/* line 45, ../sass/components/_elements.scss */
+/* line 50, ../sass/components/_elements.scss */
 .form-select {
   width: 100%;
 }
 
-/* line 49, ../sass/components/_elements.scss */
+/* line 54, ../sass/components/_elements.scss */
 .form-submit {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -8346,19 +8352,19 @@ a {
   color: white;
   font-size: 1.25em;
 }
-/* line 58, ../sass/components/_elements.scss */
+/* line 63, ../sass/components/_elements.scss */
 .form-submit.blue {
   background-color: #018bb9;
 }
-/* line 61, ../sass/components/_elements.scss */
+/* line 66, ../sass/components/_elements.scss */
 .form-submit.red {
   background-color: #c6151d;
 }
-/* line 65, ../sass/components/_elements.scss */
+/* line 70, ../sass/components/_elements.scss */
 .form-submit.next.red {
   background: #c6151d url(../images/sprite.png) right top;
 }
-/* line 68, ../sass/components/_elements.scss */
+/* line 73, ../sass/components/_elements.scss */
 .form-submit.next.blue {
   background: #018bb9 url(../images/sprite.png) right top;
 }
