@@ -124,6 +124,7 @@ ul.items {
   padding-top: 1em;
   border-top: 1px dotted $lightGrey;
   li.item {
+    position: relative;
     padding-bottom: 1em;
     list-style: none;
     border-bottom: 1px  dotted $lightGrey;
@@ -193,6 +194,18 @@ ul.items {
     line-height: 32px;
     padding: 0 40px;
     background: url(../images/loader.gif) no-repeat left center;
+  }
+}
+
+/* Small Preloader */
+.loader {
+  display: none;
+  text-align: center;
+  span {
+	  display: inline-block;
+	  width: 35px;
+	  height: 35px;
+	  background: url(../images/loader-small.gif) no-repeat center center;
   }
 }
 

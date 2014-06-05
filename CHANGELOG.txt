@@ -1,11 +1,11 @@
 05.06.2014
 
 1 Algemene preloader
-In bibliotheek-2.html lijn 30 #preloader-general en stylesheets. Staat standaard op display=none dus kan na een muisklik 
-via javascript op display=block gezet zolang de pagina niet herladen is.
+In bibliotheek-2.html lijn 30 #preloader-general en stylesheets. Staat standaard op display=none dus kan na een klik op 
+aan <a> via javascript geshowed worden.
 
 2 Specifieke preloader
-In bibliotheek-2.html
+In bibliotheek-2.html lijnen 102, 108, 117 en 123 en stylesheets. Idem als 1.
 
 3 Error & info blokken stylesheets
 In bibliotheek-2.html <section class="messages"> lijnen 88-92. De blokken gebruiken de standaard rode en blauwe kleur, 
