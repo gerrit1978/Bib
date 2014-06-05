@@ -8034,10 +8034,18 @@ button.close {
   .form-item .message.error {
     color: #c6151d;
   }
+
+  /* General Preloader */
+  /* line 135, ../sass/components/_desktop.scss */
+  #preloader-general {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 139, ../sass/components/_desktop.scss */
+  /* line 146, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -8275,6 +8283,17 @@ button.close {
     margin-right: -2em;
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
+  }
+
+  /* General preloader */
+  /* line 240, ../sass/components/_smartphone.scss */
+  #preloader-general {
+    background: #f3f3f3;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 0;
   }
 }
 /* HTML elements */
@@ -8567,6 +8586,43 @@ ul.items li.item .actions a.red {
   display: inline-block;
   height: 30px;
   text-transform: uppercase;
+}
+
+/* General Preloader */
+/* line 186, ../sass/styles.scss */
+#preloader-general {
+  display: none;
+  text-align: center;
+}
+/* line 189, ../sass/styles.scss */
+#preloader-general span {
+  display: inline-block;
+  font-size: 1.25em;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 40px;
+  background: url(../images/loader.gif) no-repeat left center;
+}
+
+/* Messages */
+/* line 201, ../sass/styles.scss */
+section.messages .message {
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  behavior: url(pie/PIE.htc);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+/* line 205, ../sass/styles.scss */
+section.messages .message.error {
+  background: #c6151d;
+  color: white;
+}
+/* line 209, ../sass/styles.scss */
+section.messages .message.info {
+  background: #018bb9;
+  color: white;
 }
 
 /* Checkbox - TODO: checkbox image is missing in PSD! */

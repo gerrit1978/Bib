@@ -236,4 +236,14 @@
     }
   }
   
+  /* General preloader */
+  #preloader-general {
+    background: #f3f3f3;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 0;
+  }
+  
 }

@@ -182,6 +182,37 @@ ul.items {
   }
 }
 
+/* General Preloader */
+#preloader-general {
+  display: none;
+  text-align: center;
+  span {
+    display: inline-block;
+    font-size: 1.25em;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 40px;
+    background: url(../images/loader.gif) no-repeat left center;
+  }
+}
+
+/* Messages */
+section.messages {
+  .message {
+    @include rounded;
+    padding: 15px;
+    margin-bottom: 15px;
+    &.error {
+	    background: $red;
+	    color: $white;
+    }
+    &.info {
+      background: $blue;
+      color: $white;
+    }
+  }
+}
+
 /* Checkbox - TODO: checkbox image is missing in PSD! */
 /*input[type="checkbox"] {
     display:none;
