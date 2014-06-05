@@ -8673,10 +8673,30 @@ section.messages .message.error {
   background: #c6151d;
   color: white;
 }
-/* line 230, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
+section.messages .message.error a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+/* line 232, ../sass/styles.scss */
+section.messages .message.error a:hover {
+  border-bottom: none;
+  text-decoration: none;
+}
+/* line 238, ../sass/styles.scss */
 section.messages .message.info {
   background: #018bb9;
   color: white;
+}
+/* line 241, ../sass/styles.scss */
+section.messages .message.info a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+/* line 244, ../sass/styles.scss */
+section.messages .message.info a:hover {
+  border-bottom: none;
+  text-decoration: none;
 }
 
 /* Checkbox - TODO: checkbox image is missing in PSD! */

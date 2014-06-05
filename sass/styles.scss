@@ -226,10 +226,26 @@ section.messages {
     &.error {
 	    background: $red;
 	    color: $white;
+	    a {
+	      color: $white;
+	      border-bottom: 1px solid white;
+	      &:hover {
+	        border-bottom: none;
+	        text-decoration: none;
+	      }
+	    }
     }
     &.info {
       background: $blue;
       color: $white;
+	    a {
+	      color: $white;
+	      border-bottom: 1px solid white;
+	      &:hover {
+	        border-bottom: none;
+	        text-decoration: none;
+	      }
+	    }
     }
   }
 }

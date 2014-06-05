@@ -6,4 +6,22 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     return false;
   });
+
+  /* Show general preloader when clicking an external link */
+  $('a').click(function(e) {
+		if ($(this).attr('href').search(/#/) == -1 && $(this).attr('href').search(/http/) != -1) {
+      $('#preloader-general').show();
+    } 
+	});
+	
+	$('a.verleng-alles').click(function(e) {
+    var list = $(this).parent().find('ul.items');
+    list.each(function() {
+      console.log($(this).find('li.item').find('.loader').show());
+    });
+    /* En nog wat andere calls hier uiteraard */
+    e.preventDefault();
+    return false;
+	});
+
 });
