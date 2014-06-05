@@ -148,6 +148,19 @@
     margin-left: auto;
     margin-right: auto;
   }
+  
+  /* Items */
+  ul.items {
+    li.item {
+      .actions {
+        a {
+          display: inline-block;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
 
   
 }

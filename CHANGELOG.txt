@@ -16,14 +16,14 @@ nog wat getuned worden.
 In bibliotheek-2.html lijn 10 (en de bijhorende afbeelding favicon.ico in de map images)
 
 5 Desktop versies
-- aanmelden-1.html extra markup voor (lege) linker zijbalk
-- aanmelden-2.html extra markup voor (lege) linker zijbalk
+- aanmelden-1.html extra markup voor (lege) linker zijbalk (let op classes bij lijn 32 en 36)
+- aanmelden-2.html extra markup voor (lege) linker zijbalk 
 - registreer-0.html extra markup voor (lege) linker zijbalk
 - registreer-1.html extra markup voor (lege) linker zijbalk
 - registreer-2.html extra markup voor (lege) linker zijbalk
 - registreer-3.html extra markup voor (lege) linker zijbalk
 
-De extra markup begint steeds met een lege linker zijbalk: 
+De extra markup begint steeds op lijn 28 met een lege linker zijbalk: 
   <div class="col-md-3 sidebar-first">
 	</div> <!-- sidebar-first -->
 Daaronder de rest van de inhoud volgens de grid:

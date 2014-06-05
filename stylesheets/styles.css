@@ -8055,10 +8055,18 @@ button.close {
     margin-left: auto;
     margin-right: auto;
   }
+
+  /* Items */
+  /* line 156, ../sass/components/_desktop.scss */
+  ul.items li.item .actions a {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 157, ../sass/components/_desktop.scss */
+  /* line 170, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -8210,11 +8218,12 @@ button.close {
   /* Actions in item list */
   /* line 149, ../sass/components/_smartphone.scss */
   ul.items li.item .actions a {
+    display: block;
     width: 100%;
   }
 
   /* The menu */
-  /* line 158, ../sass/components/_smartphone.scss */
+  /* line 159, ../sass/components/_smartphone.scss */
   #main .sidebar-first {
     position: absolute;
     top: 20px;
@@ -8224,7 +8233,7 @@ button.close {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 167, ../sass/components/_smartphone.scss */
+  /* line 168, ../sass/components/_smartphone.scss */
   #main .sidebar-first .icon a {
     color: #c6151d;
     padding-left: 4em;
@@ -8235,7 +8244,7 @@ button.close {
     height: 26px;
     line-height: 26px;
   }
-  /* line 178, ../sass/components/_smartphone.scss */
+  /* line 179, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner {
     display: none;
     position: relative;
@@ -8245,17 +8254,17 @@ button.close {
     background: white;
     font-size: 1.0625em;
   }
-  /* line 186, ../sass/components/_smartphone.scss */
+  /* line 187, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner a {
     color: #d9d8d8;
     display: block;
   }
-  /* line 190, ../sass/components/_smartphone.scss */
+  /* line 191, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul {
     margin: 0;
     padding: 0;
   }
-  /* line 193, ../sass/components/_smartphone.scss */
+  /* line 194, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li {
     background: #444444;
     list-style: none;
@@ -8265,31 +8274,31 @@ button.close {
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 201, ../sass/components/_smartphone.scss */
+  /* line 202, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.first {
     padding-top: 30px;
   }
-  /* line 204, ../sass/components/_smartphone.scss */
+  /* line 205, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.resp-last {
     border-bottom: none;
   }
-  /* line 208, ../sass/components/_smartphone.scss */
+  /* line 209, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.inline a {
     display: inline-block;
     color: #a6a6a6;
     font-size: 0.75em;
     text-transform: uppercase;
   }
-  /* line 216, ../sass/components/_smartphone.scss */
+  /* line 217, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li {
     border-bottom: none;
   }
-  /* line 221, ../sass/components/_smartphone.scss */
+  /* line 222, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.title {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 225, ../sass/components/_smartphone.scss */
+  /* line 226, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.active {
     margin-left: -10px;
     padding-left: 10px;
@@ -8299,7 +8308,7 @@ button.close {
   }
 
   /* General preloader */
-  /* line 240, ../sass/components/_smartphone.scss */
+  /* line 241, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8310,7 +8319,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 250, ../sass/components/_smartphone.scss */
+  /* line 251, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8565,7 +8574,6 @@ ul.items li.item .actions {
 }
 /* line 147, ../sass/styles.scss */
 ul.items li.item .actions a {
-  display: block;
   text-align: center;
   height: 2em;
   line-height: 2em;
@@ -8575,43 +8583,43 @@ ul.items li.item .actions a {
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 154, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 ul.items li.item .actions a.blue {
   color: #018bb9;
   border: 2px solid #018bb9;
 }
-/* line 158, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 ul.items li.item .actions a.red {
   color: #c6151d;
   border: 2px solid #c6151d;
 }
 
 /* Secondary Menu */
-/* line 168, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 #secondary-menu {
   background: #363636;
   color: #d9d8d8;
   height: 30px;
   line-height: 30px;
 }
-/* line 173, ../sass/styles.scss */
+/* line 172, ../sass/styles.scss */
 #secondary-menu a {
   color: #d9d8d8;
 }
-/* line 176, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 #secondary-menu .container {
   text-align: right;
 }
-/* line 178, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 #secondary-menu .container span {
   border-right: 1px solid #d9d8d8;
   padding: 0 0.7em;
 }
-/* line 181, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 #secondary-menu .container span.last {
   border-right: none;
 }
-/* line 184, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 #secondary-menu .container span.action {
   background: #646464;
   padding-right: 0.7em;
@@ -8621,12 +8629,12 @@ ul.items li.item .actions a.red {
 }
 
 /* General Preloader */
-/* line 196, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 #preloader-general {
   display: none;
   text-align: center;
 }
-/* line 199, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 #preloader-general span {
   display: inline-block;
   font-size: 1.25em;
@@ -8637,12 +8645,12 @@ ul.items li.item .actions a.red {
 }
 
 /* Small Preloader */
-/* line 210, ../sass/styles.scss */
+/* line 209, ../sass/styles.scss */
 .loader {
   display: none;
   text-align: center;
 }
-/* line 213, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 .loader span {
   display: inline-block;
   width: 35px;
@@ -8651,7 +8659,7 @@ ul.items li.item .actions a.red {
 }
 
 /* Messages */
-/* line 223, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 section.messages .message {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -8660,12 +8668,12 @@ section.messages .message {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 227, ../sass/styles.scss */
+/* line 226, ../sass/styles.scss */
 section.messages .message.error {
   background: #c6151d;
   color: white;
 }
-/* line 231, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 section.messages .message.info {
   background: #018bb9;
   color: white;
