@@ -14,7 +14,8 @@ body {
 #wrapper {
   margin-top: 10px;
 }
-.row {
+
+.row, .subrow {
   &.last {
     margin-top: 40px;
   }
@@ -29,6 +30,14 @@ body {
       background-image: url(../images/sprite.png);
     }
   }
+}
+
+.alpha {
+  padding-left: 0;
+}
+
+.omega {
+  padding-right: 0;
 }
 
 

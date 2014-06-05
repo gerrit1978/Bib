@@ -15,5 +15,21 @@ nog wat getuned worden.
 4 Favicon
 In bibliotheek-2.html lijn 10 (en de bijhorende afbeelding favicon.ico in de map images)
 
-5 Autocomplete
+5 Desktop versies
+- aanmelden-1.html extra markup voor (lege) linker zijbalk
+- aanmelden-2.html extra markup voor (lege) linker zijbalk
+- registreer-0.html extra markup voor (lege) linker zijbalk
+- registreer-1.html extra markup voor (lege) linker zijbalk
+- registreer-2.html extra markup voor (lege) linker zijbalk
+- registreer-3.html extra markup voor (lege) linker zijbalk
 
+De extra markup begint steeds met een lege linker zijbalk: 
+  <div class="col-md-3 sidebar-first">
+	</div> <!-- sidebar-first -->
+Daaronder de rest van de inhoud volgens de grid:
+  <div class="col-md-9 main-content">
+    <div class="inner clearfix">
+	    <div class="col-md-6 alpha omega">
+en de bijhorende sluit-tags uiteraard.
+
+Voor de bibliotheek en profielpagina is de opmaak beperkt gebleven tot de stylesheets.
