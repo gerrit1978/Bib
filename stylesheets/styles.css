@@ -8252,19 +8252,18 @@ button.close {
     width: 100%;
     color: #d9d8d8;
     background: white;
-    font-size: 1.0625em;
   }
-  /* line 187, ../sass/components/_smartphone.scss */
+  /* line 186, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner a {
     color: #d9d8d8;
     display: block;
   }
-  /* line 191, ../sass/components/_smartphone.scss */
+  /* line 190, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul {
     margin: 0;
     padding: 0;
   }
-  /* line 194, ../sass/components/_smartphone.scss */
+  /* line 193, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li {
     background: #444444;
     list-style: none;
@@ -8274,31 +8273,31 @@ button.close {
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 202, ../sass/components/_smartphone.scss */
+  /* line 201, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.first {
     padding-top: 30px;
   }
-  /* line 205, ../sass/components/_smartphone.scss */
+  /* line 204, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.resp-last {
     border-bottom: none;
   }
-  /* line 209, ../sass/components/_smartphone.scss */
+  /* line 208, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.inline a {
     display: inline-block;
     color: #a6a6a6;
     font-size: 0.75em;
     text-transform: uppercase;
   }
-  /* line 217, ../sass/components/_smartphone.scss */
+  /* line 216, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li {
     border-bottom: none;
   }
-  /* line 222, ../sass/components/_smartphone.scss */
+  /* line 221, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.title {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 226, ../sass/components/_smartphone.scss */
+  /* line 225, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.active {
     margin-left: -10px;
     padding-left: 10px;
@@ -8308,7 +8307,7 @@ button.close {
   }
 
   /* General preloader */
-  /* line 241, ../sass/components/_smartphone.scss */
+  /* line 240, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8319,11 +8318,17 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 251, ../sass/components/_smartphone.scss */
+  /* line 250, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
     width: 100%;
+  }
+
+  /* Bib details */
+  /* line 257, ../sass/components/_smartphone.scss */
+  .bib-details {
+    display: none;
   }
 }
 /* HTML elements */
@@ -8460,7 +8465,7 @@ body {
   text-align: center;
   font-weight: bolder;
   padding: 9px 0;
-  font-size: 1.25em;
+  font-size: 1.125em;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -8658,8 +8663,23 @@ ul.items li.item .actions a.red {
   background: url(../images/loader-small.gif) no-repeat center center;
 }
 
+/* Bib details */
+/* line 221, ../sass/styles.scss */
+section.bib-details {
+  margin-bottom: 15px;
+}
+/* line 223, ../sass/styles.scss */
+section.bib-details a {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 227, ../sass/styles.scss */
+section.bib-details span {
+  color: #444444;
+}
+
 /* Messages */
-/* line 222, ../sass/styles.scss */
+/* line 234, ../sass/styles.scss */
 section.messages .message {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -8668,35 +8688,48 @@ section.messages .message {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 226, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 section.messages .message.error {
   background: #c6151d;
   color: white;
 }
-/* line 229, ../sass/styles.scss */
+/* line 241, ../sass/styles.scss */
 section.messages .message.error a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 232, ../sass/styles.scss */
+/* line 244, ../sass/styles.scss */
 section.messages .message.error a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 238, ../sass/styles.scss */
+/* line 249, ../sass/styles.scss */
+section.messages .message.error .form-submit {
+  color: #c6151d;
+}
+/* line 253, ../sass/styles.scss */
 section.messages .message.info {
   background: #018bb9;
   color: white;
 }
-/* line 241, ../sass/styles.scss */
+/* line 256, ../sass/styles.scss */
 section.messages .message.info a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 244, ../sass/styles.scss */
+/* line 259, ../sass/styles.scss */
 section.messages .message.info a:hover {
   border-bottom: none;
   text-decoration: none;
+}
+/* line 264, ../sass/styles.scss */
+section.messages .message.info .form-submit {
+  color: #018bb9;
+}
+/* line 268, ../sass/styles.scss */
+section.messages .message .form-submit {
+  background: white;
+  margin: 10px 0;
 }
 
 /* Checkbox - TODO: checkbox image is missing in PSD! */

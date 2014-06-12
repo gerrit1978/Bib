@@ -183,7 +183,6 @@
         width: 100%;
         color: $menuGreyText;
         background: white;
-          font-size: 1.0625em;
         a {
           color: $menuGreyText;
           display: block;
@@ -254,4 +253,8 @@
     width: 100%;
   }
   
+  /* Bib details */
+  .bib-details {
+    display: none;
+  }
 }

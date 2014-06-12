@@ -33,3 +33,9 @@ Daaronder de rest van de inhoud volgens de grid:
 en de bijhorende sluit-tags uiteraard.
 
 Voor de bibliotheek en profielpagina is de opmaak beperkt gebleven tot de stylesheets.
+
+
+12.06.2014
+
+1 Stylesheet wijzigingen
+2 bibliotheek-2.html: details & links bibliotheek in een aparte <section> gezet (class="bib-details"). Lijnen 88-92. Wordt niet getoond op smartphone.

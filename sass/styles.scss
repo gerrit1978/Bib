@@ -47,7 +47,7 @@ body {
   text-align: center;
   font-weight: bolder;
   padding: 9px 0;
-  font-size: 1.25em;
+  font-size: 1.125em;
   @include rounded;
   &.blue {
     color: white;
@@ -217,6 +217,18 @@ ul.items {
   }
 }
 
+/* Bib details */
+section.bib-details {
+  margin-bottom: 15px;
+  a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  span {
+    color: $darkGrey;
+  }
+}
+
 /* Messages */
 section.messages {
   .message {
@@ -234,6 +246,9 @@ section.messages {
 	        text-decoration: none;
 	      }
 	    }
+	    .form-submit {
+	      color: $red;
+	    }
     }
     &.info {
       background: $blue;
@@ -246,6 +261,13 @@ section.messages {
 	        text-decoration: none;
 	      }
 	    }
+	    .form-submit {
+	      color: $blue;
+	    }
+    }
+    .form-submit {
+      background: white;
+      margin: 10px 0;
     }
   }
 }
