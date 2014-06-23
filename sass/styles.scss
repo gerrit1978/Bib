@@ -150,7 +150,6 @@ ul.items {
       margin-top: 0.5em;
       a {
         text-align: center;
-        height: 2em;
         line-height: 2em;
         font-size: 1.25em;
         @include rounded;
@@ -221,7 +220,11 @@ ul.items {
   }
 }
 
-/* Bib details */
+/* Bib page */
+span.late {
+  color: $red;
+}
+
 section.bib-details {
   margin-bottom: 15px;
   a {
