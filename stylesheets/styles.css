@@ -7908,84 +7908,82 @@ button.close {
   .form-submit {
     padding-left: 3em;
     padding-right: 3em;
+    min-width: 250px;
   }
 
-  /* line 19, ../sass/components/_desktop.scss */
+  /* line 20, ../sass/components/_desktop.scss */
   a.button {
     display: inline-block;
     width: auto;
     padding-left: 3em;
     padding-right: 3em;
+    margin-bottom: 10px;
   }
 
-  /* line 27, ../sass/components/_desktop.scss */
+  /* line 29, ../sass/components/_desktop.scss */
   #header .logo {
     width: 67px;
     height: 70px;
   }
-  /* line 30, ../sass/components/_desktop.scss */
+  /* line 32, ../sass/components/_desktop.scss */
   #header .logo a {
     height: 70px;
     background-position: left -143px;
   }
 
-  /* line 38, ../sass/components/_desktop.scss */
+  /* line 40, ../sass/components/_desktop.scss */
   #main .container {
     background: white;
     margin-top: 30px;
   }
-  /* line 43, ../sass/components/_desktop.scss */
+  /* line 45, ../sass/components/_desktop.scss */
   #main .main-content {
     padding-bottom: 3em;
     margin-bottom: 1em;
   }
-  /* line 46, ../sass/components/_desktop.scss */
+  /* line 48, ../sass/components/_desktop.scss */
   #main .main-content .inner {
     background: url(../images/bg-main.png) no-repeat left top;
     padding: 20px;
   }
 
   /* "Splash page" */
-  /* line 54, ../sass/components/_desktop.scss */
+  /* line 56, ../sass/components/_desktop.scss */
   .left {
     width: 50%;
     float: left;
   }
 
-  /* line 59, ../sass/components/_desktop.scss */
+  /* line 61, ../sass/components/_desktop.scss */
   .right {
     width: 50%;
     float: left;
   }
 
   /* Main menu */
-  /* line 66, ../sass/components/_desktop.scss */
-  #main .sidebar-first {
-    padding-top: 55px;
-  }
-  /* line 68, ../sass/components/_desktop.scss */
+  /* line 69, ../sass/components/_desktop.scss */
   #main .sidebar-first ul {
     font-size: 0.9375em;
     margin: 0;
     padding: 0;
   }
-  /* line 72, ../sass/components/_desktop.scss */
+  /* line 73, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li {
     list-style: none;
     color: #a6a6a6;
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 77, ../sass/components/_desktop.scss */
+  /* line 78, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a {
     color: #a6a6a6;
     display: block;
   }
-  /* line 80, ../sass/components/_desktop.scss */
+  /* line 81, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.title {
     text-transform: uppercase;
   }
-  /* line 83, ../sass/components/_desktop.scss */
+  /* line 84, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.active {
     color: white;
     background: url(../images/sprite.png) no-repeat right -256px;
@@ -7995,61 +7993,74 @@ button.close {
     z-index: 100;
     width: 126%;
   }
-  /* line 94, ../sass/components/_desktop.scss */
+  /* line 95, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li {
     border-bottom: none;
+    padding-left: 20px;
   }
-  /* line 98, ../sass/components/_desktop.scss */
+  /* line 99, ../sass/components/_desktop.scss */
+  #main .sidebar-first ul li ul li a.active {
+    margin-left: -20px;
+    padding-left: 35px;
+    width: 137%;
+  }
+  /* line 108, ../sass/components/_desktop.scss */
+  #main .sidebar-first ul li ul li ul li a.active {
+    margin-left: -40px;
+    padding-left: 55px;
+    width: 150%;
+  }
+  /* line 118, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li.last {
     border-bottom: none;
   }
 
-  /* line 106, ../sass/components/_desktop.scss */
+  /* line 126, ../sass/components/_desktop.scss */
   h1.title {
     margin-left: 25%;
     padding-left: 10px;
   }
 
   /* Temporary: color for steps in registration form */
-  /* line 113, ../sass/components/_desktop.scss */
+  /* line 133, ../sass/components/_desktop.scss */
   ul.steps li.step {
     color: black !important;
   }
-  /* line 115, ../sass/components/_desktop.scss */
+  /* line 135, ../sass/components/_desktop.scss */
   ul.steps li.step a {
     color: black !important;
   }
 
   /* Forms */
-  /* line 123, ../sass/components/_desktop.scss */
+  /* line 143, ../sass/components/_desktop.scss */
   .form-item .form-text, .form-item .form-email, .form-item .form-password, .form-item select#gender {
     width: 90%;
   }
-  /* line 126, ../sass/components/_desktop.scss */
+  /* line 146, ../sass/components/_desktop.scss */
   .form-item span.validation {
     float: right;
     width: 30px;
     height: 30px;
   }
-  /* line 130, ../sass/components/_desktop.scss */
+  /* line 150, ../sass/components/_desktop.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 133, ../sass/components/_desktop.scss */
+  /* line 153, ../sass/components/_desktop.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 137, ../sass/components/_desktop.scss */
+  /* line 157, ../sass/components/_desktop.scss */
   .form-item .message {
     font-size: 0.9375em;
   }
-  /* line 139, ../sass/components/_desktop.scss */
+  /* line 159, ../sass/components/_desktop.scss */
   .form-item .message.error {
     color: #c6151d;
   }
 
   /* General Preloader */
-  /* line 146, ../sass/components/_desktop.scss */
+  /* line 166, ../sass/components/_desktop.scss */
   #preloader-general {
     max-width: 1140px;
     margin-left: auto;
@@ -8057,19 +8068,44 @@ button.close {
   }
 
   /* Items */
-  /* line 156, ../sass/components/_desktop.scss */
+  /* line 176, ../sass/components/_desktop.scss */
   ul.items li.item .actions a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  /* line 187, ../sass/components/_desktop.scss */
+  .section .item .value {
+    font-weight: normal !important;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 170, ../sass/components/_desktop.scss */
+  /* line 198, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* line 203, ../sass/components/_desktop.scss */
+  .button, .form-submit {
+    font-size: 1em;
+    font-weight: 300;
+    padding: 6px 14px !important;
+  }
+}
+@media all and (min-width: 641px) and (max-width: 1023px) {
+  /* line 2, ../sass/components/_tablet.scss */
+  .form-submit {
+    font-size: 1.125em;
+    font-weight: bolder;
+  }
+
+  /* line 7, ../sass/components/_tablet.scss */
+  .button {
+    font-size: 1.125em;
+    font-weight: bolder;
   }
 }
 @media all and (min-width: 320px) and (max-width: 640px) {
@@ -8088,29 +8124,38 @@ button.close {
   /* line 12, ../sass/components/_smartphone.scss */
   .form-submit {
     width: 100%;
+    font-size: 1.125em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+
+  /* line 19, ../sass/components/_smartphone.scss */
+  .button {
+    font-size: 1.125em;
+    font-weight: bolder;
   }
 
   /* Layout */
-  /* line 19, ../sass/components/_smartphone.scss */
+  /* line 27, ../sass/components/_smartphone.scss */
   #header .logo {
     float: right;
     width: 50px;
     height: 50px;
   }
-  /* line 23, ../sass/components/_smartphone.scss */
+  /* line 31, ../sass/components/_smartphone.scss */
   #header .logo a {
     height: 50px;
     background-position: left top;
   }
 
-  /* line 30, ../sass/components/_smartphone.scss */
+  /* line 38, ../sass/components/_smartphone.scss */
   .resp-line {
     border-top: 1px dashed #a6a6a6;
     margin-top: 20px;
     position: relative;
     text-align: center;
   }
-  /* line 35, ../sass/components/_smartphone.scss */
+  /* line 43, ../sass/components/_smartphone.scss */
   .resp-line span {
     display: block;
     margin-left: auto;
@@ -8122,64 +8167,64 @@ button.close {
   }
 
   /* Registration Steps */
-  /* line 49, ../sass/components/_smartphone.scss */
+  /* line 57, ../sass/components/_smartphone.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 54, ../sass/components/_smartphone.scss */
+  /* line 62, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 58, ../sass/components/_smartphone.scss */
+  /* line 66, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 61, ../sass/components/_smartphone.scss */
+  /* line 69, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 67, ../sass/components/_smartphone.scss */
+  /* line 75, ../sass/components/_smartphone.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 72, ../sass/components/_smartphone.scss */
+  /* line 80, ../sass/components/_smartphone.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 78, ../sass/components/_smartphone.scss */
+  /* line 86, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 82, ../sass/components/_smartphone.scss */
+  /* line 90, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 87, ../sass/components/_smartphone.scss */
+  /* line 95, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 93, ../sass/components/_smartphone.scss */
+  /* line 101, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 97, ../sass/components/_smartphone.scss */
+  /* line 105, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 102, ../sass/components/_smartphone.scss */
+  /* line 110, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
 
   /* Forms */
-  /* line 110, ../sass/components/_smartphone.scss */
+  /* line 118, ../sass/components/_smartphone.scss */
   .form-item {
     position: relative;
   }
-  /* line 112, ../sass/components/_smartphone.scss */
+  /* line 120, ../sass/components/_smartphone.scss */
   .form-item span.validation {
     display: inline-block;
     width: 30px;
@@ -8187,28 +8232,28 @@ button.close {
     position: absolute;
     right: 0;
   }
-  /* line 118, ../sass/components/_smartphone.scss */
+  /* line 126, ../sass/components/_smartphone.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 121, ../sass/components/_smartphone.scss */
+  /* line 129, ../sass/components/_smartphone.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 125, ../sass/components/_smartphone.scss */
+  /* line 133, ../sass/components/_smartphone.scss */
   .form-item .message {
     font-size: 0.875em;
   }
-  /* line 127, ../sass/components/_smartphone.scss */
+  /* line 135, ../sass/components/_smartphone.scss */
   .form-item .message.error {
     color: #c6151d;
   }
-  /* line 132, ../sass/components/_smartphone.scss */
+  /* line 140, ../sass/components/_smartphone.scss */
   .form-item.form-item-checkbox input {
     width: 8%;
     float: left;
   }
-  /* line 137, ../sass/components/_smartphone.scss */
+  /* line 145, ../sass/components/_smartphone.scss */
   .form-item.form-item-checkbox label {
     width: 90%;
     float: left;
@@ -8216,14 +8261,14 @@ button.close {
   }
 
   /* Actions in item list */
-  /* line 149, ../sass/components/_smartphone.scss */
+  /* line 157, ../sass/components/_smartphone.scss */
   ul.items li.item .actions a {
     display: block;
     width: 100%;
   }
 
   /* The menu */
-  /* line 159, ../sass/components/_smartphone.scss */
+  /* line 167, ../sass/components/_smartphone.scss */
   #main .sidebar-first {
     position: absolute;
     top: 20px;
@@ -8233,7 +8278,7 @@ button.close {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 168, ../sass/components/_smartphone.scss */
+  /* line 176, ../sass/components/_smartphone.scss */
   #main .sidebar-first .icon a {
     color: #c6151d;
     padding-left: 4em;
@@ -8244,7 +8289,7 @@ button.close {
     height: 26px;
     line-height: 26px;
   }
-  /* line 179, ../sass/components/_smartphone.scss */
+  /* line 187, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner {
     display: none;
     position: relative;
@@ -8253,17 +8298,32 @@ button.close {
     color: #d9d8d8;
     background: white;
   }
-  /* line 186, ../sass/components/_smartphone.scss */
+  /* line 194, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner .close-menu {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+  }
+  /* line 198, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner .close-menu a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/sprite.png) right -358px;
+    text-indent: -999em;
+    overflow: hidden;
+  }
+  /* line 207, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner a {
     color: #d9d8d8;
     display: block;
   }
-  /* line 190, ../sass/components/_smartphone.scss */
+  /* line 211, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul {
     margin: 0;
     padding: 0;
   }
-  /* line 193, ../sass/components/_smartphone.scss */
+  /* line 214, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li {
     background: #444444;
     list-style: none;
@@ -8273,31 +8333,44 @@ button.close {
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 201, ../sass/components/_smartphone.scss */
+  /* line 222, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.first {
-    padding-top: 30px;
+    padding-top: 50px;
   }
-  /* line 204, ../sass/components/_smartphone.scss */
+  /* line 225, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.resp-last {
     border-bottom: none;
   }
-  /* line 208, ../sass/components/_smartphone.scss */
+  /* line 229, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.inline a {
     display: inline-block;
     color: #a6a6a6;
     font-size: 0.75em;
     text-transform: uppercase;
   }
-  /* line 216, ../sass/components/_smartphone.scss */
+  /* line 237, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li {
     border-bottom: none;
+    padding-left: 20px;
   }
-  /* line 221, ../sass/components/_smartphone.scss */
+  /* line 241, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li ul li a.active {
+    margin-left: -30px;
+    padding-left: 30px;
+    margin-right: -4em;
+  }
+  /* line 250, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li ul li ul li a.active {
+    margin-left: -50px;
+    padding-left: 50px;
+    margin-right: -6em;
+  }
+  /* line 261, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.title {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 225, ../sass/components/_smartphone.scss */
+  /* line 265, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.active {
     margin-left: -10px;
     padding-left: 10px;
@@ -8307,7 +8380,7 @@ button.close {
   }
 
   /* General preloader */
-  /* line 240, ../sass/components/_smartphone.scss */
+  /* line 280, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8318,7 +8391,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 250, ../sass/components/_smartphone.scss */
+  /* line 290, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8326,7 +8399,7 @@ button.close {
   }
 
   /* Bib details */
-  /* line 257, ../sass/components/_smartphone.scss */
+  /* line 297, ../sass/components/_smartphone.scss */
   .bib-details {
     display: none;
   }
@@ -8404,21 +8477,20 @@ a {
   padding-top: 9px;
   padding-bottom: 9px;
   color: white;
-  font-size: 1.25em;
 }
-/* line 63, ../sass/components/_elements.scss */
+/* line 62, ../sass/components/_elements.scss */
 .form-submit.blue {
   background-color: #018bb9;
 }
-/* line 66, ../sass/components/_elements.scss */
+/* line 65, ../sass/components/_elements.scss */
 .form-submit.red {
   background-color: #c6151d;
 }
-/* line 70, ../sass/components/_elements.scss */
+/* line 69, ../sass/components/_elements.scss */
 .form-submit.next.red {
   background: #c6151d url(../images/sprite.png) right top;
 }
-/* line 73, ../sass/components/_elements.scss */
+/* line 72, ../sass/components/_elements.scss */
 .form-submit.next.blue {
   background: #018bb9 url(../images/sprite.png) right top;
 }
@@ -8436,11 +8508,16 @@ body {
 }
 
 /* line 19, ../sass/styles.scss */
+#main .container {
+  margin-bottom: 20px;
+}
+
+/* line 25, ../sass/styles.scss */
 .row.last, .subrow.last {
   margin-top: 40px;
 }
 
-/* line 26, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 #header .logo a {
   display: block;
   text-indent: -999em;
@@ -8448,54 +8525,52 @@ body {
   background-image: url(../images/sprite.png);
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 .alpha {
   padding-left: 0;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .omega {
   padding-right: 0;
 }
 
 /* Links & buttons */
-/* line 45, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .button {
   display: block;
   text-align: center;
-  font-weight: bolder;
   padding: 9px 0;
-  font-size: 1.125em;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 52, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .button.blue {
   color: white;
   background: #018bb9;
 }
-/* line 56, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .button.red {
   color: white;
   background: #c6151d;
 }
-/* line 61, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .button.next.red {
   background: #c6151d url(../images/sprite.png) right top;
 }
-/* line 64, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .button.next.blue {
   background: #018bb9 url(../images/sprite.png) right top;
 }
 
-/* line 70, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
 ul.steps {
   margin: 0;
   padding: 0;
 }
-/* line 73, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 ul.steps li.step {
   margin: 0;
   padding: 0;
@@ -8510,21 +8585,21 @@ ul.steps li.step {
   font-weight: 800;
   color: white;
 }
-/* line 86, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 ul.steps li.step a {
   color: white;
 }
-/* line 88, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 ul.steps li.step a:hover {
   text-decoration: none;
 }
 
 /* General section styles */
-/* line 97, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 .section .item {
   margin-bottom: 0.5em;
 }
-/* line 99, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .section .item .label {
   color: black;
   padding: 0;
@@ -8532,29 +8607,29 @@ ul.steps li.step a:hover {
   font-size: 1em;
   font-weight: 400;
 }
-/* line 107, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 .section .item .value {
   color: #018bb9;
   font-weight: 600;
 }
-/* line 112, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .section.last {
   margin-top: 40px;
 }
 
 /* Specific section styles */
-/* line 119, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 .section.remove {
   border-top: 1px dotted #a6a6a6;
   padding-top: 20px;
 }
-/* line 122, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 .section.remove a {
   display: block;
 }
 
 /* Lijst met items */
-/* line 129, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 ul.items {
   margin: 0;
   padding: 0;
@@ -8562,22 +8637,22 @@ ul.items {
   padding-top: 1em;
   border-top: 1px dotted #a6a6a6;
 }
-/* line 135, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 ul.items li.item {
   position: relative;
   padding-bottom: 1em;
   list-style: none;
   border-bottom: 1px dotted #a6a6a6;
 }
-/* line 140, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 ul.items li.item .title {
   color: #018bb9;
 }
-/* line 145, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 ul.items li.item .actions {
   margin-top: 0.5em;
 }
-/* line 147, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 ul.items li.item .actions a {
   text-align: center;
   height: 2em;
@@ -8588,43 +8663,43 @@ ul.items li.item .actions a {
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 153, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 ul.items li.item .actions a.blue {
   color: #018bb9;
   border: 2px solid #018bb9;
 }
-/* line 157, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 ul.items li.item .actions a.red {
   color: #c6151d;
   border: 2px solid #c6151d;
 }
 
 /* Secondary Menu */
-/* line 167, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 #secondary-menu {
   background: #363636;
   color: #d9d8d8;
   height: 30px;
   line-height: 30px;
 }
-/* line 172, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 #secondary-menu a {
   color: #d9d8d8;
 }
-/* line 175, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 #secondary-menu .container {
   text-align: right;
 }
-/* line 177, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 #secondary-menu .container span {
   border-right: 1px solid #d9d8d8;
   padding: 0 0.7em;
 }
-/* line 180, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 #secondary-menu .container span.last {
   border-right: none;
 }
-/* line 183, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 #secondary-menu .container span.action {
   background: #646464;
   padding-right: 0.7em;
@@ -8634,12 +8709,12 @@ ul.items li.item .actions a.red {
 }
 
 /* General Preloader */
-/* line 195, ../sass/styles.scss */
+/* line 199, ../sass/styles.scss */
 #preloader-general {
   display: none;
   text-align: center;
 }
-/* line 198, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 #preloader-general span {
   display: inline-block;
   font-size: 1.25em;
@@ -8650,12 +8725,12 @@ ul.items li.item .actions a.red {
 }
 
 /* Small Preloader */
-/* line 209, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 .loader {
   display: none;
   text-align: center;
 }
-/* line 212, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 .loader span {
   display: inline-block;
   width: 35px;
@@ -8664,22 +8739,22 @@ ul.items li.item .actions a.red {
 }
 
 /* Bib details */
-/* line 221, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 section.bib-details {
   margin-bottom: 15px;
 }
-/* line 223, ../sass/styles.scss */
+/* line 227, ../sass/styles.scss */
 section.bib-details a {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 227, ../sass/styles.scss */
+/* line 231, ../sass/styles.scss */
 section.bib-details span {
   color: #444444;
 }
 
 /* Messages */
-/* line 234, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 section.messages .message {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -8688,45 +8763,45 @@ section.messages .message {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 238, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 section.messages .message.error {
   background: #c6151d;
   color: white;
 }
-/* line 241, ../sass/styles.scss */
+/* line 245, ../sass/styles.scss */
 section.messages .message.error a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 244, ../sass/styles.scss */
+/* line 248, ../sass/styles.scss */
 section.messages .message.error a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 249, ../sass/styles.scss */
+/* line 253, ../sass/styles.scss */
 section.messages .message.error .form-submit {
   color: #c6151d;
 }
-/* line 253, ../sass/styles.scss */
+/* line 257, ../sass/styles.scss */
 section.messages .message.info {
   background: #018bb9;
   color: white;
 }
-/* line 256, ../sass/styles.scss */
+/* line 260, ../sass/styles.scss */
 section.messages .message.info a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 259, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 section.messages .message.info a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 264, ../sass/styles.scss */
+/* line 268, ../sass/styles.scss */
 section.messages .message.info .form-submit {
   color: #018bb9;
 }
-/* line 268, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 section.messages .message .form-submit {
   background: white;
   margin: 10px 0;

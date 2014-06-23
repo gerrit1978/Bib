@@ -11,6 +11,14 @@
 
   .form-submit {
     width: 100%;
+    font-size: 1.125em;
+    font-weight: bolder;   
+    margin-bottom: 10px; 
+  }
+  
+  .button {
+    font-size: 1.125em;
+    font-weight: bolder;    
   }
   
   
@@ -183,6 +191,19 @@
         width: 100%;
         color: $menuGreyText;
         background: white;
+        .close-menu {
+          position: absolute;
+          top: 5px;
+          right: 40px;
+          a {
+            display: block;
+            width: 35px;
+            height: 35px;
+            background: url(../images/sprite.png) right -358px;
+            text-indent: -999em;
+            overflow: hidden;
+          }
+        }
         a {
           color: $menuGreyText;
           display: block;
@@ -199,7 +220,7 @@
             line-height: 36px;
             border-bottom: 1px dotted $lightGrey;
             &.first {
-              padding-top: 30px;
+              padding-top: 50px;
             }
             &.resp-last {
               border-bottom: none;
@@ -215,6 +236,25 @@
             ul {
               li {
                 border-bottom: none;
+                padding-left: 20px;
+                a {
+                  &.active {
+                    margin-left: -30px;
+                    padding-left: 30px;
+                    margin-right: -4em;
+                  }
+                }
+                ul {
+                  li {
+                    a {
+                      &.active {
+                        margin-left: -50px;
+                        padding-left: 50px;
+                        margin-right: -6em;
+                      }
+                    }
+                  }
+                }
               }
             }
             a {

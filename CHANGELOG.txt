@@ -39,3 +39,61 @@ Voor de bibliotheek en profielpagina is de opmaak beperkt gebleven tot de styles
 
 1 Stylesheet wijzigingen
 2 bibliotheek-2.html: details & links bibliotheek in een aparte <section> gezet (class="bib-details"). Lijnen 88-92. Wordt niet getoond op smartphone.
+
+------------------------------------------------------------------------------------------
+
+23.06.2014
+
+Puntjes uit Google doc zijn genummerd waar minstens mijn naam bij staat, 
+begint bij 1 ("witruimte onderaan pagina's...") 
+en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
+
+1. Witruimte onderaan pagina's
+   Stylesheet is aangepast.
+
+2. Lijntje onder "eboeken"
+   Kan ik niet reproduceren :(
+   
+3. Menu insprong mobile
+   Stylesheet aangepast.
+   
+4. Close button mobile
+   Bibliotheek-2.html (regel 44). <span> is nu absoluut gepositioneerd - opletten bij grote gebruikersnaam.
+   Bibnet.js (regel 10).
+   Stylesheet aangepast en afbeelding toegevoegd.
+
+5. Menu rode lijn (actief item)
+   Stylesheet aangepast voor 2 subniveaus.   
+
+6. Tekst body 16px
+   Dat is toch al zo?
+   
+7. Buttons
+   Stylesheet aangepast.
+
+8. Menu: indenting niveaus gebruikers en bibliotheek (desktop/tablet)
+   Stylesheet aangepast.
+   
+9. Witruimte boven menu (desktop/tablet)
+   Stylesheet aangepast.
+
+10. Paswoord vergeten: knoppen even breed
+    Stylesheet aangepast. Nog niet getest (platte HTML pagina ontbreekt)
+
+11. Profiel gegevens: font-weight
+    Stylesheet aangepast.
+
+12. Whitespace tussen knoppen
+    Stylesheet aangepast.
+
+13. Persoonlijke gegevens aanpassen: kleuren knoppen aanpassen
+    TODO: classes in HTML aanpassen: red wordt blue en vice versa
+
+14. Persoonlijke gegevens aanpassen: opslaan en annuleren even breed
+    Zie 10.: zou aangepast moeten zijn (nog niet getest)
+
+15. Wijzig wachtwoord: kleuren knoppen aanpassen
+    TODO: classes in HTML aanpassen: red wordt blue en vice versa
+
+16. Voeg lidmaatschap toe: kleuren knoppen aanpassen
+    TODO: classes in HTML aanpassen: red wordt blue en vice versa

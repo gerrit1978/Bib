@@ -6,6 +6,13 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     return false;
   });
+  
+  /* Hide the main menu */
+  $('.sidebar-first .close-menu a').click(function(e) {
+    $(this).parent().parent().parent().find('.inner').hide();
+    e.preventDefault();
+    return false;
+  });
 
   /* Show general preloader when clicking an external link */
   $('a').click(function(e) {
