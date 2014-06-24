@@ -1,4 +1,28 @@
-@media all and (min-width: 320px) and (max-width: 640px) {
+@media all and (min-width: 641px) and (max-width: 991px) {
+  
+  /* Menu fix for "between" resolutions */
+  #main {
+    .sidebar-first {
+      .inner {
+        .close-menu {
+          right: 90px !important
+        }
+        ul {
+          li {
+            a {
+              &.active {
+                width: 100% !important;
+                background: $red !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }   
+}
+
+@media all and (min-width: 320px) and (max-width: 991px) {
   .resp-false {
     display: none;
   }

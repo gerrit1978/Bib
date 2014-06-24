@@ -7893,7 +7893,7 @@ button.close {
 }
 /* Bibnet Variables */
 /* Desktop and tablet */
-@media all and (min-width: 641px) {
+@media all and (min-width: 992px) {
   /* line 3, ../sass/components/_desktop.scss */
   body {
     background: url(../images/bg-page.png) repeat;
@@ -8183,20 +8183,32 @@ button.close {
     font-weight: bolder;
   }
 }
-@media all and (min-width: 320px) and (max-width: 640px) {
-  /* line 2, ../sass/components/_smartphone.scss */
+@media all and (min-width: 641px) and (max-width: 991px) {
+  /* Menu fix for "between" resolutions */
+  /* line 7, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner .close-menu {
+    right: 90px !important;
+  }
+  /* line 13, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li a.active {
+    width: 100% !important;
+    background: #c6151d !important;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 991px) {
+  /* line 26, ../sass/components/_smartphone.scss */
   .resp-false {
     display: none;
   }
 
   /* Links & buttons */
-  /* line 7, ../sass/components/_smartphone.scss */
+  /* line 31, ../sass/components/_smartphone.scss */
   a.extra {
     text-align: center;
     display: block;
   }
 
-  /* line 12, ../sass/components/_smartphone.scss */
+  /* line 36, ../sass/components/_smartphone.scss */
   .form-submit {
     width: 100%;
     font-size: 1.125em;
@@ -8204,33 +8216,33 @@ button.close {
     margin-bottom: 10px;
   }
 
-  /* line 19, ../sass/components/_smartphone.scss */
+  /* line 43, ../sass/components/_smartphone.scss */
   .button {
     font-size: 1.125em;
     font-weight: bolder;
   }
 
   /* Layout */
-  /* line 27, ../sass/components/_smartphone.scss */
+  /* line 51, ../sass/components/_smartphone.scss */
   #header .logo {
     float: right;
     width: 50px;
     height: 50px;
   }
-  /* line 31, ../sass/components/_smartphone.scss */
+  /* line 55, ../sass/components/_smartphone.scss */
   #header .logo a {
     height: 50px;
     background-position: left top;
   }
 
-  /* line 38, ../sass/components/_smartphone.scss */
+  /* line 62, ../sass/components/_smartphone.scss */
   .resp-line {
     border-top: 1px dashed #a6a6a6;
     margin-top: 20px;
     position: relative;
     text-align: center;
   }
-  /* line 43, ../sass/components/_smartphone.scss */
+  /* line 67, ../sass/components/_smartphone.scss */
   .resp-line span {
     display: block;
     margin-left: auto;
@@ -8242,64 +8254,64 @@ button.close {
   }
 
   /* Registration Steps */
-  /* line 57, ../sass/components/_smartphone.scss */
+  /* line 81, ../sass/components/_smartphone.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 62, ../sass/components/_smartphone.scss */
+  /* line 86, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 66, ../sass/components/_smartphone.scss */
+  /* line 90, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 69, ../sass/components/_smartphone.scss */
+  /* line 93, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 75, ../sass/components/_smartphone.scss */
+  /* line 99, ../sass/components/_smartphone.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 80, ../sass/components/_smartphone.scss */
+  /* line 104, ../sass/components/_smartphone.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 86, ../sass/components/_smartphone.scss */
+  /* line 110, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 90, ../sass/components/_smartphone.scss */
+  /* line 114, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 95, ../sass/components/_smartphone.scss */
+  /* line 119, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 101, ../sass/components/_smartphone.scss */
+  /* line 125, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 105, ../sass/components/_smartphone.scss */
+  /* line 129, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 110, ../sass/components/_smartphone.scss */
+  /* line 134, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
 
   /* Forms */
-  /* line 118, ../sass/components/_smartphone.scss */
+  /* line 142, ../sass/components/_smartphone.scss */
   .form-item {
     position: relative;
   }
-  /* line 120, ../sass/components/_smartphone.scss */
+  /* line 144, ../sass/components/_smartphone.scss */
   .form-item span.validation {
     display: inline-block;
     width: 30px;
@@ -8307,28 +8319,28 @@ button.close {
     position: absolute;
     right: 0;
   }
-  /* line 126, ../sass/components/_smartphone.scss */
+  /* line 150, ../sass/components/_smartphone.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 129, ../sass/components/_smartphone.scss */
+  /* line 153, ../sass/components/_smartphone.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 133, ../sass/components/_smartphone.scss */
+  /* line 157, ../sass/components/_smartphone.scss */
   .form-item .message {
     font-size: 0.875em;
   }
-  /* line 135, ../sass/components/_smartphone.scss */
+  /* line 159, ../sass/components/_smartphone.scss */
   .form-item .message.error {
     color: #c6151d;
   }
-  /* line 140, ../sass/components/_smartphone.scss */
+  /* line 164, ../sass/components/_smartphone.scss */
   .form-item.form-item-checkbox input {
     width: 8%;
     float: left;
   }
-  /* line 145, ../sass/components/_smartphone.scss */
+  /* line 169, ../sass/components/_smartphone.scss */
   .form-item.form-item-checkbox label {
     width: 90%;
     float: left;
@@ -8336,7 +8348,7 @@ button.close {
   }
 
   /* Actions in item list */
-  /* line 157, ../sass/components/_smartphone.scss */
+  /* line 181, ../sass/components/_smartphone.scss */
   ul.items li.item .actions a {
     display: block;
     width: 100%;
@@ -8344,7 +8356,7 @@ button.close {
   }
 
   /* The menu */
-  /* line 168, ../sass/components/_smartphone.scss */
+  /* line 192, ../sass/components/_smartphone.scss */
   #main .sidebar-first {
     position: absolute;
     top: 20px;
@@ -8354,7 +8366,7 @@ button.close {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 177, ../sass/components/_smartphone.scss */
+  /* line 201, ../sass/components/_smartphone.scss */
   #main .sidebar-first .icon a {
     color: #c6151d;
     padding-left: 4em;
@@ -8365,7 +8377,7 @@ button.close {
     height: 26px;
     line-height: 26px;
   }
-  /* line 188, ../sass/components/_smartphone.scss */
+  /* line 212, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner {
     display: none;
     position: relative;
@@ -8374,13 +8386,13 @@ button.close {
     color: #d9d8d8;
     background: white;
   }
-  /* line 195, ../sass/components/_smartphone.scss */
+  /* line 219, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner .close-menu {
     position: absolute;
     top: 5px;
     right: 40px;
   }
-  /* line 199, ../sass/components/_smartphone.scss */
+  /* line 223, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner .close-menu a {
     display: block;
     width: 35px;
@@ -8389,18 +8401,18 @@ button.close {
     text-indent: -999em;
     overflow: hidden;
   }
-  /* line 208, ../sass/components/_smartphone.scss */
+  /* line 232, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner a {
     color: #d9d8d8;
     display: block;
   }
-  /* line 212, ../sass/components/_smartphone.scss */
+  /* line 236, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul {
     margin: 0;
     padding: 0;
     width: 90%;
   }
-  /* line 216, ../sass/components/_smartphone.scss */
+  /* line 240, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li {
     background: #444444;
     list-style: none;
@@ -8408,79 +8420,79 @@ button.close {
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 222, ../sass/components/_smartphone.scss */
+  /* line 246, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.first {
     padding-top: 50px;
   }
-  /* line 225, ../sass/components/_smartphone.scss */
+  /* line 249, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.resp-last {
     border-bottom: none;
   }
-  /* line 229, ../sass/components/_smartphone.scss */
+  /* line 253, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.inline a {
     display: inline-block;
     color: #a6a6a6;
     font-size: 0.75em;
     text-transform: uppercase;
   }
-  /* line 236, ../sass/components/_smartphone.scss */
+  /* line 260, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a {
     padding-left: 5px;
   }
-  /* line 238, ../sass/components/_smartphone.scss */
+  /* line 262, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.title {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 242, ../sass/components/_smartphone.scss */
+  /* line 266, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a:hover {
     background: #d9d8d8;
     color: #363636;
     text-decoration: none;
   }
-  /* line 247, ../sass/components/_smartphone.scss */
+  /* line 271, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.active {
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
     width: 108%;
   }
-  /* line 253, ../sass/components/_smartphone.scss */
+  /* line 277, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul {
     width: 100%;
   }
-  /* line 255, ../sass/components/_smartphone.scss */
+  /* line 279, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li {
     border-bottom: none;
   }
-  /* line 257, ../sass/components/_smartphone.scss */
+  /* line 281, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li a {
     padding-left: 15px;
   }
-  /* line 262, ../sass/components/_smartphone.scss */
+  /* line 286, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li ul li a {
     padding-left: 30px;
   }
 
   /* Info text */
-  /* line 275, ../sass/components/_smartphone.scss */
+  /* line 299, ../sass/components/_smartphone.scss */
   #info-text {
     margin-top: 20px;
     display: none;
   }
 
   /* Popups */
-  /* line 281, ../sass/components/_smartphone.scss */
+  /* line 305, ../sass/components/_smartphone.scss */
   .ui-dialog {
     display: none !important;
   }
 
-  /* line 285, ../sass/components/_smartphone.scss */
+  /* line 309, ../sass/components/_smartphone.scss */
   .ui-widget-overlay {
     display: none !important;
   }
 
   /* General preloader */
-  /* line 290, ../sass/components/_smartphone.scss */
+  /* line 314, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8491,7 +8503,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 300, ../sass/components/_smartphone.scss */
+  /* line 324, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8499,29 +8511,29 @@ button.close {
   }
 
   /* Bib details */
-  /* line 307, ../sass/components/_smartphone.scss */
+  /* line 331, ../sass/components/_smartphone.scss */
   .bib-details {
     display: none;
   }
 
   /* Footer */
-  /* line 312, ../sass/components/_smartphone.scss */
+  /* line 336, ../sass/components/_smartphone.scss */
   .footer {
     margin-top: 20px;
     font-size: 0.875em;
   }
 
   /* Bibliotheek-pagina: icoontjes */
-  /* line 318, ../sass/components/_smartphone.scss */
+  /* line 342, ../sass/components/_smartphone.scss */
   section.links {
     text-align: center;
   }
-  /* line 320, ../sass/components/_smartphone.scss */
+  /* line 344, ../sass/components/_smartphone.scss */
   section.links ul {
     margin: 0;
     padding: 0;
   }
-  /* line 323, ../sass/components/_smartphone.scss */
+  /* line 347, ../sass/components/_smartphone.scss */
   section.links ul li {
     display: inline-block;
     margin: 0;
@@ -8529,30 +8541,30 @@ button.close {
     margin-right: 30px;
     list-style: none;
   }
-  /* line 329, ../sass/components/_smartphone.scss */
+  /* line 353, ../sass/components/_smartphone.scss */
   section.links ul li.last {
     margin-right: 0;
   }
-  /* line 332, ../sass/components/_smartphone.scss */
+  /* line 356, ../sass/components/_smartphone.scss */
   section.links ul li a {
     background: url(../images/sprite.png);
     display: inline-block;
     text-indent: -900em;
     overflow: hidden;
   }
-  /* line 337, ../sass/components/_smartphone.scss */
+  /* line 361, ../sass/components/_smartphone.scss */
   section.links ul li a.site {
     background-position: right -41px;
     width: 34px;
     height: 35px;
   }
-  /* line 342, ../sass/components/_smartphone.scss */
+  /* line 366, ../sass/components/_smartphone.scss */
   section.links ul li a.contact {
     background-position: -424px -41px;
     width: 34px;
     height: 35px;
   }
-  /* line 347, ../sass/components/_smartphone.scss */
+  /* line 371, ../sass/components/_smartphone.scss */
   section.links ul li a.catalogus {
     background-position: -380px -41px;
     width: 32px;
