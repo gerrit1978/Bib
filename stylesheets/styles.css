@@ -8877,6 +8877,12 @@ section.messages .message .form-submit {
   margin: 10px 0;
 }
 
+/* Link (no button) */
+/* line 284, ../sass/styles.scss */
+a.link {
+  border: none !important;
+}
+
 /* Checkbox - TODO: checkbox image is missing in PSD! */
 /*input[type="checkbox"] {
     display:none;

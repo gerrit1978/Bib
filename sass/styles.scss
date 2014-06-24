@@ -280,6 +280,11 @@ section.messages {
   }
 }
 
+/* Link (no button) */
+a.link {
+  border: none !important;
+}
+
 /* Checkbox - TODO: checkbox image is missing in PSD! */
 /*input[type="checkbox"] {
     display:none;
