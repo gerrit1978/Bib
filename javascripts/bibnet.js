@@ -1,5 +1,10 @@
 jQuery(document).ready(function($) {
 
+  /* Toggle info text */
+  $('.toggle-text').click(function(e) {
+    $('#info-text').toggle();
+  });
+
   /* Show the main menu */
   $('.sidebar-first .icon').click(function(e) {
     $(this).parent().find('.inner').slideDown();
@@ -30,5 +35,5 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     return false;
 	});
-
+	
 });

@@ -8450,8 +8450,15 @@ button.close {
     color: white;
   }
 
-  /* General preloader */
+  /* Info text */
   /* line 281, ../sass/components/_smartphone.scss */
+  #info-text {
+    margin-top: 20px;
+    display: none;
+  }
+
+  /* General preloader */
+  /* line 287, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8462,7 +8469,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 291, ../sass/components/_smartphone.scss */
+  /* line 297, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8470,7 +8477,7 @@ button.close {
   }
 
   /* Bib details */
-  /* line 298, ../sass/components/_smartphone.scss */
+  /* line 304, ../sass/components/_smartphone.scss */
   .bib-details {
     display: none;
   }
