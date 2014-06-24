@@ -142,4 +142,5 @@ en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
 - footer: HTML in bibliotheek-2.html en stylesheet aangepast
 - stappen bovenaan de pagina: stylesheet aangepast; zie registreer-2.html regel 27-36. Regels 232-235 mogen weg.
 - bibliotheek-pagina: link naar contact, bibliotheek staat nu bovenaan onder titel - zie bibliotheek-2.html - regel 40-49. Regels 99-103 mogen weg.
-- "verwijder dit lidmaatschap": <a class="link red" /> ipv <a class="red" />. Stylesheet aangepast.
+- mijn bibliotheken-pagina: "verwijder dit lidmaatschap": <a class="link red" /> ipv <a class="red" />. Stylesheet aangepast.
+- mijn bibliotheken-pagina: blauwe achtergrond op desktop & mobile: <div class="message info no-bg" /> ipv <div class="message info" />. Stylesheet aangepast.

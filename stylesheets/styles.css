@@ -8143,16 +8143,22 @@ button.close {
   .footer a {
     color: #a6a6a6;
   }
+
+  /* line 265, ../sass/components/_desktop.scss */
+  .no-bg {
+    background: none;
+    color: #444444;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 270, ../sass/components/_desktop.scss */
+  /* line 275, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 275, ../sass/components/_desktop.scss */
+  /* line 280, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
