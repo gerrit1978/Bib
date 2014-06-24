@@ -8131,16 +8131,28 @@ button.close {
   .section .item .value {
     font-weight: normal !important;
   }
+
+  /* line 255, ../sass/components/_desktop.scss */
+  .footer {
+    margin-top: 10px;
+    text-align: right;
+    color: #a6a6a6;
+    font-size: 0.875em;
+  }
+  /* line 260, ../sass/components/_desktop.scss */
+  .footer a {
+    color: #a6a6a6;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 260, ../sass/components/_desktop.scss */
+  /* line 270, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 265, ../sass/components/_desktop.scss */
+  /* line 275, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;

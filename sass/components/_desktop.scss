@@ -251,6 +251,16 @@
       }
     }
   }
+  
+  .footer {
+    margin-top: 10px;
+    text-align: right;
+    color: $lightGrey;
+    font-size: 0.875em;
+    a {
+      color: $lightGrey;
+    }
+  }
 
   
 }
