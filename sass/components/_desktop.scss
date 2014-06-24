@@ -67,6 +67,63 @@
   #main {
     .sidebar-first {
       ul {
+        font-size: 0.975em;
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          color: $lightGrey;
+          line-height: 36px;
+          border-bottom: 1px dotted $lightGrey;          
+          a {
+            padding-left: 5px;
+            color: $darkGrey;
+            display: block;
+            height: 36px;
+            overflow: hidden;
+	          &.title {
+	            text-transform: uppercase;
+	          }
+	          &:hover {
+	            background: $menuGreyText;
+	            text-decoration: none;
+	          }
+	          &.active {
+	            background: url(../images/sprite.png) no-repeat right -256px;
+	            color: white;
+	            position: relative;
+	            z-index: 100;
+	            width: 110%;
+	          }
+          }
+          &.last {
+            border-bottom: none;
+          }
+          ul {
+            li {
+              border-bottom: none;
+              a {
+                padding-left: 20px;
+              }
+              ul {
+                li {
+                  a {
+                    padding-left: 40px;
+                  }
+                  border-bottom: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }  
+/*/
+  /* Main menu ORIGINAL 
+  #main {
+    .sidebar-first {
+      ul {
         font-size: 1em;
         margin: 0;
         padding: 0;
@@ -122,6 +179,7 @@
       }
     }
   }  
+  */
   
   h1.title {
     margin-left: 25%;
