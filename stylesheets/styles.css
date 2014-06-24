@@ -8152,18 +8152,23 @@ button.close {
   /* line 262, ../sass/components/_desktop.scss */
   .no-bg {
     background: none !important;
-    color: #444444;
+    color: #444444 !important;
+  }
+  /* line 265, ../sass/components/_desktop.scss */
+  .no-bg a {
+    color: #444444 !important;
+    border-bottom: 1px solid #444444 !important;
   }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 272, ../sass/components/_desktop.scss */
+  /* line 276, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 277, ../sass/components/_desktop.scss */
+  /* line 281, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
