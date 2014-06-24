@@ -266,169 +266,11 @@
                 }
               }
             }
-/*
-            ul {
-              li {
-                border-bottom: none;
-                padding-left: 20px;
-                a {
-                  &.active {
-                    margin-left: -30px;
-                    padding-left: 30px;
-                    margin-right: -4em;
-                  }
-                }
-                ul {
-                  li {
-                    a {
-                      &.active {
-                        margin-left: -50px;
-                        padding-left: 50px;
-                        margin-right: -6em;
-                      }
-                    }
-                  }
-                }
-              }
-            }
-*/
-/*
-            a {
-              &.title {
-                text-transform: uppercase;
-                font-weight: 600;
-              }
-              &.active {
-                margin-left: -10px;
-                padding-left: 10px;
-                margin-right: -2em;
-
-                color: white;
-              }
-            }
-*/            
           }
         }
       }
     }
   }
-
-  /* The menu ORIGINAL
-  #main {
-    .sidebar-first {
-      position: absolute;
-      top: 20px;
-      left: 0px;
-      z-index: 100;
-      width: 100%;
-      padding-left: 0;
-      padding-right: 0;
-      .icon {
-        a {
-          color: $red;
-          padding-left: 4em;
-          font-weight: 600;
-          font-size: 1.0625em;
-          background: url(../images/sprite.png) left -221px;
-          display: inline-block;
-          height: 26px;
-          line-height: 26px;
-        }
-      }     
-      .inner {
-        display: none;
-        position: relative;
-        top: -46px;
-        width: 100%;
-        color: $menuGreyText;
-        background: white;
-        .close-menu {
-          position: absolute;
-          top: 5px;
-          right: 40px;
-          a {
-            display: block;
-            width: 35px;
-            height: 35px;
-            background: url(../images/sprite.png) right -358px;
-            text-indent: -999em;
-            overflow: hidden;
-          }
-        }
-        a {
-          color: $menuGreyText;
-          display: block;
-        }
-        ul {
-          margin: 0;
-          padding: 0;
-          li {
-            background: $darkGrey;                 
-            list-style: none;
-            margin: 0;
-            margin-right: 2em;
-            padding-left: 10px;
-            line-height: 36px;
-            border-bottom: 1px dotted $lightGrey;
-            &.first {
-              padding-top: 50px;
-            }
-            &.resp-last {
-              border-bottom: none;
-            }
-            &.inline {
-              a {
-                display: inline-block;
-                color: $lightGrey;
-                font-size: 0.75em;
-                text-transform: uppercase;
-              }
-            }
-            ul {
-              li {
-                border-bottom: none;
-                padding-left: 20px;
-                a {
-                  &.active {
-                    margin-left: -30px;
-                    padding-left: 30px;
-                    margin-right: -4em;
-                  }
-                }
-                ul {
-                  li {
-                    a {
-                      &.active {
-                        margin-left: -50px;
-                        padding-left: 50px;
-                        margin-right: -6em;
-                      }
-                    }
-                  }
-                }
-              }
-            }
-            a {
-              &.title {
-                text-transform: uppercase;
-                font-weight: 600;
-              }
-              &.active {
-                margin-left: -10px;
-                padding-left: 10px;
-                margin-right: -2em;
-                background: url(../images/sprite.png) no-repeat right -256px;
-                color: white;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  */
-
-  
   /* Info text */
   #info-text {
     margin-top: 20px;
@@ -464,5 +306,51 @@
   /* Bib details */
   .bib-details {
     display: none;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 20px;
+    font-size: 0.875em;
+  }
+  
+  /* Bibliotheek-pagina: icoontjes */
+  section.links {
+    text-align: center;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        margin-right: 30px;
+        list-style: none;
+        &.last {
+          margin-right: 0;
+        }
+        a {
+          background: url(../images/sprite.png);
+          display: inline-block;
+          text-indent: -900em;
+          overflow: hidden;
+          &.site {
+            background-position: right -41px;
+            width: 34px;
+            height: 35px;
+          }
+          &.contact {
+            background-position: -424px -41px;
+            width: 34px;
+            height: 35px;
+          }
+          &.catalogus {
+            background-position: -380px -41px;
+            width: 32px;
+            height: 35px;
+          }
+        }
+      }
+    }
   }
 }

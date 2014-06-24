@@ -8407,47 +8407,6 @@ button.close {
     margin: 0;
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
-    /*
-                ul {
-                  li {
-                    border-bottom: none;
-                    padding-left: 20px;
-                    a {
-                      &.active {
-                        margin-left: -30px;
-                        padding-left: 30px;
-                        margin-right: -4em;
-                      }
-                    }
-                    ul {
-                      li {
-                        a {
-                          &.active {
-                            margin-left: -50px;
-                            padding-left: 50px;
-                            margin-right: -6em;
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-    */
-    /*
-                a {
-                  &.title {
-                    text-transform: uppercase;
-                    font-weight: 600;
-                  }
-                  &.active {
-                    margin-left: -10px;
-                    padding-left: 10px;
-                    margin-right: -2em;
-    
-                    color: white;
-                  }
-                }
-    */
   }
   /* line 222, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.first {
@@ -8502,140 +8461,26 @@ button.close {
     padding-left: 30px;
   }
 
-  /* The menu ORIGINAL
-  #main {
-    .sidebar-first {
-      position: absolute;
-      top: 20px;
-      left: 0px;
-      z-index: 100;
-      width: 100%;
-      padding-left: 0;
-      padding-right: 0;
-      .icon {
-        a {
-          color: $red;
-          padding-left: 4em;
-          font-weight: 600;
-          font-size: 1.0625em;
-          background: url(../images/sprite.png) left -221px;
-          display: inline-block;
-          height: 26px;
-          line-height: 26px;
-        }
-      }     
-      .inner {
-        display: none;
-        position: relative;
-        top: -46px;
-        width: 100%;
-        color: $menuGreyText;
-        background: white;
-        .close-menu {
-          position: absolute;
-          top: 5px;
-          right: 40px;
-          a {
-            display: block;
-            width: 35px;
-            height: 35px;
-            background: url(../images/sprite.png) right -358px;
-            text-indent: -999em;
-            overflow: hidden;
-          }
-        }
-        a {
-          color: $menuGreyText;
-          display: block;
-        }
-        ul {
-          margin: 0;
-          padding: 0;
-          li {
-            background: $darkGrey;                 
-            list-style: none;
-            margin: 0;
-            margin-right: 2em;
-            padding-left: 10px;
-            line-height: 36px;
-            border-bottom: 1px dotted $lightGrey;
-            &.first {
-              padding-top: 50px;
-            }
-            &.resp-last {
-              border-bottom: none;
-            }
-            &.inline {
-              a {
-                display: inline-block;
-                color: $lightGrey;
-                font-size: 0.75em;
-                text-transform: uppercase;
-              }
-            }
-            ul {
-              li {
-                border-bottom: none;
-                padding-left: 20px;
-                a {
-                  &.active {
-                    margin-left: -30px;
-                    padding-left: 30px;
-                    margin-right: -4em;
-                  }
-                }
-                ul {
-                  li {
-                    a {
-                      &.active {
-                        margin-left: -50px;
-                        padding-left: 50px;
-                        margin-right: -6em;
-                      }
-                    }
-                  }
-                }
-              }
-            }
-            a {
-              &.title {
-                text-transform: uppercase;
-                font-weight: 600;
-              }
-              &.active {
-                margin-left: -10px;
-                padding-left: 10px;
-                margin-right: -2em;
-                background: url(../images/sprite.png) no-repeat right -256px;
-                color: white;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  */
   /* Info text */
-  /* line 433, ../sass/components/_smartphone.scss */
+  /* line 275, ../sass/components/_smartphone.scss */
   #info-text {
     margin-top: 20px;
     display: none;
   }
 
   /* Popups */
-  /* line 439, ../sass/components/_smartphone.scss */
+  /* line 281, ../sass/components/_smartphone.scss */
   .ui-dialog {
     display: none !important;
   }
 
-  /* line 443, ../sass/components/_smartphone.scss */
+  /* line 285, ../sass/components/_smartphone.scss */
   .ui-widget-overlay {
     display: none !important;
   }
 
   /* General preloader */
-  /* line 448, ../sass/components/_smartphone.scss */
+  /* line 290, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8646,7 +8491,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 458, ../sass/components/_smartphone.scss */
+  /* line 300, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8654,9 +8499,64 @@ button.close {
   }
 
   /* Bib details */
-  /* line 465, ../sass/components/_smartphone.scss */
+  /* line 307, ../sass/components/_smartphone.scss */
   .bib-details {
     display: none;
+  }
+
+  /* Footer */
+  /* line 312, ../sass/components/_smartphone.scss */
+  .footer {
+    margin-top: 20px;
+    font-size: 0.875em;
+  }
+
+  /* Bibliotheek-pagina: icoontjes */
+  /* line 318, ../sass/components/_smartphone.scss */
+  section.links {
+    text-align: center;
+  }
+  /* line 320, ../sass/components/_smartphone.scss */
+  section.links ul {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 323, ../sass/components/_smartphone.scss */
+  section.links ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    list-style: none;
+  }
+  /* line 329, ../sass/components/_smartphone.scss */
+  section.links ul li.last {
+    margin-right: 0;
+  }
+  /* line 332, ../sass/components/_smartphone.scss */
+  section.links ul li a {
+    background: url(../images/sprite.png);
+    display: inline-block;
+    text-indent: -900em;
+    overflow: hidden;
+  }
+  /* line 337, ../sass/components/_smartphone.scss */
+  section.links ul li a.site {
+    background-position: right -41px;
+    width: 34px;
+    height: 35px;
+  }
+  /* line 342, ../sass/components/_smartphone.scss */
+  section.links ul li a.contact {
+    background-position: -424px -41px;
+    width: 34px;
+    height: 35px;
+  }
+  /* line 347, ../sass/components/_smartphone.scss */
+  section.links ul li a.catalogus {
+    background-position: -380px -41px;
+    width: 32px;
+    height: 35px;
   }
 }
 /* HTML elements */
