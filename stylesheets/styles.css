@@ -7997,7 +7997,7 @@ button.close {
     color: white;
     position: relative;
     z-index: 100;
-    width: 110%;
+    width: 120%;
   }
   /* line 99, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li.last {
@@ -8020,160 +8020,99 @@ button.close {
     padding-left: 40px;
   }
 
-  /*/
-  /* Main menu ORIGINAL 
-  #main {
-    .sidebar-first {
-      ul {
-        font-size: 1em;
-        margin: 0;
-        padding: 0;
-        li {
-          list-style: none;
-          color: $lightGrey;
-          line-height: 36px;
-          border-bottom: 1px dotted $lightGrey;
-          a {
-            color: $darkGrey;
-            display: block;
-	          &.title {
-	            text-transform: uppercase;
-	          }
-	          &.active {
-	            color: white;
-	            background: url(../images/sprite.png) no-repeat right -256px;
-	            position: relative;
-	            left: -15px;
-	            padding-left: 15px;
-	            z-index: 100;
-	            width: 126%;
-	          }
-          }
-          ul {
-            li {
-              border-bottom: none;
-              padding-left: 20px;
-              a {
-                &.active {
-                  margin-left: -20px;
-                  padding-left: 35px;
-                  width: 137%;
-                }
-              }
-              ul {
-                li {
-                  a {
-                    &.active {
-		                  margin-left: -40px;
-		                  padding-left: 55px;
-		                  width: 150%;
-                    }
-                  }
-                }
-              }
-            }
-          }
-          &.last {
-            border-bottom: none;
-          }
-        }
-      }
-    }
-  }  
-  */
-  /* line 184, ../sass/components/_desktop.scss */
+  /* line 123, ../sass/components/_desktop.scss */
   h1.title {
     margin-left: 25%;
     padding-left: 10px;
   }
 
   /* Registration Steps */
-  /* line 192, ../sass/components/_desktop.scss */
+  /* line 131, ../sass/components/_desktop.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 197, ../sass/components/_desktop.scss */
+  /* line 136, ../sass/components/_desktop.scss */
   ul.steps li.step span {
     display: none;
   }
-  /* line 200, ../sass/components/_desktop.scss */
+  /* line 139, ../sass/components/_desktop.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 204, ../sass/components/_desktop.scss */
+  /* line 143, ../sass/components/_desktop.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 207, ../sass/components/_desktop.scss */
+  /* line 146, ../sass/components/_desktop.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 213, ../sass/components/_desktop.scss */
+  /* line 152, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 218, ../sass/components/_desktop.scss */
+  /* line 157, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 224, ../sass/components/_desktop.scss */
+  /* line 163, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 228, ../sass/components/_desktop.scss */
+  /* line 167, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 233, ../sass/components/_desktop.scss */
+  /* line 172, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 239, ../sass/components/_desktop.scss */
+  /* line 178, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 243, ../sass/components/_desktop.scss */
+  /* line 182, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 248, ../sass/components/_desktop.scss */
+  /* line 187, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
 
   /* Forms */
-  /* line 259, ../sass/components/_desktop.scss */
+  /* line 198, ../sass/components/_desktop.scss */
   .form-item .form-text, .form-item .form-email, .form-item .form-password, .form-item select#gender {
     width: 90%;
   }
-  /* line 262, ../sass/components/_desktop.scss */
+  /* line 201, ../sass/components/_desktop.scss */
   .form-item span.validation {
     float: right;
     width: 30px;
     height: 30px;
   }
-  /* line 266, ../sass/components/_desktop.scss */
+  /* line 205, ../sass/components/_desktop.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 269, ../sass/components/_desktop.scss */
+  /* line 208, ../sass/components/_desktop.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 273, ../sass/components/_desktop.scss */
+  /* line 212, ../sass/components/_desktop.scss */
   .form-item .message {
     font-size: 0.9375em;
   }
-  /* line 275, ../sass/components/_desktop.scss */
+  /* line 214, ../sass/components/_desktop.scss */
   .form-item .message.error {
     color: #c6151d;
   }
 
   /* General Preloader */
-  /* line 282, ../sass/components/_desktop.scss */
+  /* line 221, ../sass/components/_desktop.scss */
   #preloader-general {
     max-width: 1140px;
     margin-left: auto;
@@ -8181,36 +8120,36 @@ button.close {
   }
 
   /* Items */
-  /* line 292, ../sass/components/_desktop.scss */
+  /* line 231, ../sass/components/_desktop.scss */
   ul.items li.item .actions a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1em !important;
   }
-  /* line 298, ../sass/components/_desktop.scss */
+  /* line 237, ../sass/components/_desktop.scss */
   ul.items li.item .actions span.late {
     font-size: 1em;
   }
 
-  /* line 307, ../sass/components/_desktop.scss */
+  /* line 246, ../sass/components/_desktop.scss */
   .section .item .value {
     font-weight: normal !important;
   }
 
-  /* line 313, ../sass/components/_desktop.scss */
+  /* line 252, ../sass/components/_desktop.scss */
   .footer {
     margin-top: 10px;
     text-align: right;
     color: #a6a6a6;
     font-size: 0.875em;
   }
-  /* line 318, ../sass/components/_desktop.scss */
+  /* line 257, ../sass/components/_desktop.scss */
   .footer a {
     color: #a6a6a6;
   }
 
-  /* line 323, ../sass/components/_desktop.scss */
+  /* line 262, ../sass/components/_desktop.scss */
   .no-bg {
     background: none;
     color: #444444;
@@ -8218,13 +8157,13 @@ button.close {
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 333, ../sass/components/_desktop.scss */
+  /* line 272, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 338, ../sass/components/_desktop.scss */
+  /* line 277, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -8459,83 +8398,244 @@ button.close {
   #main .sidebar-first .inner ul {
     margin: 0;
     padding: 0;
+    width: 90%;
   }
-  /* line 215, ../sass/components/_smartphone.scss */
+  /* line 216, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li {
     background: #444444;
     list-style: none;
     margin: 0;
-    margin-right: 2em;
-    padding-left: 10px;
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
+    /*
+                ul {
+                  li {
+                    border-bottom: none;
+                    padding-left: 20px;
+                    a {
+                      &.active {
+                        margin-left: -30px;
+                        padding-left: 30px;
+                        margin-right: -4em;
+                      }
+                    }
+                    ul {
+                      li {
+                        a {
+                          &.active {
+                            margin-left: -50px;
+                            padding-left: 50px;
+                            margin-right: -6em;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+    */
+    /*
+                a {
+                  &.title {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                  }
+                  &.active {
+                    margin-left: -10px;
+                    padding-left: 10px;
+                    margin-right: -2em;
+    
+                    color: white;
+                  }
+                }
+    */
   }
-  /* line 223, ../sass/components/_smartphone.scss */
+  /* line 222, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.first {
     padding-top: 50px;
   }
-  /* line 226, ../sass/components/_smartphone.scss */
+  /* line 225, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.resp-last {
     border-bottom: none;
   }
-  /* line 230, ../sass/components/_smartphone.scss */
+  /* line 229, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.inline a {
     display: inline-block;
     color: #a6a6a6;
     font-size: 0.75em;
     text-transform: uppercase;
   }
+  /* line 236, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li a {
+    padding-left: 5px;
+  }
   /* line 238, ../sass/components/_smartphone.scss */
-  #main .sidebar-first .inner ul li ul li {
-    border-bottom: none;
-    padding-left: 20px;
-  }
-  /* line 242, ../sass/components/_smartphone.scss */
-  #main .sidebar-first .inner ul li ul li a.active {
-    margin-left: -30px;
-    padding-left: 30px;
-    margin-right: -4em;
-  }
-  /* line 251, ../sass/components/_smartphone.scss */
-  #main .sidebar-first .inner ul li ul li ul li a.active {
-    margin-left: -50px;
-    padding-left: 50px;
-    margin-right: -6em;
-  }
-  /* line 262, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.title {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 266, ../sass/components/_smartphone.scss */
+  /* line 242, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li a:hover {
+    background: #d9d8d8;
+    color: #363636;
+    text-decoration: none;
+  }
+  /* line 247, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.active {
-    margin-left: -10px;
-    padding-left: 10px;
-    margin-right: -2em;
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
+    width: 108%;
+  }
+  /* line 253, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li ul {
+    width: 100%;
+  }
+  /* line 255, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li ul li {
+    border-bottom: none;
+  }
+  /* line 257, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li ul li a {
+    padding-left: 15px;
+  }
+  /* line 262, ../sass/components/_smartphone.scss */
+  #main .sidebar-first .inner ul li ul li ul li a {
+    padding-left: 30px;
   }
 
+  /* The menu ORIGINAL
+  #main {
+    .sidebar-first {
+      position: absolute;
+      top: 20px;
+      left: 0px;
+      z-index: 100;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      .icon {
+        a {
+          color: $red;
+          padding-left: 4em;
+          font-weight: 600;
+          font-size: 1.0625em;
+          background: url(../images/sprite.png) left -221px;
+          display: inline-block;
+          height: 26px;
+          line-height: 26px;
+        }
+      }     
+      .inner {
+        display: none;
+        position: relative;
+        top: -46px;
+        width: 100%;
+        color: $menuGreyText;
+        background: white;
+        .close-menu {
+          position: absolute;
+          top: 5px;
+          right: 40px;
+          a {
+            display: block;
+            width: 35px;
+            height: 35px;
+            background: url(../images/sprite.png) right -358px;
+            text-indent: -999em;
+            overflow: hidden;
+          }
+        }
+        a {
+          color: $menuGreyText;
+          display: block;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            background: $darkGrey;                 
+            list-style: none;
+            margin: 0;
+            margin-right: 2em;
+            padding-left: 10px;
+            line-height: 36px;
+            border-bottom: 1px dotted $lightGrey;
+            &.first {
+              padding-top: 50px;
+            }
+            &.resp-last {
+              border-bottom: none;
+            }
+            &.inline {
+              a {
+                display: inline-block;
+                color: $lightGrey;
+                font-size: 0.75em;
+                text-transform: uppercase;
+              }
+            }
+            ul {
+              li {
+                border-bottom: none;
+                padding-left: 20px;
+                a {
+                  &.active {
+                    margin-left: -30px;
+                    padding-left: 30px;
+                    margin-right: -4em;
+                  }
+                }
+                ul {
+                  li {
+                    a {
+                      &.active {
+                        margin-left: -50px;
+                        padding-left: 50px;
+                        margin-right: -6em;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            a {
+              &.title {
+                text-transform: uppercase;
+                font-weight: 600;
+              }
+              &.active {
+                margin-left: -10px;
+                padding-left: 10px;
+                margin-right: -2em;
+                background: url(../images/sprite.png) no-repeat right -256px;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  */
   /* Info text */
-  /* line 281, ../sass/components/_smartphone.scss */
+  /* line 433, ../sass/components/_smartphone.scss */
   #info-text {
     margin-top: 20px;
     display: none;
   }
 
   /* Popups */
-  /* line 287, ../sass/components/_smartphone.scss */
+  /* line 439, ../sass/components/_smartphone.scss */
   .ui-dialog {
     display: none !important;
   }
 
-  /* line 291, ../sass/components/_smartphone.scss */
+  /* line 443, ../sass/components/_smartphone.scss */
   .ui-widget-overlay {
     display: none !important;
   }
 
   /* General preloader */
-  /* line 296, ../sass/components/_smartphone.scss */
+  /* line 448, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8546,7 +8646,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 306, ../sass/components/_smartphone.scss */
+  /* line 458, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8554,7 +8654,7 @@ button.close {
   }
 
   /* Bib details */
-  /* line 313, ../sass/components/_smartphone.scss */
+  /* line 465, ../sass/components/_smartphone.scss */
   .bib-details {
     display: none;
   }

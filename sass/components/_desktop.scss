@@ -93,7 +93,7 @@
 	            color: white;
 	            position: relative;
 	            z-index: 100;
-	            width: 110%;
+	            width: 120%;
 	          }
           }
           &.last {
@@ -119,68 +119,7 @@
       }
     }
   }  
-/*/
-  /* Main menu ORIGINAL 
-  #main {
-    .sidebar-first {
-      ul {
-        font-size: 1em;
-        margin: 0;
-        padding: 0;
-        li {
-          list-style: none;
-          color: $lightGrey;
-          line-height: 36px;
-          border-bottom: 1px dotted $lightGrey;
-          a {
-            color: $darkGrey;
-            display: block;
-	          &.title {
-	            text-transform: uppercase;
-	          }
-	          &.active {
-	            color: white;
-	            background: url(../images/sprite.png) no-repeat right -256px;
-	            position: relative;
-	            left: -15px;
-	            padding-left: 15px;
-	            z-index: 100;
-	            width: 126%;
-	          }
-          }
-          ul {
-            li {
-              border-bottom: none;
-              padding-left: 20px;
-              a {
-                &.active {
-                  margin-left: -20px;
-                  padding-left: 35px;
-                  width: 137%;
-                }
-              }
-              ul {
-                li {
-                  a {
-                    &.active {
-		                  margin-left: -40px;
-		                  padding-left: 55px;
-		                  width: 150%;
-                    }
-                  }
-                }
-              }
-            }
-          }
-          &.last {
-            border-bottom: none;
-          }
-        }
-      }
-    }
-  }  
-  */
-  
+
   h1.title {
     margin-left: 25%;
     padding-left: 10px;
