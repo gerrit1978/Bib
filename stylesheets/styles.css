@@ -8457,8 +8457,19 @@ button.close {
     display: none;
   }
 
-  /* General preloader */
+  /* Popups */
   /* line 287, ../sass/components/_smartphone.scss */
+  .ui-dialog {
+    display: none !important;
+  }
+
+  /* line 291, ../sass/components/_smartphone.scss */
+  .ui-widget-overlay {
+    display: none !important;
+  }
+
+  /* General preloader */
+  /* line 296, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8469,7 +8480,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 297, ../sass/components/_smartphone.scss */
+  /* line 306, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8477,7 +8488,7 @@ button.close {
   }
 
   /* Bib details */
-  /* line 304, ../sass/components/_smartphone.scss */
+  /* line 313, ../sass/components/_smartphone.scss */
   .bib-details {
     display: none;
   }

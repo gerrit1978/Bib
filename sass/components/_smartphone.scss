@@ -283,6 +283,15 @@
     display: none;
   }
   
+  /* Popups */
+  .ui-dialog {
+    display: none !important;
+  }
+  
+  .ui-widget-overlay {
+    display: none !important;
+  }
+  
   /* General preloader */
   #preloader-general {
     background: #f3f3f3;

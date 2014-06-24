@@ -145,3 +145,4 @@ en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
 - mijn bibliotheken-pagina: "verwijder dit lidmaatschap": <a class="link red" /> ipv <a class="red" />. Stylesheet aangepast.
 - mijn bibliotheken-pagina: blauwe achtergrond op desktop & mobile: <div class="message info no-bg" /> ipv <div class="message info" />. Stylesheet aangepast.
 - informatietext op aanmeldpagina: zie aanmelden-1.html. Er zijn wat divs bijgekomen (met class resp-false en resp-true). Javascript bibnet.js is aangepast. Stylesheet is aangepast.
+- popups op mobile: stylesheet is aangepast.
