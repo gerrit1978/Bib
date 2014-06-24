@@ -36,4 +36,16 @@ jQuery(document).ready(function($) {
     return false;
 	});
 	
+	$('a.show-details').click(function(e) {
+	  var details = $(this).parent().find('.details');
+    details.toggle();
+    if (details.is(':visible')) {
+      $(this).find('span').html('&uarr;');
+    } else {
+      $(this).find('span').html('&darr;');
+    }
+    e.preventDefault();
+    return false;
+	});
+	
 });
