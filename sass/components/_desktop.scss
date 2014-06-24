@@ -262,6 +262,9 @@
   .no-bg {
     background: none !important;
     color: $darkGrey !important;
+    a {
+      color: $darkGrey !important;
+    }
   }
 
   
