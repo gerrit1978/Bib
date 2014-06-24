@@ -8624,8 +8624,13 @@ body {
   padding-right: 0;
 }
 
+/* line 49, ../sass/styles.scss */
+img {
+  max-width: 100%;
+}
+
 /* Links & buttons */
-/* line 51, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .button {
   display: block;
   text-align: center;
@@ -8635,32 +8640,32 @@ body {
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 56, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 .button.blue {
   color: white;
   background: #018bb9;
 }
-/* line 60, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 .button.red {
   color: white;
   background: #c6151d;
 }
-/* line 65, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 .button.next.red {
   background: #c6151d url(../images/sprite.png) right top;
 }
-/* line 68, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 .button.next.blue {
   background: #018bb9 url(../images/sprite.png) right top;
 }
 
-/* line 74, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 ul.steps {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
 }
-/* line 78, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 ul.steps li.step {
   margin: 0;
   padding: 0;
@@ -8675,21 +8680,21 @@ ul.steps li.step {
   font-weight: 800;
   color: white;
 }
-/* line 91, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 ul.steps li.step a {
   color: white;
 }
-/* line 93, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 ul.steps li.step a:hover {
   text-decoration: none;
 }
 
 /* General section styles */
-/* line 102, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .section .item {
   margin-bottom: 0.5em;
 }
-/* line 104, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .section .item .label {
   color: black;
   padding: 0;
@@ -8697,29 +8702,29 @@ ul.steps li.step a:hover {
   font-size: 1em;
   font-weight: 400;
 }
-/* line 112, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 .section .item .value {
   color: #018bb9;
   font-weight: 600;
 }
-/* line 117, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .section.last {
   margin-top: 40px;
 }
 
 /* Specific section styles */
-/* line 124, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 .section.remove {
   border-top: 1px dotted #a6a6a6;
   padding-top: 20px;
 }
-/* line 127, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 .section.remove a {
   display: block;
 }
 
 /* Lijst met items */
-/* line 134, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 ul.items {
   margin: 0;
   padding: 0;
@@ -8727,22 +8732,22 @@ ul.items {
   padding-top: 1em;
   border-top: 1px dotted #a6a6a6;
 }
-/* line 140, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 ul.items li.item {
   position: relative;
   padding-bottom: 1em;
   list-style: none;
   border-bottom: 1px dotted #a6a6a6;
 }
-/* line 145, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 ul.items li.item .title {
   color: #018bb9;
 }
-/* line 150, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 ul.items li.item .actions {
   margin-top: 0.5em;
 }
-/* line 152, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 ul.items li.item .actions a {
   text-align: center;
   line-height: 2em;
@@ -8752,43 +8757,43 @@ ul.items li.item .actions a {
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 157, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 ul.items li.item .actions a.blue {
   color: #018bb9;
   border: 2px solid #018bb9;
 }
-/* line 161, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 ul.items li.item .actions a.red {
   color: #c6151d;
   border: 2px solid #c6151d;
 }
 
 /* Secondary Menu */
-/* line 171, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 #secondary-menu {
   background: #363636;
   color: #d9d8d8;
   height: 30px;
   line-height: 30px;
 }
-/* line 176, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 #secondary-menu a {
   color: #d9d8d8;
 }
-/* line 179, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 #secondary-menu .container {
   text-align: right;
 }
-/* line 181, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 #secondary-menu .container span {
   border-right: 1px solid #d9d8d8;
   padding: 0 0.7em;
 }
-/* line 184, ../sass/styles.scss */
+/* line 188, ../sass/styles.scss */
 #secondary-menu .container span.last {
   border-right: none;
 }
-/* line 187, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 #secondary-menu .container span.action {
   background: #646464;
   padding-right: 0.7em;
@@ -8798,12 +8803,12 @@ ul.items li.item .actions a.red {
 }
 
 /* General Preloader */
-/* line 199, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 #preloader-general {
   display: none;
   text-align: center;
 }
-/* line 202, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 #preloader-general span {
   display: inline-block;
   font-size: 1.25em;
@@ -8814,12 +8819,12 @@ ul.items li.item .actions a.red {
 }
 
 /* Small Preloader */
-/* line 213, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 .loader {
   display: none;
   text-align: center;
 }
-/* line 216, ../sass/styles.scss */
+/* line 220, ../sass/styles.scss */
 .loader span {
   display: inline-block;
   width: 35px;
@@ -8828,27 +8833,27 @@ ul.items li.item .actions a.red {
 }
 
 /* Bib page */
-/* line 225, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 span.late {
   color: #c6151d;
 }
 
-/* line 229, ../sass/styles.scss */
+/* line 233, ../sass/styles.scss */
 section.bib-details {
   margin-bottom: 15px;
 }
-/* line 231, ../sass/styles.scss */
+/* line 235, ../sass/styles.scss */
 section.bib-details a {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 235, ../sass/styles.scss */
+/* line 239, ../sass/styles.scss */
 section.bib-details span {
   color: #444444;
 }
 
 /* Messages */
-/* line 242, ../sass/styles.scss */
+/* line 246, ../sass/styles.scss */
 section.messages .message {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -8857,52 +8862,52 @@ section.messages .message {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 246, ../sass/styles.scss */
+/* line 250, ../sass/styles.scss */
 section.messages .message.error {
   background: #c6151d;
   color: white;
 }
-/* line 249, ../sass/styles.scss */
+/* line 253, ../sass/styles.scss */
 section.messages .message.error a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 252, ../sass/styles.scss */
+/* line 256, ../sass/styles.scss */
 section.messages .message.error a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 257, ../sass/styles.scss */
+/* line 261, ../sass/styles.scss */
 section.messages .message.error .form-submit {
   color: #c6151d;
 }
-/* line 261, ../sass/styles.scss */
+/* line 265, ../sass/styles.scss */
 section.messages .message.info {
   background: #018bb9;
   color: white;
 }
-/* line 264, ../sass/styles.scss */
+/* line 268, ../sass/styles.scss */
 section.messages .message.info a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 267, ../sass/styles.scss */
+/* line 271, ../sass/styles.scss */
 section.messages .message.info a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 272, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 section.messages .message.info .form-submit {
   color: #018bb9;
 }
-/* line 276, ../sass/styles.scss */
+/* line 280, ../sass/styles.scss */
 section.messages .message .form-submit {
   background: white;
   margin: 10px 0;
 }
 
 /* Link (no button) */
-/* line 284, ../sass/styles.scss */
+/* line 288, ../sass/styles.scss */
 a.link {
   border: none !important;
 }

@@ -133,7 +133,7 @@ en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
 
 30. TODO (snap het niet)
 
-31. TODO (snap het niet)
+31. Stylesheet aangepast.
 
 ----------------------------------------------------------------
 
