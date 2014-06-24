@@ -7972,7 +7972,7 @@ button.close {
     list-style: none;
     color: #a6a6a6;
     line-height: 36px;
-    border-bottom: 1px dotted #a6a6a6;
+    border-bottom: 1px dotted #444444;
   }
   /* line 78, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a {
