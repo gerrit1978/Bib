@@ -74,9 +74,9 @@
           list-style: none;
           color: $lightGrey;
           line-height: 36px;
-          border-bottom: 1px dotted $darkGrey;
+          border-bottom: 1px dotted $lightGrey;
           a {
-            color: $lightGrey;
+            color: $darkGrey;
             display: block;
 	          &.title {
 	            text-transform: uppercase;

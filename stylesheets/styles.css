@@ -7972,11 +7972,11 @@ button.close {
     list-style: none;
     color: #a6a6a6;
     line-height: 36px;
-    border-bottom: 1px dotted #444444;
+    border-bottom: 1px dotted #a6a6a6;
   }
   /* line 78, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a {
-    color: #a6a6a6;
+    color: #444444;
     display: block;
   }
   /* line 81, ../sass/components/_desktop.scss */
