@@ -9016,6 +9016,12 @@ a.link {
   border: none !important;
 }
 
+/* line 295, ../sass/styles.scss */
+a.previous {
+  min-width: 250px;
+  font-weight: bolder;
+}
+
 /* Checkbox - TODO: checkbox image is missing in PSD! */
 /*input[type="checkbox"] {
     display:none;
