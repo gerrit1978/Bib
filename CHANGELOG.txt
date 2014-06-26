@@ -161,3 +161,8 @@ en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
 - ipad tablet portrait: registratie - "volgende knop": sprite.png en stylesheet aangepast
 - achtergrond menu transparant maken op mobile: stylesheet aangepast
 - "Vorige" knop bij registreer: zie registreer-1.html (regels 42-44). Extra <div class="form-item"> met <a>. Stylesheet hiervoor ook aangepast.
+
+
+Openstaande oranje puntjes eerste Google Doc:
+
+- Bibliotheek pagina "detail" (pijltje omhoog en omlaag verschijnen): Zie bibnet.js en extra HTML-code in bibliotheek-2.html (regels 163-166 en 170-173).

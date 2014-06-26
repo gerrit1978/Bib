@@ -36,6 +36,7 @@ jQuery(document).ready(function($) {
     return false;
 	});
 	
+	/* Toggle Details betalingen en uitleenhistoriek */
 	$('a.show-details').click(function(e) {
 	  var details = $(this).parent().find('.details');
     details.toggle();
