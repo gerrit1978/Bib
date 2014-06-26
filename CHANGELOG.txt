@@ -151,3 +151,12 @@ en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
 
 - menu-items moeten grijs worden bij hover: stylesheet aangepast voor mobile/desktop/tablet. Geen HTML-aanpassingen nodig.
 - bibliotheek-pagina: icoontjes onderaan. Zie bibliotheek-2.html, vanaf lijn 172 tot lijn 178. Let op: de <section> "historiek" heeft nu niet meer de class="last". Sprite is veranderd. Stylesheet aangepast.
+
+
+----------------------------------------------------------------
+
+
+25.06
+
+- ipad tablet portrait: registratie - "volgende knop": sprite.png en stylesheet aangepast
+- achtergrond menu transparant maken op mobile: stylesheet aangepast

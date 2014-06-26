@@ -8159,16 +8159,32 @@ button.close {
     color: #444444 !important;
     border-bottom: 1px solid #444444 !important;
   }
+
+  /* line 271, ../sass/components/_desktop.scss */
+  .form-submit {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    behavior: url(pie/PIE.htc);
+  }
+  /* line 274, ../sass/components/_desktop.scss */
+  .form-submit.next.red {
+    background-position: right -411px !important;
+  }
+  /* line 277, ../sass/components/_desktop.scss */
+  .form-submit.next.blue {
+    background-position: right -411px !important;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 276, ../sass/components/_desktop.scss */
+  /* line 288, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 281, ../sass/components/_desktop.scss */
+  /* line 293, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -8389,7 +8405,7 @@ button.close {
     top: -46px;
     width: 100%;
     color: #d9d8d8;
-    background: white;
+    /*         background: white; */
   }
   /* line 219, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner .close-menu {
@@ -8660,11 +8676,11 @@ a {
 }
 /* line 69, ../sass/components/_elements.scss */
 .form-submit.next.red {
-  background: #c6151d url(../images/sprite.png) right top;
+  background: #c6151d url(../images/sprite.png) no-repeat right -406px;
 }
 /* line 72, ../sass/components/_elements.scss */
 .form-submit.next.blue {
-  background: #018bb9 url(../images/sprite.png) right top;
+  background: #018bb9 url(../images/sprite.png) no-repeat right -406px;
 }
 
 /* General */

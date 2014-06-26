@@ -67,10 +67,10 @@ a {
   }
   &.next {
     &.red {
-      background: $red url(../images/sprite.png) right top;    
+      background: $red url(../images/sprite.png) no-repeat right -406px;
     }
     &.blue {
-      background: $blue url(../images/sprite.png) right top;
+      background: $blue url(../images/sprite.png) no-repeat right -406px;
     }
   }
 }
