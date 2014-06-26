@@ -150,7 +150,7 @@ en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
 24.6 namiddag
 
 - menu-items moeten grijs worden bij hover: stylesheet aangepast voor mobile/desktop/tablet. Geen HTML-aanpassingen nodig.
-- bibliotheek-pagina: icoontjes onderaan. Zie bibliotheek-2.html, vanaf lijn 172 tot lijn 178. Let op: de <section> "historiek" heeft nu niet meer de class="last". Sprite is veranderd. Stylesheet aangepast.
+- bibliotheek-pagina: icoontjes onderaan. Zie bibliotheek-2.html, vanaf lijn 175 tot lijn 181. Let op: de <section> "historiek" heeft nu niet meer de class="last". Sprite is veranderd. Stylesheet aangepast.
 
 
 ----------------------------------------------------------------
