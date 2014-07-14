@@ -233,7 +233,7 @@ TBD
 18. Knoppen die links mogen worden: x annuleer reservering - x verwijder dit lidmaatschap - x verwijder je mijn bib profiel
 - voeg class="cancel-remove" toe aan de <a> tag. Stylesheet aangepast. Sprite aangepast.
   Op 'Mijn Bibliotheken' pagina: <a class="cancel-remove"> (dus classes "link red" mogen weg). Doe ook de <br>-tags weg tussen deze en de vorige <a>
-  
+- Feedback Joeri: padding toegevoegd enz
 
 19. (opmerking 09.07) voeg lidmaatschap toe: invulvelden niet zo breed
 - Te checken: bij mij zijn die even breed als op de vorige pagina (breedte van het formulier is 6 columns)

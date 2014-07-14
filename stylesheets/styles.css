@@ -9140,10 +9140,13 @@ a.previous {
 a.cancel-remove {
   color: #c6151d;
   background: url(../images/sprite.png) no-repeat left -506px;
+  line-height: 2em;
+  padding-left: 20px;
+  text-align: left !important;
 }
 
 /* Voeg een lidmaatschap toe - TODO: test! */
-/* line 320, ../sass/styles.scss */
+/* line 323, ../sass/styles.scss */
 input#library {
   width: 90% !important;
 }

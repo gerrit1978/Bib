@@ -314,6 +314,9 @@ a.previous {
 a.cancel-remove {
   color: $red;
   background: url(../images/sprite.png) no-repeat left -506px;
+  line-height: 2em;
+  padding-left: 20px;
+  text-align: left !important;
 }
 
 /* Voeg een lidmaatschap toe - TODO: test! */
