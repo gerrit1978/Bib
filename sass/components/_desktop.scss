@@ -315,6 +315,7 @@
   .form-submit {
 	  @include rounded;
 	  &.next {
+	    padding-right: 40px !important;
 	    &.red {
 	      background-position: right -411px !important;
 	    }

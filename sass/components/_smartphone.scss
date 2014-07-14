@@ -446,4 +446,22 @@
       }
     }
   }
+  
+  /* Input velden */
+  input#library {
+    width: 90% !important;
+  }
+  
+  ul.ui-autocomplete {
+    width: 90% !important;
+  }
+  
+  textarea {
+    width: 100% !important;
+  }
+  
+  select {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
 }

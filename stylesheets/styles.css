@@ -8201,24 +8201,28 @@ button.close {
     -webkit-border-radius: 8px;
     behavior: url(pie/PIE.htc);
   }
-  /* line 318, ../sass/components/_desktop.scss */
+  /* line 317, ../sass/components/_desktop.scss */
+  .form-submit.next {
+    padding-right: 40px !important;
+  }
+  /* line 319, ../sass/components/_desktop.scss */
   .form-submit.next.red {
     background-position: right -411px !important;
   }
-  /* line 321, ../sass/components/_desktop.scss */
+  /* line 322, ../sass/components/_desktop.scss */
   .form-submit.next.blue {
     background-position: right -411px !important;
   }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 332, ../sass/components/_desktop.scss */
+  /* line 333, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 337, ../sass/components/_desktop.scss */
+  /* line 338, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -8686,6 +8690,28 @@ button.close {
     width: 32px;
     height: 35px;
   }
+
+  /* Input velden */
+  /* line 451, ../sass/components/_smartphone.scss */
+  input#library {
+    width: 90% !important;
+  }
+
+  /* line 455, ../sass/components/_smartphone.scss */
+  ul.ui-autocomplete {
+    width: 90% !important;
+  }
+
+  /* line 459, ../sass/components/_smartphone.scss */
+  textarea {
+    width: 100% !important;
+  }
+
+  /* line 463, ../sass/components/_smartphone.scss */
+  select {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
 }
 /* HTML elements */
 /* line 2, ../sass/components/_elements.scss */
@@ -9148,7 +9174,7 @@ a.cancel-remove {
 /* Voeg een lidmaatschap toe - TODO: test! */
 /* line 323, ../sass/styles.scss */
 input#library {
-  width: 90% !important;
+  width: 80% !important;
 }
 
 /* Checkbox - TODO: checkbox image is missing in PSD! */
