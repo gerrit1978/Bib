@@ -175,9 +175,65 @@ Openstaande oranje puntjes eerste Google Doc:
 14.07
 
 0. Donkerder kleur van knoppen als erop geklikt wordt
-- aangepast in stylesheet voor button class="blue"
+- aangepast in stylesheet voor button en submit class="blue"
 
 1. Witruimte weg indien geen menu
 - zie voorwaarden.html: dummy "col-md-3" weg, "col-md-9" veranderen in "col-md-12"
 - h1.title een extra class "full-width" meegeven
 
+2. Velden in formulier "contact" even breed
+- stylesheet aangepast - zie contact.html
+
+3. padding toevoegen 
+- graag voorbeeld van waar precies, wat bedoelen ze juist?
+
+4. bibliotheek-pagina: onderverdeling tussen titels (reserveringen - bib naam) duidelijker
+- stylesheet aangepast
+
+5. gebruiksvoorwaarden: titel te breed
+- stylesheet aangepast (titels voor mobile kleiner gemaakt - probleem kan nog voorkomen bij lange bibnaam ofzo)
+
+6. gebruiksvoorwaarden: link onderaan de pagina centreren
+- stylesheet aangepast
+
+7. menu mobile: "Welkom..." spatie toevoegen
+- stylesheet aangepast
+
+8. menu mobile: bovenste "lege" rij weg
+- stylesheet aangepast
+
+9. menu mobile: laten sluiten als iemand ernaast klikt
+TBD
+
+10. menu mobile: sluitknop verspringt
+- stylesheet aangepast, staat nu mooi tegen de rand
+
+11. registreren: extra stap
+- zie registreer-1.html: gewoon <li class="step step-3"> toevoegen, en als die 3e stap actief is de klasse "<ul class='steps-3'>" gebruiken.
+  Stylesheet aangepast. Sprite aangepast.
+
+12. Voeg een lidmaatschap toe: tekstveld breder
+- stylesheet aangepast - te testen!
+
+13. Mijn bibliotheken: namen lijken op links
+- vervang class="title" bij de naam door class="lid". Stylesheet aangepast.
+
+14. Mijn bibliotheken: spacing boven messages groter
+- stylesheet aangepast
+
+15. Mijn bibliotheken: gebruikersgegevens toch ook zonder achtergrond
+- stylesheet aangepast
+
+16. Knoppen: consistent gebruik lettergrootte, padding, font-weight
+- stylesheets aangepast - te testen!
+
+17. Knoppen: blauwe knop volledig blauw+witte tekst
+- stylesheets aangepast
+
+18. Knoppen die links mogen worden: x annuleer reservering - x verwijder dit lidmaatschap - x verwijder je mijn bib profiel
+- voeg class="cancel-remove" toe aan de <a> tag. Stylesheet aangepast. Sprite aangepast.
+  Op 'Mijn Bibliotheken' pagina: <a class="cancel-remove"> (dus classes "link red" mogen weg). Doe ook de <br>-tags weg tussen deze en de vorige <a>
+  
+
+19. (opmerking 09.07) voeg lidmaatschap toe: invulvelden niet zo breed
+- Te checken: bij mij zijn die even breed als op de vorige pagina (breedte van het formulier is 6 columns)

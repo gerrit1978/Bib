@@ -14,7 +14,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.125em;
   font-weight: 600;
 }
 
@@ -55,12 +55,13 @@ a {
   @include rounded;
   border: none;
   text-align: center;
-  font-weight: bolder;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding: 9px 0;
   color: white;
   &.blue {
     background-color: $blue;
+    &:active, &:focus {
+      background-color: $darkBlue;
+    }
   }
   &.red {
     background-color: $red;

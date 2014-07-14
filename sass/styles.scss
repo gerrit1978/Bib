@@ -155,6 +155,10 @@ ul.items {
     .title {
       color: $blue;
     }
+    .lid {
+      color: $black;
+      margin-bottom: 10px;
+    }
     .dates {
     }
     .actions {
@@ -162,14 +166,20 @@ ul.items {
       a {
         text-align: center;
         line-height: 2em;
-        font-size: 1.25em;
+        font-size: 1em;
+        font-weight: 400;
         @include rounded;
         &.blue {
-          color: $blue;
+          background: $blue;
+          color: white;
           border: 2px solid $blue;
+          &:focus, &:active {
+            background: $darkBlue;
+          }
         }
         &.red {
-          color: $red;
+          background: $red;
+          color: white;
           border: 2px solid $red;
         }
       }
@@ -299,6 +309,18 @@ a.previous {
   min-width: 250px;
   font-weight: bolder;
 } 
+
+/* Remove - cancel stuff */
+a.cancel-remove {
+  color: $red;
+  background: url(../images/sprite.png) no-repeat left -506px;
+}
+
+/* Voeg een lidmaatschap toe - TODO: test! */
+input#library {
+  width: 90% !important;
+}
+
 
 /* Checkbox - TODO: checkbox image is missing in PSD! */
 /*input[type="checkbox"] {
