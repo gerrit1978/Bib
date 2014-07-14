@@ -52,6 +52,14 @@
 	  }
   }
   
+  h1 {
+    &.title {
+      &.full-width {
+        margin-left: 0;
+      }
+    }
+  }
+  
   /* "Splash page" */
   .left {
     width: 50%;

@@ -166,3 +166,18 @@ en eindigt bij 31 ("algemeen: afbeelding -> responsive...").
 Openstaande oranje puntjes eerste Google Doc:
 
 - Bibliotheek pagina "detail" (pijltje omhoog en omlaag verschijnen): Zie bibnet.js en extra HTML-code in bibliotheek-2.html (regels 163-166 en 170-173).
+
+
+
+
+----------------------------------------------------------------
+
+14.07
+
+0. Donkerder kleur van knoppen als erop geklikt wordt
+- aangepast in stylesheet voor button class="blue"
+
+1. Witruimte weg indien geen menu
+- zie voorwaarden.html: dummy "col-md-3" weg, "col-md-9" veranderen in "col-md-12"
+- h1.title een extra class "full-width" meegeven
+

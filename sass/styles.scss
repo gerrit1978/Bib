@@ -63,6 +63,9 @@ a.inline {
   &.blue {
     color: white;
     background: $blue;
+    &:active, &:focus {
+      background: $darkBlue !important;
+    }
   }
   &.red {
     color: white;

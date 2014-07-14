@@ -7947,34 +7947,39 @@ button.close {
     padding: 20px;
   }
 
+  /* line 57, ../sass/components/_desktop.scss */
+  h1.title.full-width {
+    margin-left: 0;
+  }
+
   /* "Splash page" */
-  /* line 56, ../sass/components/_desktop.scss */
+  /* line 64, ../sass/components/_desktop.scss */
   .left {
     width: 50%;
     float: left;
   }
 
-  /* line 61, ../sass/components/_desktop.scss */
+  /* line 69, ../sass/components/_desktop.scss */
   .right {
     width: 50%;
     float: left;
   }
 
   /* Main menu */
-  /* line 69, ../sass/components/_desktop.scss */
+  /* line 77, ../sass/components/_desktop.scss */
   #main .sidebar-first ul {
     font-size: 0.975em;
     margin: 0;
     padding: 0;
   }
-  /* line 73, ../sass/components/_desktop.scss */
+  /* line 81, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li {
     list-style: none;
     color: #a6a6a6;
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 78, ../sass/components/_desktop.scss */
+  /* line 86, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a {
     padding-left: 5px;
     color: #444444;
@@ -7982,16 +7987,16 @@ button.close {
     height: 36px;
     overflow: hidden;
   }
-  /* line 84, ../sass/components/_desktop.scss */
+  /* line 92, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.title {
     text-transform: uppercase;
   }
-  /* line 87, ../sass/components/_desktop.scss */
+  /* line 95, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a:hover {
     background: #d9d8d8;
     text-decoration: none;
   }
-  /* line 91, ../sass/components/_desktop.scss */
+  /* line 99, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.active {
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
@@ -7999,120 +8004,120 @@ button.close {
     z-index: 100;
     width: 120%;
   }
-  /* line 99, ../sass/components/_desktop.scss */
+  /* line 107, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li.last {
     border-bottom: none;
   }
-  /* line 103, ../sass/components/_desktop.scss */
+  /* line 111, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li {
     border-bottom: none;
   }
-  /* line 105, ../sass/components/_desktop.scss */
+  /* line 113, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li a {
     padding-left: 20px;
   }
-  /* line 109, ../sass/components/_desktop.scss */
+  /* line 117, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li {
     border-bottom: none;
   }
-  /* line 110, ../sass/components/_desktop.scss */
+  /* line 118, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li a {
     padding-left: 40px;
   }
 
-  /* line 123, ../sass/components/_desktop.scss */
+  /* line 131, ../sass/components/_desktop.scss */
   h1.title {
     margin-left: 25%;
     padding-left: 10px;
   }
 
   /* Registration Steps */
-  /* line 131, ../sass/components/_desktop.scss */
+  /* line 139, ../sass/components/_desktop.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 136, ../sass/components/_desktop.scss */
+  /* line 144, ../sass/components/_desktop.scss */
   ul.steps li.step span {
     display: none;
   }
-  /* line 139, ../sass/components/_desktop.scss */
+  /* line 147, ../sass/components/_desktop.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 143, ../sass/components/_desktop.scss */
+  /* line 151, ../sass/components/_desktop.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 146, ../sass/components/_desktop.scss */
+  /* line 154, ../sass/components/_desktop.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 152, ../sass/components/_desktop.scss */
+  /* line 160, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 157, ../sass/components/_desktop.scss */
+  /* line 165, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 163, ../sass/components/_desktop.scss */
+  /* line 171, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 167, ../sass/components/_desktop.scss */
+  /* line 175, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 172, ../sass/components/_desktop.scss */
+  /* line 180, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 178, ../sass/components/_desktop.scss */
+  /* line 186, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 182, ../sass/components/_desktop.scss */
+  /* line 190, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 187, ../sass/components/_desktop.scss */
+  /* line 195, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
 
   /* Forms */
-  /* line 198, ../sass/components/_desktop.scss */
+  /* line 206, ../sass/components/_desktop.scss */
   .form-item .form-text, .form-item .form-email, .form-item .form-password, .form-item select#gender {
     width: 90%;
   }
-  /* line 201, ../sass/components/_desktop.scss */
+  /* line 209, ../sass/components/_desktop.scss */
   .form-item span.validation {
     float: right;
     width: 30px;
     height: 30px;
   }
-  /* line 205, ../sass/components/_desktop.scss */
+  /* line 213, ../sass/components/_desktop.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 208, ../sass/components/_desktop.scss */
+  /* line 216, ../sass/components/_desktop.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 212, ../sass/components/_desktop.scss */
+  /* line 220, ../sass/components/_desktop.scss */
   .form-item .message {
     font-size: 0.9375em;
   }
-  /* line 214, ../sass/components/_desktop.scss */
+  /* line 222, ../sass/components/_desktop.scss */
   .form-item .message.error {
     color: #c6151d;
   }
 
   /* General Preloader */
-  /* line 221, ../sass/components/_desktop.scss */
+  /* line 229, ../sass/components/_desktop.scss */
   #preloader-general {
     max-width: 1140px;
     margin-left: auto;
@@ -8120,71 +8125,71 @@ button.close {
   }
 
   /* Items */
-  /* line 231, ../sass/components/_desktop.scss */
+  /* line 239, ../sass/components/_desktop.scss */
   ul.items li.item .actions a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1em !important;
   }
-  /* line 237, ../sass/components/_desktop.scss */
+  /* line 245, ../sass/components/_desktop.scss */
   ul.items li.item .actions span.late {
     font-size: 1em;
   }
 
-  /* line 246, ../sass/components/_desktop.scss */
+  /* line 254, ../sass/components/_desktop.scss */
   .section .item .value {
     font-weight: normal !important;
   }
 
-  /* line 252, ../sass/components/_desktop.scss */
+  /* line 260, ../sass/components/_desktop.scss */
   .footer {
     margin-top: 10px;
     text-align: right;
     color: #a6a6a6;
     font-size: 0.875em;
   }
-  /* line 257, ../sass/components/_desktop.scss */
+  /* line 265, ../sass/components/_desktop.scss */
   .footer a {
     color: #a6a6a6;
   }
 
-  /* line 262, ../sass/components/_desktop.scss */
+  /* line 270, ../sass/components/_desktop.scss */
   .no-bg {
     background: none !important;
     color: #444444 !important;
   }
-  /* line 265, ../sass/components/_desktop.scss */
+  /* line 273, ../sass/components/_desktop.scss */
   .no-bg a {
     color: #444444 !important;
     border-bottom: 1px solid #444444 !important;
   }
 
-  /* line 271, ../sass/components/_desktop.scss */
+  /* line 279, ../sass/components/_desktop.scss */
   .form-submit {
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     behavior: url(pie/PIE.htc);
   }
-  /* line 274, ../sass/components/_desktop.scss */
+  /* line 282, ../sass/components/_desktop.scss */
   .form-submit.next.red {
     background-position: right -411px !important;
   }
-  /* line 277, ../sass/components/_desktop.scss */
+  /* line 285, ../sass/components/_desktop.scss */
   .form-submit.next.blue {
     background-position: right -411px !important;
   }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 288, ../sass/components/_desktop.scss */
+  /* line 296, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 293, ../sass/components/_desktop.scss */
+  /* line 301, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -8749,27 +8754,31 @@ a.inline {
   color: white;
   background: #018bb9;
 }
-/* line 67, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
+.button.blue:active, .button.blue:focus {
+  background: #1f4f65 !important;
+}
+/* line 70, ../sass/styles.scss */
 .button.red {
   color: white;
   background: #c6151d;
 }
-/* line 72, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 .button.next.red {
   background: #c6151d url(../images/sprite.png) right top;
 }
-/* line 75, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .button.next.blue {
   background: #018bb9 url(../images/sprite.png) right top;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 ul.steps {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
 }
-/* line 85, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 ul.steps li.step {
   margin: 0;
   padding: 0;
@@ -8784,21 +8793,21 @@ ul.steps li.step {
   font-weight: 800;
   color: white;
 }
-/* line 98, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 ul.steps li.step a {
   color: white;
 }
-/* line 100, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 ul.steps li.step a:hover {
   text-decoration: none;
 }
 
 /* General section styles */
-/* line 109, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .section .item {
   margin-bottom: 0.5em;
 }
-/* line 111, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 .section .item .label {
   color: black;
   padding: 0;
@@ -8806,29 +8815,29 @@ ul.steps li.step a:hover {
   font-size: 1em;
   font-weight: 400;
 }
-/* line 119, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 .section .item .value {
   color: #018bb9;
   font-weight: 600;
 }
-/* line 124, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .section.last {
   margin-top: 40px;
 }
 
 /* Specific section styles */
-/* line 131, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 .section.remove {
   border-top: 1px dotted #a6a6a6;
   padding-top: 20px;
 }
-/* line 134, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .section.remove a {
   display: block;
 }
 
 /* Lijst met items */
-/* line 141, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 ul.items {
   margin: 0;
   padding: 0;
@@ -8836,22 +8845,22 @@ ul.items {
   padding-top: 1em;
   border-top: 1px dotted #a6a6a6;
 }
-/* line 147, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 ul.items li.item {
   position: relative;
   padding-bottom: 1em;
   list-style: none;
   border-bottom: 1px dotted #a6a6a6;
 }
-/* line 152, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 ul.items li.item .title {
   color: #018bb9;
 }
-/* line 157, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 ul.items li.item .actions {
   margin-top: 0.5em;
 }
-/* line 159, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 ul.items li.item .actions a {
   text-align: center;
   line-height: 2em;
@@ -8861,43 +8870,43 @@ ul.items li.item .actions a {
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 164, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 ul.items li.item .actions a.blue {
   color: #018bb9;
   border: 2px solid #018bb9;
 }
-/* line 168, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 ul.items li.item .actions a.red {
   color: #c6151d;
   border: 2px solid #c6151d;
 }
 
 /* Secondary Menu */
-/* line 178, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 #secondary-menu {
   background: #363636;
   color: #d9d8d8;
   height: 30px;
   line-height: 30px;
 }
-/* line 183, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 #secondary-menu a {
   color: #d9d8d8;
 }
-/* line 186, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 #secondary-menu .container {
   text-align: right;
 }
-/* line 188, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 #secondary-menu .container span {
   border-right: 1px solid #d9d8d8;
   padding: 0 0.7em;
 }
-/* line 191, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 #secondary-menu .container span.last {
   border-right: none;
 }
-/* line 194, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 #secondary-menu .container span.action {
   background: #646464;
   padding-right: 0.7em;
@@ -8907,12 +8916,12 @@ ul.items li.item .actions a.red {
 }
 
 /* General Preloader */
-/* line 206, ../sass/styles.scss */
+/* line 209, ../sass/styles.scss */
 #preloader-general {
   display: none;
   text-align: center;
 }
-/* line 209, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 #preloader-general span {
   display: inline-block;
   font-size: 1.25em;
@@ -8923,12 +8932,12 @@ ul.items li.item .actions a.red {
 }
 
 /* Small Preloader */
-/* line 220, ../sass/styles.scss */
+/* line 223, ../sass/styles.scss */
 .loader {
   display: none;
   text-align: center;
 }
-/* line 223, ../sass/styles.scss */
+/* line 226, ../sass/styles.scss */
 .loader span {
   display: inline-block;
   width: 35px;
@@ -8937,27 +8946,27 @@ ul.items li.item .actions a.red {
 }
 
 /* Bib page */
-/* line 232, ../sass/styles.scss */
+/* line 235, ../sass/styles.scss */
 span.late {
   color: #c6151d;
 }
 
-/* line 236, ../sass/styles.scss */
+/* line 239, ../sass/styles.scss */
 section.bib-details {
   margin-bottom: 15px;
 }
-/* line 238, ../sass/styles.scss */
+/* line 241, ../sass/styles.scss */
 section.bib-details a {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 242, ../sass/styles.scss */
+/* line 245, ../sass/styles.scss */
 section.bib-details span {
   color: #444444;
 }
 
 /* Messages */
-/* line 249, ../sass/styles.scss */
+/* line 252, ../sass/styles.scss */
 section.messages .message {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -8966,57 +8975,57 @@ section.messages .message {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 253, ../sass/styles.scss */
+/* line 256, ../sass/styles.scss */
 section.messages .message.error {
   background: #c6151d;
   color: white;
 }
-/* line 256, ../sass/styles.scss */
+/* line 259, ../sass/styles.scss */
 section.messages .message.error a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 259, ../sass/styles.scss */
+/* line 262, ../sass/styles.scss */
 section.messages .message.error a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 264, ../sass/styles.scss */
+/* line 267, ../sass/styles.scss */
 section.messages .message.error .form-submit {
   color: #c6151d;
 }
-/* line 268, ../sass/styles.scss */
+/* line 271, ../sass/styles.scss */
 section.messages .message.info {
   background: #018bb9;
   color: white;
 }
-/* line 271, ../sass/styles.scss */
+/* line 274, ../sass/styles.scss */
 section.messages .message.info a {
   color: white;
   border-bottom: 1px solid white;
 }
-/* line 274, ../sass/styles.scss */
+/* line 277, ../sass/styles.scss */
 section.messages .message.info a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 279, ../sass/styles.scss */
+/* line 282, ../sass/styles.scss */
 section.messages .message.info .form-submit {
   color: #018bb9;
 }
-/* line 283, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 section.messages .message .form-submit {
   background: white;
   margin: 10px 0;
 }
 
 /* Link (no button) */
-/* line 291, ../sass/styles.scss */
+/* line 294, ../sass/styles.scss */
 a.link {
   border: none !important;
 }
 
-/* line 295, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
 a.previous {
   min-width: 250px;
   font-weight: bolder;
