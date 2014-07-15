@@ -324,6 +324,73 @@ input#library {
   width: 80% !important;
 }
 
+/* Voeg lidmaatschap toe steps */
+ul.steps.max-steps-2 {
+  li.step {
+    a {
+      background: url(../images/sprite.png) no-repeat left -554px;    
+      display: block;
+      height: 28px;
+    }
+    span {
+      display: none;
+    }
+    &.step-0 {
+      width: 63px;
+      background: url(../images/sprite.png) no-repeat left -554px;
+    }
+    &.step-1 {
+      width: 52px;
+    }
+    &.step-2 {
+      width: 55px;
+    }
+  }
+  &.steps-0 {
+    li.step-1 {
+      a {
+        background-position: -63px -554px;
+      }
+    }
+    li.step-2 {
+      a {
+        background-position: -115px -554px;
+      }
+    }
+  }
+  &.steps-1 {
+    li.step-0 {
+      background-position: left -582px;
+    }
+    li.step-1 {
+      a {
+        background-position: -63px -582px;
+      }
+    }
+    li.step-2 {
+      a {
+        background-position: -115px -582px;
+      }
+    }
+  } 
+  &.steps-2 {
+    li.step-0 {
+      background-position: left -611px;
+    }
+    li.step-1 {
+      a {
+        background-position: -63px -611px;
+      }
+    }
+    li.step-2 {
+      a {
+        background-position: -115px -611px;
+      }
+    }
+  } 
+}
+
+
 
 /* Checkbox - TODO: checkbox image is missing in PSD! */
 /*input[type="checkbox"] {

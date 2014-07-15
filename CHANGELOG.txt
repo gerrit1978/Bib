@@ -240,7 +240,7 @@ TBD
 
 19. (opmerking 09.07) voeg lidmaatschap toe: invulvelden niet zo breed
 - Te checken: bij mij zijn die even breed als op de vorige pagina (breedte van het formulier is 6 columns)
---- 
+--- Voeg bij de <form> tag op de 2 pagina's de class="narrow" toe. Dit beperkt de breedte tot 60%. Stylesheet hiervoor is aangepast.
 
 --. Extra opmerking: icoontje ">" komt over text bij "volgende" knop
 - Stylesheet aangepast voor desktop. Voor mobile was dit geen issue.

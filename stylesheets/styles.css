@@ -8213,16 +8213,25 @@ button.close {
   .form-submit.next.blue {
     background-position: right -411px !important;
   }
+  /* line 324, ../sass/components/_desktop.scss */
+  .form-submit.next.blue:active, .form-submit.next.blue:focus {
+    background-color: #1f4f65;
+  }
+
+  /* line 331, ../sass/components/_desktop.scss */
+  form.narrow {
+    width: 60%;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 333, ../sass/components/_desktop.scss */
+  /* line 340, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 338, ../sass/components/_desktop.scss */
+  /* line 345, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -9175,6 +9184,63 @@ a.cancel-remove {
 /* line 323, ../sass/styles.scss */
 input#library {
   width: 80% !important;
+}
+
+/* Voeg lidmaatschap toe steps */
+/* line 330, ../sass/styles.scss */
+ul.steps.max-steps-2 li.step a {
+  background: url(../images/sprite.png) no-repeat left -554px;
+  display: block;
+  height: 28px;
+}
+/* line 335, ../sass/styles.scss */
+ul.steps.max-steps-2 li.step span {
+  display: none;
+}
+/* line 338, ../sass/styles.scss */
+ul.steps.max-steps-2 li.step.step-0 {
+  width: 63px;
+  background: url(../images/sprite.png) no-repeat left -554px;
+}
+/* line 342, ../sass/styles.scss */
+ul.steps.max-steps-2 li.step.step-1 {
+  width: 52px;
+}
+/* line 345, ../sass/styles.scss */
+ul.steps.max-steps-2 li.step.step-2 {
+  width: 55px;
+}
+/* line 351, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-0 li.step-1 a {
+  background-position: -63px -554px;
+}
+/* line 356, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-0 li.step-2 a {
+  background-position: -115px -554px;
+}
+/* line 362, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-1 li.step-0 {
+  background-position: left -582px;
+}
+/* line 366, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-1 li.step-1 a {
+  background-position: -63px -582px;
+}
+/* line 371, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-1 li.step-2 a {
+  background-position: -115px -582px;
+}
+/* line 377, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-2 li.step-0 {
+  background-position: left -611px;
+}
+/* line 381, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-2 li.step-1 a {
+  background-position: -63px -611px;
+}
+/* line 386, ../sass/styles.scss */
+ul.steps.max-steps-2.steps-2 li.step-2 a {
+  background-position: -115px -611px;
 }
 
 /* Checkbox - TODO: checkbox image is missing in PSD! */
