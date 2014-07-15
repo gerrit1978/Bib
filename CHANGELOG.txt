@@ -242,5 +242,8 @@ TBD
 - Te checken: bij mij zijn die even breed als op de vorige pagina (breedte van het formulier is 6 columns)
 --- Voeg bij de <form> tag op de 2 pagina's de class="narrow" toe. Dit beperkt de breedte tot 60%. Stylesheet hiervoor is aangepast.
 
---. Extra opmerking: icoontje ">" komt over text bij "volgende" knop
+--. Extra opmerking Joeri: icoontje ">" komt over text bij "volgende" knop
 - Stylesheet aangepast voor desktop. Voor mobile was dit geen issue.
+
+--. Extra opmerking Gerrit: "Voeg lidmaatschap toe" = blijkbaar slechts 2 stappen.
+- Stylesheet en sprite aangepast. Zie pagina "voeg-lidmaatschap-toe.html": <ul> heeft class="max-steps-2".
