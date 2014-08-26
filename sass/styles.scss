@@ -71,6 +71,13 @@ a.inline {
     color: white;
     background: $red;
   }
+  &.grey {
+    color: white;
+    background: $grey;
+    &:active, &:focus {
+      background: $greyActive;
+    }
+  }
   &.next {
     &.red {
       background: $red url(../images/sprite.png) right top;    
@@ -112,7 +119,7 @@ ul.steps {
   .item {
     margin-bottom: 0.5em;
 		.label {
-		  color: $black;
+		  color: $label;
 		  padding: 0;
 		  margin: 0;
 		  font-size: 1em;
@@ -120,8 +127,11 @@ ul.steps {
 		}
 		
 		.value {
-		  color: $blue;
+		  color: $grey;
 		  font-weight: 600;
+		}
+		&.last {
+		  margin-bottom: 40px;
 		}
 	}
 	&.last {
@@ -132,7 +142,7 @@ ul.steps {
 /* Specific section styles */
 .section {
   &.remove {
-    border-top: 1px dotted $lightGrey;
+    border-top: 1px solid #d1d1d1;
     padding-top: 20px;
     a {
       display: block;
@@ -165,14 +175,14 @@ ul.items {
       margin-top: 0.5em;
       a {
         text-align: center;
-        line-height: 2em;
         font-size: 1em;
+        line-height: 1;
+        padding: 6px 12px;
         font-weight: 400;
         @include rounded;
         &.blue {
           background: $blue;
           color: white;
-          border: 2px solid $blue;
           &:focus, &:active {
             background: $darkBlue;
           }
@@ -181,6 +191,13 @@ ul.items {
           background: $red;
           color: white;
           border: 2px solid $red;
+        }
+        &.grey {
+          background: $grey;
+          color: white;
+          &:focus, &:active {
+            background: $greyActive;
+          }
         }
       }
     }
@@ -201,6 +218,11 @@ ul.items {
     span {
       border-right: 1px solid $menuGreyText;
       padding: 0 0.7em;
+      a {
+        &.active {
+          text-decoration: underline;
+        }
+      }
       &.last {
         border-right: none;
       }
@@ -264,11 +286,11 @@ section.messages {
     padding: 15px;
     margin-bottom: 15px;
     &.error {
-	    background: $red;
-	    color: $white;
+	    border: 2px solid $red;
+	    color: $red;
 	    a {
-	      color: $white;
-	      border-bottom: 1px solid white;
+	      color: $red;
+	      border-bottom: 1px solid $red;
 	      &:hover {
 	        border-bottom: none;
 	        text-decoration: none;
@@ -279,11 +301,11 @@ section.messages {
 	    }
     }
     &.info {
-      background: $blue;
-      color: $white;
+      border: 2px solid $blue;
+      color: $blue;
 	    a {
-	      color: $white;
-	      border-bottom: 1px solid white;
+	      color: $blue;
+	      border-bottom: 1px solid $blue;
 	      &:hover {
 	        border-bottom: none;
 	        text-decoration: none;
@@ -315,7 +337,7 @@ a.cancel-remove {
   color: $red;
   background: url(../images/sprite.png) no-repeat left -506px;
   line-height: 2em;
-  padding-left: 20px;
+  padding-left: 20px !important;
   text-align: left !important;
 }
 
@@ -390,21 +412,174 @@ ul.steps.max-steps-2 {
   } 
 }
 
+/* Extra changes after holiday */
+.line {
+  border-top: 1px solid $lightGrey;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+/* Aanmelden */
+a.lost-password {
+  text-decoration: underline;
+  display: block;
+  color: $darkGrey;
+}
+
+/* Dashboard */
+.dashboard {
+  .section {
+    &.last {
+      margin-top: 0;
+    }
+    
+    ul.items {
+      margin-top: 0;
+      margin-left: 1em;
+      padding-top: 0;
+      border: none;
+      li.item {
+        border: none;
+        list-style: disc;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0.5em;
+        .title {
+          color: $black;
+        }
+        .content {
+          &.blue {
+            color: $blue;
+          }
+        }
+      }
+    }
+    .actions {
+      margin-top: 20px;
+      .col {
+        padding: 0;
+      }
+    }
+    
+  }
+}
+
+/* Mijn Bibliotheken */
+.mijn-bibliotheken {
+  ul.items {
+    li.item {
+      margin-top: 10px;
+    }
+  }
+}
+
+/* Bibliotheek-pagina */
+.library {
+
+  h2 {
+    margin-top: 0;
+    background: $blue;
+    color: $white;
+    padding: 15px 10px;
+    font-weight: lighter;
+    line-height: 1;
+  }
+  
+  ul.items {
+    border-top: 1px solid $line;
+    li.item {
+      list-style: none;
+      border-bottom: 1px solid $line;
+      .description {
+        padding-left: 0;
+	      .title {
+	        color: $blue;
+	        margin-bottom: 10px;
+	      }
+      }
+      .actions {
+        span {
+          display: block;
+	        &.extra {
+	          font-size: 10px;
+	          margin-bottom: 10px;
+	        }
+        }
+        .button {
+          width: 100%;
+          padding: 6px 0px !important;
+        }
+      }
+      &.last {
+        border-bottom: none;
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .show-details {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+	section.icons {
+	  text-align: center;
+	  ul {
+	    margin: 0;
+	    padding: 0;
+	    li {
+	      display: inline-block;
+	      text-align: center;
+	      margin: 0;
+	      padding: 0;
+	      margin-right: 30px;
+	      list-style: none;
+	      &.last {
+	        margin-right: 0;
+	      }
+	      a {
+	        font-size: 14px;
+	        span {
+	          background: url(../images/sprite.png);
+	          display: block;
+	          height: 35px;
+	          &.contact {
+	            background-position: left -667px;
+	          }
+	          &.catalog {
+	            background-position: left -705px;
+	          }
+	          &.site {
+	            background-position: left -743px;
+	          }
+	
+	        }
+	      }
+	    }
+	  }
+	}
+}
 
 
-/* Checkbox - TODO: checkbox image is missing in PSD! */
-/*input[type="checkbox"] {
-    display:none;
+/* Digitale Collecties */
+.digitale-collecties {
+  ul.items {
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-left: 20px;
+    li.item {
+      margin: 0;
+      padding: 0;
+      list-style: disc;
+      border: none;
+      margin-bottom: 20px;
+      .title {
+        color: $black;
+      }
+      .extra {
+        font-size: 14px;
+      }
+    }
+  }
 }
-input[type="checkbox"] + label span {
-    display:inline-block;
-    width:19px;
-    height:19px;
-    margin:-1px 4px 0 0;
-    vertical-align:middle;
-    background: green;
-    cursor:pointer;
-}
-input[type="checkbox"]:checked + label span {
-    background: red;
-}*/

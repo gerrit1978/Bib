@@ -51,6 +51,7 @@
   .actions {
     a {
       font-size: 1.125em !important;
+      line-height: 1.125em !important;
     }
   }
   
@@ -64,6 +65,9 @@
 	    a {
 	      height: 50px;
 	      background-position: left top;
+	    }
+	    h1, h2 {
+	      display: none;
 	    }
 	  }
   }
@@ -401,49 +405,10 @@
     color: $darkGrey !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    border: none !important;
     a {
       color: $darkGrey !important;
       border-bottom: 1px solid $darkGrey !important;
-    }
-  }
-  
-  /* Bibliotheek-pagina: icoontjes */
-  section.links {
-    text-align: center;
-    ul {
-      margin: 0;
-      padding: 0;
-      li {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        margin-right: 30px;
-        list-style: none;
-        &.last {
-          margin-right: 0;
-        }
-        a {
-          background: url(../images/sprite.png);
-          display: inline-block;
-          text-indent: -900em;
-          overflow: hidden;
-          &.site {
-            background-position: right -41px;
-            width: 34px;
-            height: 35px;
-          }
-          &.contact {
-            background-position: -424px -41px;
-            width: 34px;
-            height: 35px;
-          }
-          &.catalogus {
-            background-position: -380px -41px;
-            width: 32px;
-            height: 35px;
-          }
-        }
-      }
     }
   }
   
@@ -463,5 +428,39 @@
   select {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+  }
+  
+  /* Lost Password */
+  a.lost-password {
+    margin-top: 5px;
+  }
+  
+  /* Dashboard */
+  .dashboard {
+    .section {
+      .actions {
+        a {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  
+  /* Bibliotheek */
+  .library {
+    .section {
+      margin-bottom: 20px;
+    }
+  
+    ul.items {
+      li.item {
+        .actions {
+          margin-left: 0;
+          padding-left: 0;
+          margin-right: 0;
+          padding-right: 0;
+        }
+      }
+    }
   }
 }

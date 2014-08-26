@@ -63,6 +63,12 @@ a {
       background-color: $darkBlue;
     }
   }
+  &.grey {
+    background-color: $grey;
+    &:active, &:focus {
+      background-color: $greyActive;
+    }
+  }
   &.red {
     background-color: $red;
   }

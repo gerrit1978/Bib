@@ -37,16 +37,28 @@ jQuery(document).ready(function($) {
 	});
 	
 	/* Toggle Details betalingen en uitleenhistoriek */
-	$('a.show-details').click(function(e) {
+	$('a.show-details-betaling').click(function(e) {
 	  var details = $(this).parent().find('.details');
     details.toggle();
-    if (details.is(':visible')) {
-      $(this).find('span').html('&uarr;');
+    if (details.is(':visible')) { 
+      $(this).html('Verberg details &uarr;');   
     } else {
-      $(this).find('span').html('&darr;');
+      $(this).html('Toon details &darr;');
     }
     e.preventDefault();
     return false;
 	});
+	$('a.show-details-historiek').click(function(e) {
+	  var details = $(this).parent().find('.details');
+    details.toggle();
+    if (details.is(':visible')) { 
+      $(this).html('Verberg uitleenhistoriek &uarr;');   
+    } else {
+      $(this).html('Toon uitleenhistoriek &darr;');
+    }
+    e.preventDefault();
+    return false;
+	});
+
 	
 });

@@ -7913,66 +7913,95 @@ button.close {
     margin-bottom: 10px;
   }
 
-  /* line 23, ../sass/components/_desktop.scss */
-  #header .logo {
-    width: 67px;
-    height: 70px;
+  /* Narrow pages */
+  /* line 24, ../sass/components/_desktop.scss */
+  body.narrow-page .container {
+    width: 740px;
   }
-  /* line 26, ../sass/components/_desktop.scss */
-  #header .logo a {
-    height: 70px;
-    background-position: left -143px;
+  /* line 27, ../sass/components/_desktop.scss */
+  body.narrow-page h1.title {
+    margin-left: 0;
   }
 
   /* line 34, ../sass/components/_desktop.scss */
+  #header .logo a {
+    width: 67px;
+    height: 70px;
+    background-position: left -143px;
+    float: left;
+    margin-right: 20px;
+  }
+  /* line 41, ../sass/components/_desktop.scss */
+  #header .logo h1, #header .logo h2 {
+    display: block;
+    font-family: Arial;
+  }
+  /* line 45, ../sass/components/_desktop.scss */
+  #header .logo h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  /* line 50, ../sass/components/_desktop.scss */
+  #header .logo h2 {
+    margin: 0;
+    font-weight: lighter;
+    font-size: 17px;
+  }
+
+  /* line 59, ../sass/components/_desktop.scss */
   #main .container {
     background: white;
     margin-top: 30px;
   }
-  /* line 39, ../sass/components/_desktop.scss */
+  /* line 64, ../sass/components/_desktop.scss */
   #main .main-content {
     padding-bottom: 3em;
     margin-bottom: 1em;
   }
-  /* line 42, ../sass/components/_desktop.scss */
+  /* line 67, ../sass/components/_desktop.scss */
   #main .main-content .inner {
     background: #f4f4f4 url(../images/bg-main.png) no-repeat left top;
     padding: 20px;
   }
+  /* line 72, ../sass/components/_desktop.scss */
+  #main .main-content.dashboard .inner {
+    padding: 0;
+  }
 
-  /* line 51, ../sass/components/_desktop.scss */
+  /* line 81, ../sass/components/_desktop.scss */
   h1.title.full-width {
     margin-left: 0;
   }
 
   /* "Splash page" */
-  /* line 58, ../sass/components/_desktop.scss */
+  /* line 88, ../sass/components/_desktop.scss */
   .left {
     width: 50%;
     float: left;
   }
 
-  /* line 63, ../sass/components/_desktop.scss */
+  /* line 93, ../sass/components/_desktop.scss */
   .right {
     width: 50%;
     float: left;
   }
 
   /* Main menu */
-  /* line 71, ../sass/components/_desktop.scss */
+  /* line 101, ../sass/components/_desktop.scss */
   #main .sidebar-first ul {
-    font-size: 0.975em;
+    font-size: 0.95em;
     margin: 0;
     padding: 0;
   }
-  /* line 75, ../sass/components/_desktop.scss */
+  /* line 105, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li {
     list-style: none;
     color: #a6a6a6;
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 80, ../sass/components/_desktop.scss */
+  /* line 110, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a {
     padding-left: 5px;
     color: #444444;
@@ -7980,16 +8009,16 @@ button.close {
     height: 36px;
     overflow: hidden;
   }
-  /* line 86, ../sass/components/_desktop.scss */
+  /* line 116, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.title {
     text-transform: uppercase;
   }
-  /* line 89, ../sass/components/_desktop.scss */
+  /* line 119, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a:hover {
     background: #d9d8d8;
     text-decoration: none;
   }
-  /* line 93, ../sass/components/_desktop.scss */
+  /* line 123, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.active {
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
@@ -7997,156 +8026,156 @@ button.close {
     z-index: 100;
     width: 120%;
   }
-  /* line 101, ../sass/components/_desktop.scss */
+  /* line 131, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li.last {
     border-bottom: none;
   }
-  /* line 105, ../sass/components/_desktop.scss */
+  /* line 135, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li {
     border-bottom: none;
   }
-  /* line 107, ../sass/components/_desktop.scss */
+  /* line 137, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li a {
     padding-left: 20px;
   }
-  /* line 111, ../sass/components/_desktop.scss */
+  /* line 141, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li {
     border-bottom: none;
   }
-  /* line 112, ../sass/components/_desktop.scss */
+  /* line 142, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li a {
     padding-left: 40px;
   }
 
-  /* line 125, ../sass/components/_desktop.scss */
+  /* line 155, ../sass/components/_desktop.scss */
   h1.title {
     margin-left: 25%;
     padding-left: 10px;
   }
 
   /* Registration Steps */
-  /* line 133, ../sass/components/_desktop.scss */
+  /* line 163, ../sass/components/_desktop.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 138, ../sass/components/_desktop.scss */
+  /* line 168, ../sass/components/_desktop.scss */
   ul.steps li.step span {
     display: none;
   }
-  /* line 141, ../sass/components/_desktop.scss */
+  /* line 171, ../sass/components/_desktop.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 145, ../sass/components/_desktop.scss */
+  /* line 175, ../sass/components/_desktop.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 148, ../sass/components/_desktop.scss */
+  /* line 178, ../sass/components/_desktop.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 151, ../sass/components/_desktop.scss */
+  /* line 181, ../sass/components/_desktop.scss */
   ul.steps li.step.step-3 {
     width: 49px;
   }
-  /* line 158, ../sass/components/_desktop.scss */
+  /* line 188, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 163, ../sass/components/_desktop.scss */
+  /* line 193, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 168, ../sass/components/_desktop.scss */
+  /* line 198, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-3 a {
     background-position: -170px -55px;
   }
-  /* line 174, ../sass/components/_desktop.scss */
+  /* line 204, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 178, ../sass/components/_desktop.scss */
+  /* line 208, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 183, ../sass/components/_desktop.scss */
+  /* line 213, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 188, ../sass/components/_desktop.scss */
+  /* line 218, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-3 a {
     background-position: -170px -83px;
   }
-  /* line 194, ../sass/components/_desktop.scss */
+  /* line 224, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 198, ../sass/components/_desktop.scss */
+  /* line 228, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 203, ../sass/components/_desktop.scss */
+  /* line 233, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
-  /* line 208, ../sass/components/_desktop.scss */
+  /* line 238, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-3 a {
     background-position: -170px -112px;
   }
-  /* line 214, ../sass/components/_desktop.scss */
+  /* line 244, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-0 {
     background-position: left -472px;
   }
-  /* line 218, ../sass/components/_desktop.scss */
+  /* line 248, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-1 a {
     background-position: -63px -472px;
   }
-  /* line 223, ../sass/components/_desktop.scss */
+  /* line 253, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-2 a {
     background-position: -115px -472px;
   }
-  /* line 228, ../sass/components/_desktop.scss */
+  /* line 258, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-3 a {
     background-position: -170px -472px;
   }
 
   /* Forms */
-  /* line 239, ../sass/components/_desktop.scss */
+  /* line 269, ../sass/components/_desktop.scss */
   .form-item .form-text, .form-item .form-email, .form-item .form-password, .form-item select {
     width: 90%;
   }
-  /* line 242, ../sass/components/_desktop.scss */
+  /* line 272, ../sass/components/_desktop.scss */
   .form-item textarea {
     width: 90% !important;
   }
-  /* line 245, ../sass/components/_desktop.scss */
+  /* line 275, ../sass/components/_desktop.scss */
   .form-item span.validation {
     float: right;
     width: 30px;
     height: 30px;
   }
-  /* line 249, ../sass/components/_desktop.scss */
+  /* line 279, ../sass/components/_desktop.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 252, ../sass/components/_desktop.scss */
+  /* line 282, ../sass/components/_desktop.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 256, ../sass/components/_desktop.scss */
+  /* line 286, ../sass/components/_desktop.scss */
   .form-item .message {
     font-size: 0.9375em;
   }
-  /* line 258, ../sass/components/_desktop.scss */
+  /* line 288, ../sass/components/_desktop.scss */
   .form-item .message.error {
     color: #c6151d;
   }
 
   /* General Preloader */
-  /* line 265, ../sass/components/_desktop.scss */
+  /* line 295, ../sass/components/_desktop.scss */
   #preloader-general {
     max-width: 1140px;
     margin-left: auto;
@@ -8154,84 +8183,236 @@ button.close {
   }
 
   /* Items */
-  /* line 275, ../sass/components/_desktop.scss */
+  /* line 305, ../sass/components/_desktop.scss */
   ul.items li.item .actions a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1em !important;
   }
-  /* line 281, ../sass/components/_desktop.scss */
+  /* line 311, ../sass/components/_desktop.scss */
   ul.items li.item .actions span.late {
     font-size: 1em;
   }
 
-  /* line 290, ../sass/components/_desktop.scss */
+  /* line 320, ../sass/components/_desktop.scss */
   .section .item .value {
     font-weight: normal !important;
   }
 
-  /* line 296, ../sass/components/_desktop.scss */
+  /* line 326, ../sass/components/_desktop.scss */
   .footer {
     margin-top: 10px;
     text-align: right;
     color: #a6a6a6;
     font-size: 0.875em;
   }
-  /* line 301, ../sass/components/_desktop.scss */
+  /* line 331, ../sass/components/_desktop.scss */
   .footer a {
     color: #a6a6a6;
   }
 
-  /* line 306, ../sass/components/_desktop.scss */
+  /* line 336, ../sass/components/_desktop.scss */
   .no-bg {
     background: none !important;
+    border: none !important;
     color: #444444 !important;
   }
-  /* line 309, ../sass/components/_desktop.scss */
+  /* line 340, ../sass/components/_desktop.scss */
   .no-bg a {
     color: #444444 !important;
     border-bottom: 1px solid #444444 !important;
   }
 
-  /* line 315, ../sass/components/_desktop.scss */
+  /* line 346, ../sass/components/_desktop.scss */
   .form-submit {
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     behavior: url(pie/PIE.htc);
   }
-  /* line 317, ../sass/components/_desktop.scss */
+  /* line 348, ../sass/components/_desktop.scss */
   .form-submit.next {
     padding-right: 40px !important;
   }
-  /* line 319, ../sass/components/_desktop.scss */
+  /* line 350, ../sass/components/_desktop.scss */
   .form-submit.next.red {
     background-position: right -411px !important;
   }
-  /* line 322, ../sass/components/_desktop.scss */
+  /* line 353, ../sass/components/_desktop.scss */
   .form-submit.next.blue {
     background-position: right -411px !important;
   }
-  /* line 324, ../sass/components/_desktop.scss */
+  /* line 355, ../sass/components/_desktop.scss */
   .form-submit.next.blue:active, .form-submit.next.blue:focus {
-    background-color: #1f4f65;
+    background-color: #004e68;
   }
 
-  /* line 331, ../sass/components/_desktop.scss */
+  /* line 362, ../sass/components/_desktop.scss */
   form.narrow {
     width: 60%;
+  }
+
+  /* Profile page */
+  /* line 368, ../sass/components/_desktop.scss */
+  .section .item {
+    clear: both;
+  }
+  /* line 370, ../sass/components/_desktop.scss */
+  .section .item .label {
+    width: 20%;
+    float: left;
+    text-align: left;
+  }
+  /* line 375, ../sass/components/_desktop.scss */
+  .section .item .value {
+    float: left;
+  }
+
+  /* Lost Password */
+  /* line 382, ../sass/components/_desktop.scss */
+  a.lost-password {
+    float: right;
+    margin-right: -130px;
+    margin-top: 5px;
+  }
+
+  /* line 389, ../sass/components/_desktop.scss */
+  .lost-password.form-submit {
+    width: 105px;
+  }
+
+  /* Dashboard */
+  /* line 396, ../sass/components/_desktop.scss */
+  .dashboard .section {
+    border-bottom: 15px solid white;
+    padding: 20px;
+  }
+  /* line 399, ../sass/components/_desktop.scss */
+  .dashboard .section h3 {
+    margin-top: 0;
+  }
+  /* line 403, ../sass/components/_desktop.scss */
+  .dashboard .section .actions .col {
+    padding-right: 20px !important;
+  }
+  /* line 406, ../sass/components/_desktop.scss */
+  .dashboard .section .actions a.button {
+    width: 100%;
+    padding: 6px 10px !important;
+  }
+
+  /* Extra space right */
+  /* line 415, ../sass/components/_desktop.scss */
+  .space-left {
+    margin-left: 20px;
+  }
+
+  /* line 418, ../sass/components/_desktop.scss */
+  .space-right {
+    margin-right: 20px;
+  }
+
+  /* Bibliotheek pagina */
+  /* line 424, ../sass/components/_desktop.scss */
+  .library .inner {
+    padding: 0 !important;
+    background: white !important;
+  }
+  /* line 429, ../sass/components/_desktop.scss */
+  .library section.first {
+    background: #f4f4f4 url(../images/bg-title.png) no-repeat left top;
+    margin-bottom: 0 !important;
+  }
+  /* line 434, ../sass/components/_desktop.scss */
+  .library section.section, .library section.links {
+    background: #f4f4f4;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  /* line 440, ../sass/components/_desktop.scss */
+  .library section.betaling, .library section.historiek {
+    padding-bottom: 20px;
+  }
+  /* line 443, ../sass/components/_desktop.scss */
+  .library section.messages {
+    padding: 20px;
+  }
+  /* line 446, ../sass/components/_desktop.scss */
+  .library section.icons {
+    background: white;
+  }
+  /* line 453, ../sass/components/_desktop.scss */
+  .library ul.items li.item .actions {
+    text-align: center;
+  }
+  /* line 459, ../sass/components/_desktop.scss */
+  .library table.uitleenhistoriek {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 463, ../sass/components/_desktop.scss */
+  .library table.uitleenhistoriek tr.odd {
+    background: #e6edf7;
+  }
+  /* line 466, ../sass/components/_desktop.scss */
+  .library table.uitleenhistoriek tr td, .library table.uitleenhistoriek tr th {
+    padding: 10px 4px;
+  }
+  /* line 468, ../sass/components/_desktop.scss */
+  .library table.uitleenhistoriek tr td.title, .library table.uitleenhistoriek tr th.title {
+    width: 40%;
+  }
+  /* line 471, ../sass/components/_desktop.scss */
+  .library table.uitleenhistoriek tr td.dates, .library table.uitleenhistoriek tr td.library, .library table.uitleenhistoriek tr th.dates, .library table.uitleenhistoriek tr th.library {
+    width: 30%;
+  }
+  /* line 478, ../sass/components/_desktop.scss */
+  .library table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 482, ../sass/components/_desktop.scss */
+  .library table tr.odd {
+    background: #e6edf7;
+  }
+  /* line 485, ../sass/components/_desktop.scss */
+  .library table tr td, .library table tr th {
+    padding: 10px 4px;
+  }
+  /* line 494, ../sass/components/_desktop.scss */
+  .library table.kosten tr td.title, .library table.kosten tr th.title {
+    width: 60%;
+  }
+  /* line 497, ../sass/components/_desktop.scss */
+  .library table.kosten tr td.type, .library table.kosten tr td.date, .library table.kosten tr td.bedrag, .library table.kosten tr th.type, .library table.kosten tr th.date, .library table.kosten tr th.bedrag {
+    width: 12%;
+  }
+  /* line 507, ../sass/components/_desktop.scss */
+  .library table.uitleenhistoriek tr td.title, .library table.uitleenhistoriek tr th.title {
+    width: 40%;
+  }
+  /* line 510, ../sass/components/_desktop.scss */
+  .library table.uitleenhistoriek tr td.dates, .library table.uitleenhistoriek tr td.library, .library table.uitleenhistoriek tr th.dates, .library table.uitleenhistoriek tr th.library {
+    width: 30%;
+  }
+  /* line 518, ../sass/components/_desktop.scss */
+  .library a.download {
+    display: block;
+    margin-left: 70%;
+    width: 30%;
   }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 340, ../sass/components/_desktop.scss */
+  /* line 530, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 345, ../sass/components/_desktop.scss */
+  /* line 535, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -8294,29 +8475,34 @@ button.close {
   /* line 52, ../sass/components/_smartphone.scss */
   .actions a {
     font-size: 1.125em !important;
+    line-height: 1.125em !important;
   }
 
   /* Layout */
-  /* line 60, ../sass/components/_smartphone.scss */
+  /* line 61, ../sass/components/_smartphone.scss */
   #header .logo {
     float: right;
     width: 50px;
     height: 50px;
   }
-  /* line 64, ../sass/components/_smartphone.scss */
+  /* line 65, ../sass/components/_smartphone.scss */
   #header .logo a {
     height: 50px;
     background-position: left top;
   }
+  /* line 69, ../sass/components/_smartphone.scss */
+  #header .logo h1, #header .logo h2 {
+    display: none;
+  }
 
-  /* line 71, ../sass/components/_smartphone.scss */
+  /* line 75, ../sass/components/_smartphone.scss */
   .resp-line {
     border-top: 1px dashed #a6a6a6;
     margin-top: 20px;
     position: relative;
     text-align: center;
   }
-  /* line 76, ../sass/components/_smartphone.scss */
+  /* line 80, ../sass/components/_smartphone.scss */
   .resp-line span {
     display: block;
     margin-left: auto;
@@ -8328,96 +8514,96 @@ button.close {
   }
 
   /* Registration Steps */
-  /* line 90, ../sass/components/_smartphone.scss */
+  /* line 94, ../sass/components/_smartphone.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 95, ../sass/components/_smartphone.scss */
+  /* line 99, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 99, ../sass/components/_smartphone.scss */
+  /* line 103, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 102, ../sass/components/_smartphone.scss */
+  /* line 106, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 105, ../sass/components/_smartphone.scss */
+  /* line 109, ../sass/components/_smartphone.scss */
   ul.steps li.step.step-3 {
     width: 49px;
   }
-  /* line 111, ../sass/components/_smartphone.scss */
+  /* line 115, ../sass/components/_smartphone.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 116, ../sass/components/_smartphone.scss */
+  /* line 120, ../sass/components/_smartphone.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 121, ../sass/components/_smartphone.scss */
+  /* line 125, ../sass/components/_smartphone.scss */
   ul.steps.steps-0 li.step-3 a {
     background-position: -170px -55px;
   }
-  /* line 127, ../sass/components/_smartphone.scss */
+  /* line 131, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 131, ../sass/components/_smartphone.scss */
+  /* line 135, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 136, ../sass/components/_smartphone.scss */
+  /* line 140, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 141, ../sass/components/_smartphone.scss */
+  /* line 145, ../sass/components/_smartphone.scss */
   ul.steps.steps-1 li.step-3 a {
     background-position: -170px -83px;
   }
-  /* line 147, ../sass/components/_smartphone.scss */
+  /* line 151, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 151, ../sass/components/_smartphone.scss */
+  /* line 155, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 156, ../sass/components/_smartphone.scss */
+  /* line 160, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
-  /* line 161, ../sass/components/_smartphone.scss */
+  /* line 165, ../sass/components/_smartphone.scss */
   ul.steps.steps-2 li.step-3 a {
     background-position: -170px -112px;
   }
-  /* line 167, ../sass/components/_smartphone.scss */
+  /* line 171, ../sass/components/_smartphone.scss */
   ul.steps.steps-3 li.step-0 {
     background-position: left -472px;
   }
-  /* line 171, ../sass/components/_smartphone.scss */
+  /* line 175, ../sass/components/_smartphone.scss */
   ul.steps.steps-3 li.step-1 a {
     background-position: -63px -472px;
   }
-  /* line 176, ../sass/components/_smartphone.scss */
+  /* line 180, ../sass/components/_smartphone.scss */
   ul.steps.steps-3 li.step-2 a {
     background-position: -115px -472px;
   }
-  /* line 181, ../sass/components/_smartphone.scss */
+  /* line 185, ../sass/components/_smartphone.scss */
   ul.steps.steps-3 li.step-3 a {
     background-position: -170px -472px;
   }
 
   /* Forms */
-  /* line 190, ../sass/components/_smartphone.scss */
+  /* line 194, ../sass/components/_smartphone.scss */
   .form-item {
     position: relative;
   }
-  /* line 192, ../sass/components/_smartphone.scss */
+  /* line 196, ../sass/components/_smartphone.scss */
   .form-item span.validation {
     display: inline-block;
     width: 30px;
@@ -8425,28 +8611,28 @@ button.close {
     position: absolute;
     right: 0;
   }
-  /* line 198, ../sass/components/_smartphone.scss */
+  /* line 202, ../sass/components/_smartphone.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 201, ../sass/components/_smartphone.scss */
+  /* line 205, ../sass/components/_smartphone.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 205, ../sass/components/_smartphone.scss */
+  /* line 209, ../sass/components/_smartphone.scss */
   .form-item .message {
     font-size: 0.875em;
   }
-  /* line 207, ../sass/components/_smartphone.scss */
+  /* line 211, ../sass/components/_smartphone.scss */
   .form-item .message.error {
     color: #c6151d;
   }
-  /* line 212, ../sass/components/_smartphone.scss */
+  /* line 216, ../sass/components/_smartphone.scss */
   .form-item.form-item-checkbox input {
     width: 8%;
     float: left;
   }
-  /* line 217, ../sass/components/_smartphone.scss */
+  /* line 221, ../sass/components/_smartphone.scss */
   .form-item.form-item-checkbox label {
     width: 90%;
     float: left;
@@ -8454,7 +8640,7 @@ button.close {
   }
 
   /* Actions in item list */
-  /* line 229, ../sass/components/_smartphone.scss */
+  /* line 233, ../sass/components/_smartphone.scss */
   ul.items li.item .actions a {
     display: block;
     width: 100%;
@@ -8462,7 +8648,7 @@ button.close {
   }
 
   /* The menu */
-  /* line 240, ../sass/components/_smartphone.scss */
+  /* line 244, ../sass/components/_smartphone.scss */
   #main .sidebar-first {
     position: absolute;
     top: 20px;
@@ -8472,7 +8658,7 @@ button.close {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 249, ../sass/components/_smartphone.scss */
+  /* line 253, ../sass/components/_smartphone.scss */
   #main .sidebar-first .icon a {
     color: #c6151d;
     padding-left: 4em;
@@ -8483,7 +8669,7 @@ button.close {
     height: 26px;
     line-height: 26px;
   }
-  /* line 260, ../sass/components/_smartphone.scss */
+  /* line 264, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner {
     display: none;
     position: relative;
@@ -8492,13 +8678,13 @@ button.close {
     color: #d9d8d8;
     /*         background: white; */
   }
-  /* line 267, ../sass/components/_smartphone.scss */
+  /* line 271, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner .close-menu {
     position: absolute;
     top: 5px;
     right: 10%;
   }
-  /* line 271, ../sass/components/_smartphone.scss */
+  /* line 275, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner .close-menu a {
     display: block;
     width: 35px;
@@ -8507,18 +8693,18 @@ button.close {
     text-indent: -999em;
     overflow: hidden;
   }
-  /* line 280, ../sass/components/_smartphone.scss */
+  /* line 284, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner a {
     color: #d9d8d8;
     display: block;
   }
-  /* line 284, ../sass/components/_smartphone.scss */
+  /* line 288, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul {
     margin: 0;
     padding: 0;
     width: 90%;
   }
-  /* line 288, ../sass/components/_smartphone.scss */
+  /* line 292, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li {
     background: #444444;
     list-style: none;
@@ -8526,83 +8712,83 @@ button.close {
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 294, ../sass/components/_smartphone.scss */
+  /* line 298, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.first {
     padding-top: 10px;
   }
-  /* line 298, ../sass/components/_smartphone.scss */
+  /* line 302, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.resp-true.first {
     padding-left: 5px;
   }
-  /* line 302, ../sass/components/_smartphone.scss */
+  /* line 306, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.resp-last {
     border-bottom: none;
   }
-  /* line 306, ../sass/components/_smartphone.scss */
+  /* line 310, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li.inline a {
     display: inline-block;
     color: #a6a6a6;
     font-size: 0.75em;
     text-transform: uppercase;
   }
-  /* line 313, ../sass/components/_smartphone.scss */
+  /* line 317, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a {
     padding-left: 5px;
   }
-  /* line 315, ../sass/components/_smartphone.scss */
+  /* line 319, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.title {
     text-transform: uppercase;
     font-weight: 600;
   }
-  /* line 319, ../sass/components/_smartphone.scss */
+  /* line 323, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a:hover {
     background: #d9d8d8;
     color: #363636;
     text-decoration: none;
   }
-  /* line 324, ../sass/components/_smartphone.scss */
+  /* line 328, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.active {
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
     width: 108%;
   }
-  /* line 330, ../sass/components/_smartphone.scss */
+  /* line 334, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul {
     width: 100%;
   }
-  /* line 332, ../sass/components/_smartphone.scss */
+  /* line 336, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li {
     border-bottom: none;
   }
-  /* line 334, ../sass/components/_smartphone.scss */
+  /* line 338, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li a {
     padding-left: 15px;
   }
-  /* line 339, ../sass/components/_smartphone.scss */
+  /* line 343, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li ul li ul li a {
     padding-left: 30px;
   }
 
   /* Info text */
-  /* line 352, ../sass/components/_smartphone.scss */
+  /* line 356, ../sass/components/_smartphone.scss */
   #info-text {
     margin-top: 20px;
     display: none;
   }
 
   /* Popups */
-  /* line 358, ../sass/components/_smartphone.scss */
+  /* line 362, ../sass/components/_smartphone.scss */
   .ui-dialog {
     display: none !important;
   }
 
-  /* line 362, ../sass/components/_smartphone.scss */
+  /* line 366, ../sass/components/_smartphone.scss */
   .ui-widget-overlay {
     display: none !important;
   }
 
   /* General preloader */
-  /* line 367, ../sass/components/_smartphone.scss */
+  /* line 371, ../sass/components/_smartphone.scss */
   #preloader-general {
     background: #f3f3f3;
     position: absolute;
@@ -8613,7 +8799,7 @@ button.close {
   }
 
   /* Small preloader */
-  /* line 377, ../sass/components/_smartphone.scss */
+  /* line 381, ../sass/components/_smartphone.scss */
   .loader {
     position: absolute;
     top: 0;
@@ -8621,105 +8807,83 @@ button.close {
   }
 
   /* Bib details */
-  /* line 384, ../sass/components/_smartphone.scss */
+  /* line 388, ../sass/components/_smartphone.scss */
   .bib-details {
     display: none;
   }
 
   /* Footer */
-  /* line 389, ../sass/components/_smartphone.scss */
+  /* line 393, ../sass/components/_smartphone.scss */
   .footer {
     margin-top: 20px;
     font-size: 0.875em;
   }
-  /* line 392, ../sass/components/_smartphone.scss */
+  /* line 396, ../sass/components/_smartphone.scss */
   .footer.col-md-12 {
     padding: 0;
     text-align: center;
   }
 
   /* Mijn bibliotheken: gebruikersgegevens */
-  /* line 399, ../sass/components/_smartphone.scss */
+  /* line 403, ../sass/components/_smartphone.scss */
   .no-bg {
     background: none !important;
     color: #444444 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    border: none !important;
   }
-  /* line 404, ../sass/components/_smartphone.scss */
+  /* line 409, ../sass/components/_smartphone.scss */
   .no-bg a {
     color: #444444 !important;
     border-bottom: 1px solid #444444 !important;
   }
 
-  /* Bibliotheek-pagina: icoontjes */
-  /* line 411, ../sass/components/_smartphone.scss */
-  section.links {
-    text-align: center;
-  }
-  /* line 413, ../sass/components/_smartphone.scss */
-  section.links ul {
-    margin: 0;
-    padding: 0;
-  }
-  /* line 416, ../sass/components/_smartphone.scss */
-  section.links ul li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    margin-right: 30px;
-    list-style: none;
-  }
-  /* line 422, ../sass/components/_smartphone.scss */
-  section.links ul li.last {
-    margin-right: 0;
-  }
-  /* line 425, ../sass/components/_smartphone.scss */
-  section.links ul li a {
-    background: url(../images/sprite.png);
-    display: inline-block;
-    text-indent: -900em;
-    overflow: hidden;
-  }
-  /* line 430, ../sass/components/_smartphone.scss */
-  section.links ul li a.site {
-    background-position: right -41px;
-    width: 34px;
-    height: 35px;
-  }
-  /* line 435, ../sass/components/_smartphone.scss */
-  section.links ul li a.contact {
-    background-position: -424px -41px;
-    width: 34px;
-    height: 35px;
-  }
-  /* line 440, ../sass/components/_smartphone.scss */
-  section.links ul li a.catalogus {
-    background-position: -380px -41px;
-    width: 32px;
-    height: 35px;
-  }
-
   /* Input velden */
-  /* line 451, ../sass/components/_smartphone.scss */
+  /* line 416, ../sass/components/_smartphone.scss */
   input#library {
     width: 90% !important;
   }
 
-  /* line 455, ../sass/components/_smartphone.scss */
+  /* line 420, ../sass/components/_smartphone.scss */
   ul.ui-autocomplete {
     width: 90% !important;
   }
 
-  /* line 459, ../sass/components/_smartphone.scss */
+  /* line 424, ../sass/components/_smartphone.scss */
   textarea {
     width: 100% !important;
   }
 
-  /* line 463, ../sass/components/_smartphone.scss */
+  /* line 428, ../sass/components/_smartphone.scss */
   select {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+  }
+
+  /* Lost Password */
+  /* line 434, ../sass/components/_smartphone.scss */
+  a.lost-password {
+    margin-top: 5px;
+  }
+
+  /* Dashboard */
+  /* line 442, ../sass/components/_smartphone.scss */
+  .dashboard .section .actions a {
+    margin-bottom: 20px;
+  }
+
+  /* Bibliotheek */
+  /* line 451, ../sass/components/_smartphone.scss */
+  .library .section {
+    margin-bottom: 20px;
+  }
+  /* line 457, ../sass/components/_smartphone.scss */
+  .library ul.items li.item .actions {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
   }
 }
 /* HTML elements */
@@ -8800,17 +8964,25 @@ a {
 }
 /* line 62, ../sass/components/_elements.scss */
 .form-submit.blue:active, .form-submit.blue:focus {
-  background-color: #1f4f65;
+  background-color: #004e68;
 }
 /* line 66, ../sass/components/_elements.scss */
+.form-submit.grey {
+  background-color: #7a868d;
+}
+/* line 68, ../sass/components/_elements.scss */
+.form-submit.grey:active, .form-submit.grey:focus {
+  background-color: #545e64;
+}
+/* line 72, ../sass/components/_elements.scss */
 .form-submit.red {
   background-color: #c6151d;
 }
-/* line 70, ../sass/components/_elements.scss */
+/* line 76, ../sass/components/_elements.scss */
 .form-submit.next.red {
   background: #c6151d url(../images/sprite.png) no-repeat right -406px;
 }
-/* line 73, ../sass/components/_elements.scss */
+/* line 79, ../sass/components/_elements.scss */
 .form-submit.next.blue {
   background: #018bb9 url(../images/sprite.png) no-repeat right -406px;
 }
@@ -8883,29 +9055,38 @@ a.inline {
 }
 /* line 66, ../sass/styles.scss */
 .button.blue:active, .button.blue:focus {
-  background: #1f4f65 !important;
+  background: #004e68 !important;
 }
 /* line 70, ../sass/styles.scss */
 .button.red {
   color: white;
   background: #c6151d;
 }
-/* line 75, ../sass/styles.scss */
+/* line 74, ../sass/styles.scss */
+.button.grey {
+  color: white;
+  background: #7a868d;
+}
+/* line 77, ../sass/styles.scss */
+.button.grey:active, .button.grey:focus {
+  background: #545e64;
+}
+/* line 82, ../sass/styles.scss */
 .button.next.red {
   background: #c6151d url(../images/sprite.png) right top;
 }
-/* line 78, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 .button.next.blue {
   background: #018bb9 url(../images/sprite.png) right top;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 91, ../sass/styles.scss */
 ul.steps {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
 }
-/* line 88, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 ul.steps li.step {
   margin: 0;
   padding: 0;
@@ -8920,51 +9101,55 @@ ul.steps li.step {
   font-weight: 800;
   color: white;
 }
-/* line 101, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 ul.steps li.step a {
   color: white;
 }
-/* line 103, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 ul.steps li.step a:hover {
   text-decoration: none;
 }
 
 /* General section styles */
-/* line 112, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 .section .item {
   margin-bottom: 0.5em;
 }
-/* line 114, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .section .item .label {
-  color: black;
+  color: #333333;
   padding: 0;
   margin: 0;
   font-size: 1em;
   font-weight: 400;
 }
-/* line 122, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 .section .item .value {
-  color: #018bb9;
+  color: #7a868d;
   font-weight: 600;
 }
-/* line 127, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
+.section .item.last {
+  margin-bottom: 40px;
+}
+/* line 137, ../sass/styles.scss */
 .section.last {
   margin-top: 40px;
 }
 
 /* Specific section styles */
-/* line 134, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .section.remove {
-  border-top: 1px dotted #a6a6a6;
+  border-top: 1px solid #d1d1d1;
   padding-top: 20px;
 }
-/* line 137, ../sass/styles.scss */
+/* line 147, ../sass/styles.scss */
 .section.remove a {
   display: block;
 }
 
 /* Lijst met items */
-/* line 144, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 ul.items {
   margin: 0;
   padding: 0;
@@ -8972,80 +9157,93 @@ ul.items {
   padding-top: 1em;
   border-top: 1px dotted #a6a6a6;
 }
-/* line 150, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 ul.items li.item {
   position: relative;
   padding-bottom: 1em;
   list-style: none;
   border-bottom: 1px dotted #a6a6a6;
 }
-/* line 155, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 ul.items li.item .title {
   color: #018bb9;
 }
-/* line 158, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
 ul.items li.item .lid {
   color: black;
   margin-bottom: 10px;
 }
-/* line 164, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 ul.items li.item .actions {
   margin-top: 0.5em;
 }
-/* line 166, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 ul.items li.item .actions a {
   text-align: center;
-  line-height: 2em;
   font-size: 1em;
+  line-height: 1;
+  padding: 6px 12px;
   font-weight: 400;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 172, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 ul.items li.item .actions a.blue {
   background: #018bb9;
   color: white;
-  border: 2px solid #018bb9;
 }
-/* line 176, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 ul.items li.item .actions a.blue:focus, ul.items li.item .actions a.blue:active {
-  background: #1f4f65;
+  background: #004e68;
 }
-/* line 180, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 ul.items li.item .actions a.red {
   background: #c6151d;
   color: white;
   border: 2px solid #c6151d;
 }
+/* line 195, ../sass/styles.scss */
+ul.items li.item .actions a.grey {
+  background: #7a868d;
+  color: white;
+}
+/* line 198, ../sass/styles.scss */
+ul.items li.item .actions a.grey:focus, ul.items li.item .actions a.grey:active {
+  background: #545e64;
+}
 
 /* Secondary Menu */
-/* line 191, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 #secondary-menu {
   background: #363636;
   color: #d9d8d8;
   height: 30px;
   line-height: 30px;
 }
-/* line 196, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 #secondary-menu a {
   color: #d9d8d8;
 }
-/* line 199, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 #secondary-menu .container {
   text-align: right;
 }
-/* line 201, ../sass/styles.scss */
+/* line 218, ../sass/styles.scss */
 #secondary-menu .container span {
   border-right: 1px solid #d9d8d8;
   padding: 0 0.7em;
 }
-/* line 204, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
+#secondary-menu .container span a.active {
+  text-decoration: underline;
+}
+/* line 226, ../sass/styles.scss */
 #secondary-menu .container span.last {
   border-right: none;
 }
-/* line 207, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 #secondary-menu .container span.action {
   background: #646464;
   padding-right: 0.7em;
@@ -9055,12 +9253,12 @@ ul.items li.item .actions a.red {
 }
 
 /* General Preloader */
-/* line 219, ../sass/styles.scss */
+/* line 241, ../sass/styles.scss */
 #preloader-general {
   display: none;
   text-align: center;
 }
-/* line 222, ../sass/styles.scss */
+/* line 244, ../sass/styles.scss */
 #preloader-general span {
   display: inline-block;
   font-size: 1.25em;
@@ -9071,12 +9269,12 @@ ul.items li.item .actions a.red {
 }
 
 /* Small Preloader */
-/* line 233, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 .loader {
   display: none;
   text-align: center;
 }
-/* line 236, ../sass/styles.scss */
+/* line 258, ../sass/styles.scss */
 .loader span {
   display: inline-block;
   width: 35px;
@@ -9085,27 +9283,27 @@ ul.items li.item .actions a.red {
 }
 
 /* Bib page */
-/* line 245, ../sass/styles.scss */
+/* line 267, ../sass/styles.scss */
 span.late {
   color: #c6151d;
 }
 
-/* line 249, ../sass/styles.scss */
+/* line 271, ../sass/styles.scss */
 section.bib-details {
   margin-bottom: 15px;
 }
-/* line 251, ../sass/styles.scss */
+/* line 273, ../sass/styles.scss */
 section.bib-details a {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 255, ../sass/styles.scss */
+/* line 277, ../sass/styles.scss */
 section.bib-details span {
   color: #444444;
 }
 
 /* Messages */
-/* line 262, ../sass/styles.scss */
+/* line 284, ../sass/styles.scss */
 section.messages .message {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -9114,148 +9312,312 @@ section.messages .message {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 266, ../sass/styles.scss */
+/* line 288, ../sass/styles.scss */
 section.messages .message.error {
-  background: #c6151d;
-  color: white;
+  border: 2px solid #c6151d;
+  color: #c6151d;
 }
-/* line 269, ../sass/styles.scss */
+/* line 291, ../sass/styles.scss */
 section.messages .message.error a {
-  color: white;
-  border-bottom: 1px solid white;
+  color: #c6151d;
+  border-bottom: 1px solid #c6151d;
 }
-/* line 272, ../sass/styles.scss */
+/* line 294, ../sass/styles.scss */
 section.messages .message.error a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 277, ../sass/styles.scss */
+/* line 299, ../sass/styles.scss */
 section.messages .message.error .form-submit {
   color: #c6151d;
 }
-/* line 281, ../sass/styles.scss */
+/* line 303, ../sass/styles.scss */
 section.messages .message.info {
-  background: #018bb9;
-  color: white;
+  border: 2px solid #018bb9;
+  color: #018bb9;
 }
-/* line 284, ../sass/styles.scss */
+/* line 306, ../sass/styles.scss */
 section.messages .message.info a {
-  color: white;
-  border-bottom: 1px solid white;
+  color: #018bb9;
+  border-bottom: 1px solid #018bb9;
 }
-/* line 287, ../sass/styles.scss */
+/* line 309, ../sass/styles.scss */
 section.messages .message.info a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 292, ../sass/styles.scss */
+/* line 314, ../sass/styles.scss */
 section.messages .message.info .form-submit {
   color: #018bb9;
 }
-/* line 296, ../sass/styles.scss */
+/* line 318, ../sass/styles.scss */
 section.messages .message .form-submit {
   background: white;
   margin: 10px 0;
 }
 
 /* Link (no button) */
-/* line 304, ../sass/styles.scss */
+/* line 326, ../sass/styles.scss */
 a.link {
   border: none !important;
 }
 
-/* line 308, ../sass/styles.scss */
+/* line 330, ../sass/styles.scss */
 a.previous {
   min-width: 250px;
   font-weight: bolder;
 }
 
 /* Remove - cancel stuff */
-/* line 314, ../sass/styles.scss */
+/* line 336, ../sass/styles.scss */
 a.cancel-remove {
   color: #c6151d;
   background: url(../images/sprite.png) no-repeat left -506px;
   line-height: 2em;
-  padding-left: 20px;
+  padding-left: 20px !important;
   text-align: left !important;
 }
 
 /* Voeg een lidmaatschap toe - TODO: test! */
-/* line 323, ../sass/styles.scss */
+/* line 345, ../sass/styles.scss */
 input#library {
   width: 80% !important;
 }
 
 /* Voeg lidmaatschap toe steps */
-/* line 330, ../sass/styles.scss */
+/* line 352, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step a {
   background: url(../images/sprite.png) no-repeat left -554px;
   display: block;
   height: 28px;
 }
-/* line 335, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step span {
   display: none;
 }
-/* line 338, ../sass/styles.scss */
+/* line 360, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step.step-0 {
   width: 63px;
   background: url(../images/sprite.png) no-repeat left -554px;
 }
-/* line 342, ../sass/styles.scss */
+/* line 364, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step.step-1 {
   width: 52px;
 }
-/* line 345, ../sass/styles.scss */
+/* line 367, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step.step-2 {
   width: 55px;
 }
-/* line 351, ../sass/styles.scss */
+/* line 373, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-0 li.step-1 a {
   background-position: -63px -554px;
 }
-/* line 356, ../sass/styles.scss */
+/* line 378, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-0 li.step-2 a {
   background-position: -115px -554px;
 }
-/* line 362, ../sass/styles.scss */
+/* line 384, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-1 li.step-0 {
   background-position: left -582px;
 }
-/* line 366, ../sass/styles.scss */
+/* line 388, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-1 li.step-1 a {
   background-position: -63px -582px;
 }
-/* line 371, ../sass/styles.scss */
+/* line 393, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-1 li.step-2 a {
   background-position: -115px -582px;
 }
-/* line 377, ../sass/styles.scss */
+/* line 399, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-2 li.step-0 {
   background-position: left -611px;
 }
-/* line 381, ../sass/styles.scss */
+/* line 403, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-2 li.step-1 a {
   background-position: -63px -611px;
 }
-/* line 386, ../sass/styles.scss */
+/* line 408, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-2 li.step-2 a {
   background-position: -115px -611px;
 }
 
-/* Checkbox - TODO: checkbox image is missing in PSD! */
-/*input[type="checkbox"] {
-    display:none;
+/* Extra changes after holiday */
+/* line 416, ../sass/styles.scss */
+.line {
+  border-top: 1px solid #a6a6a6;
+  margin-top: 15px;
+  padding-top: 15px;
 }
-input[type="checkbox"] + label span {
-    display:inline-block;
-    width:19px;
-    height:19px;
-    margin:-1px 4px 0 0;
-    vertical-align:middle;
-    background: green;
-    cursor:pointer;
+
+/* Aanmelden */
+/* line 423, ../sass/styles.scss */
+a.lost-password {
+  text-decoration: underline;
+  display: block;
+  color: #444444;
 }
-input[type="checkbox"]:checked + label span {
-    background: red;
-}*/
+
+/* Dashboard */
+/* line 432, ../sass/styles.scss */
+.dashboard .section.last {
+  margin-top: 0;
+}
+/* line 436, ../sass/styles.scss */
+.dashboard .section ul.items {
+  margin-top: 0;
+  margin-left: 1em;
+  padding-top: 0;
+  border: none;
+}
+/* line 441, ../sass/styles.scss */
+.dashboard .section ul.items li.item {
+  border: none;
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+/* line 447, ../sass/styles.scss */
+.dashboard .section ul.items li.item .title {
+  color: black;
+}
+/* line 451, ../sass/styles.scss */
+.dashboard .section ul.items li.item .content.blue {
+  color: #018bb9;
+}
+/* line 457, ../sass/styles.scss */
+.dashboard .section .actions {
+  margin-top: 20px;
+}
+/* line 459, ../sass/styles.scss */
+.dashboard .section .actions .col {
+  padding: 0;
+}
+
+/* Mijn Bibliotheken */
+/* line 470, ../sass/styles.scss */
+.mijn-bibliotheken ul.items li.item {
+  margin-top: 10px;
+}
+
+/* Bibliotheek-pagina */
+/* line 479, ../sass/styles.scss */
+.library h2 {
+  margin-top: 0;
+  background: #018bb9;
+  color: white;
+  padding: 15px 10px;
+  font-weight: lighter;
+  line-height: 1;
+}
+/* line 488, ../sass/styles.scss */
+.library ul.items {
+  border-top: 1px solid #d1d1d1;
+}
+/* line 490, ../sass/styles.scss */
+.library ul.items li.item {
+  list-style: none;
+  border-bottom: 1px solid #d1d1d1;
+}
+/* line 493, ../sass/styles.scss */
+.library ul.items li.item .description {
+  padding-left: 0;
+}
+/* line 495, ../sass/styles.scss */
+.library ul.items li.item .description .title {
+  color: #018bb9;
+  margin-bottom: 10px;
+}
+/* line 501, ../sass/styles.scss */
+.library ul.items li.item .actions span {
+  display: block;
+}
+/* line 503, ../sass/styles.scss */
+.library ul.items li.item .actions span.extra {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+/* line 508, ../sass/styles.scss */
+.library ul.items li.item .actions .button {
+  width: 100%;
+  padding: 6px 0px !important;
+}
+/* line 513, ../sass/styles.scss */
+.library ul.items li.item.last {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+/* line 520, ../sass/styles.scss */
+.library .show-details {
+  display: block;
+  padding-bottom: 10px;
+}
+/* line 525, ../sass/styles.scss */
+.library section.icons {
+  text-align: center;
+}
+/* line 527, ../sass/styles.scss */
+.library section.icons ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 530, ../sass/styles.scss */
+.library section.icons ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  list-style: none;
+}
+/* line 537, ../sass/styles.scss */
+.library section.icons ul li.last {
+  margin-right: 0;
+}
+/* line 540, ../sass/styles.scss */
+.library section.icons ul li a {
+  font-size: 14px;
+}
+/* line 542, ../sass/styles.scss */
+.library section.icons ul li a span {
+  background: url(../images/sprite.png);
+  display: block;
+  height: 35px;
+}
+/* line 546, ../sass/styles.scss */
+.library section.icons ul li a span.contact {
+  background-position: left -667px;
+}
+/* line 549, ../sass/styles.scss */
+.library section.icons ul li a span.catalog {
+  background-position: left -705px;
+}
+/* line 552, ../sass/styles.scss */
+.library section.icons ul li a span.site {
+  background-position: left -743px;
+}
+
+/* Digitale Collecties */
+/* line 566, ../sass/styles.scss */
+.digitale-collecties ul.items {
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-left: 20px;
+}
+/* line 571, ../sass/styles.scss */
+.digitale-collecties ul.items li.item {
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+  border: none;
+  margin-bottom: 20px;
+}
+/* line 577, ../sass/styles.scss */
+.digitale-collecties ul.items li.item .title {
+  color: black;
+}
+/* line 580, ../sass/styles.scss */
+.digitale-collecties ul.items li.item .extra {
+  font-size: 14px;
+}

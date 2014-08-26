@@ -18,14 +18,39 @@
     padding-right: 3em;
     margin-bottom: 10px;
   }
+  
+  /* Narrow pages */
+  body.narrow-page {
+    .container {
+      width: 740px;
+    }
+    h1.title {
+      margin-left: 0;
+    }
+  }
 
   #header {
 	  .logo {
-	    width: 67px;
-	    height: 70px;
 	    a {
+	      width: 67px;
 	      height: 70px;
 	      background-position: left -143px;
+	      float: left;
+	      margin-right: 20px;
+	    }
+	    h1, h2 {
+	      display: block;
+	      font-family: Arial;
+	    }
+	    h1 {
+	      margin: 0;
+	      font-weight: bold;
+	      font-size: 40px;
+	    }
+	    h2 {
+	      margin: 0;
+	      font-weight: lighter;
+	      font-size: 17px;
 	    }
 	  }
   }
@@ -42,6 +67,11 @@
 	    .inner {
 	      background: #f4f4f4 url(../images/bg-main.png) no-repeat left top;
 	      padding: 20px;
+	    }
+	    &.dashboard {
+	      .inner {
+	        padding: 0;
+	      }
 	    }
 	  }
   }
@@ -69,7 +99,7 @@
   #main {
     .sidebar-first {
       ul {
-        font-size: 0.975em;
+        font-size: 0.95em;
         margin: 0;
         padding: 0;
         li {
@@ -305,6 +335,7 @@
   
   .no-bg {
     background: none !important;
+    border: none !important;
     color: $darkGrey !important;
     a {
       color: $darkGrey !important;
@@ -331,7 +362,166 @@
   form.narrow {
     width: 60%;
   }
+  
+  /* Profile page */
+  .section {
+	  .item {
+	    clear: both;
+			.label {
+        width: 20%;
+        float: left;
+        text-align: left;
+			}
+			.value {
+			  float: left;
+	    }
+	  }
+  }
 
+  /* Lost Password */
+  a.lost-password {
+    float: right;
+    margin-right: -130px;
+    margin-top: 5px;
+  }
+  
+  .lost-password {
+    &.form-submit {
+      width: 105px;
+    }
+  }
+  
+  /* Dashboard */
+  .dashboard {
+    .section {
+      border-bottom: 15px solid white;
+      padding: 20px; 
+      h3 {
+        margin-top: 0;
+      }
+      .actions {
+        .col {
+          padding-right: 20px !important;
+        }
+        a.button {
+          width: 100%;
+          padding: 6px 10px !important;
+        }
+      }
+    }
+  }
+  
+  /* Extra space right */
+  .space-left {
+    margin-left: 20px;
+  }
+  .space-right {
+    margin-right: 20px;
+  }
+  
+  /* Bibliotheek pagina */
+  .library {
+    .inner {
+      padding: 0 !important;
+      background: white !important;
+    }
+    section {
+      &.first {
+	      background: $bgMainContent url(../images/bg-title.png) no-repeat left top;
+        margin-bottom: 0 !important;
+      }
+    }
+    section.section, section.links {
+      background: #f4f4f4;
+      margin-bottom: 15px;
+      padding: 20px;
+      padding-bottom: 0;
+    }
+    section.betaling, section.historiek {
+      padding-bottom: 20px;
+    }
+    section.messages {
+      padding: 20px;
+    }
+    section.icons {
+      background: white;
+    }
+    
+    
+    ul.items {
+      li.item {
+        .actions {
+          text-align: center;
+        }
+      }
+    }
+    
+    table.uitleenhistoriek {
+      width: 100%;
+      margin-bottom: 20px;
+      tr {
+        &.odd {
+          background: $lightBlue;
+        }
+        td, th {
+          padding: 10px 4px;
+          &.title {
+            width: 40%;
+          }
+          &.dates, &.library {
+            width: 30%;
+          }
+        }
+      }
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      tr {
+        &.odd {
+          background: $lightBlue;
+        }
+        td, th {
+          padding: 10px 4px;
+        }
+      }
+    }
+
+    table.kosten {
+      tr {
+        td, th {
+          &.title {
+            width: 60%;
+          }
+          &.type, &.date, &.bedrag {
+            width: 12%;
+          }
+        }
+      }
+    }
+
+    table.uitleenhistoriek {
+      tr {
+        td, th {
+          &.title {
+            width: 40%;
+          }
+          &.dates, &.library {
+            width: 30%;
+          }
+        }
+      }
+    }
+
+    
+    a.download {
+      display: block;
+      margin-left: 70%;
+      width: 30%;
+    }
+    
+  }
   
 }
 
