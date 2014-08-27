@@ -78,6 +78,9 @@ a {
     }
     &.blue {
       background: $blue url(../images/sprite.png) no-repeat right -406px;
+      &:active, &:focus {
+        background-color: $darkBlue;
+      }
     }
   }
 }

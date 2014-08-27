@@ -391,6 +391,13 @@
     }
   }
   
+  /* Consistent buttons */
+  .form-submit {
+    &.equal-width {
+      width: 120px;
+    }
+  }
+  
   /* Dashboard */
   .dashboard {
     .section {
