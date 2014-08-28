@@ -394,7 +394,7 @@
   /* Consistent buttons */
   .form-submit {
     &.equal-width {
-      width: 120px;
+      width: 220px;
     }
   }
   
@@ -532,6 +532,16 @@
       width: 30%;
     }
     
+  }
+  
+  /* Tooltips */
+  .tooltipinit {
+    margin-right: 40px !important;
+  }
+  
+  /* Register birthday */
+  .form-item-birthday select {
+    width: 30%;
   }
   
 }

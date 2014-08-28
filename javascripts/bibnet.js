@@ -60,5 +60,8 @@ jQuery(document).ready(function($) {
     return false;
 	});
 
+  /* Tooltips */
+  $(".tooltipinit").tooltip();
+
 	
 });
