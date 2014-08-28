@@ -28,18 +28,20 @@ jQuery(document).ready(function($) {
   
   $('body').click(function(e) {
     $('.sidebar-first .inner').hide();
-    e.preventDefault();
-    return false;
   }).find('.sidebar-first .inner ul').click(function(e) {
     e.stopPropagation();
   });;
 
   /* Show general preloader when clicking an external link */
   $('a').click(function(e) {
-		if ($(this).attr('href').search(/#/) == -1 && $(this).attr('href').search(/http/) != -1) {
-      $('#preloader-general').show();
-    } 
-	});
+    var href = $(this).attr('href');
+    if (href !== undefined && href.search(/#/) === -1 && href.search(/http/) === -1) {
+        var dataLoader = $(this).attr('data-loader');
+        if (dataLoader === undefined || "true" === dataLoader) {
+            $('#preloader-general').show();
+        }
+    }
+  });
 	
 	$('a.verleng-alles').click(function(e) {
     var list = $(this).parent().find('ul.items');
