@@ -434,7 +434,7 @@
     }
     section {
       &.first {
-	      background: $bgMainContent url(../images/bg-title.png) no-repeat left top;
+	      background: $bgMainContent url(../images/bg-main.png) no-repeat left top;
         margin-bottom: 0 !important;
       }
     }
@@ -444,6 +444,10 @@
       padding: 20px;
       padding-bottom: 0;
     }
+    section.section {
+      padding-bottom: 20px;
+    }
+    
     section.betaling, section.historiek {
       padding-bottom: 20px;
     }
