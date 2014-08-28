@@ -21,13 +21,19 @@ jQuery(document).ready(function($) {
   
   /* Hide the main menu on active menu item click */
   $('.sidebar-first a.active').click(function(e) {
-    $('.sidebar-first .inner').hide();
-    e.preventDefault();
-    return false;
+    var w = $(window).width();
+    if (w < 990) {
+	    $('.sidebar-first .inner').hide();
+	    e.preventDefault();
+	    return false;
+	  }
   });
   
   $('body').click(function(e) {
-    $('.sidebar-first .inner').hide();
+    var w = $(window).width();
+    if (w < 990) {
+      $('.sidebar-first .inner').hide();
+    }
   }).find('.sidebar-first .inner ul').click(function(e) {
     e.stopPropagation();
   });;
