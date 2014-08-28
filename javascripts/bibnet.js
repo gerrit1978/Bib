@@ -12,12 +12,27 @@ jQuery(document).ready(function($) {
     return false;
   });
   
-  /* Hide the main menu */
+  /* Hide the main menu on close button click */
   $('.sidebar-first .close-menu a').click(function(e) {
     $(this).parent().parent().parent().find('.inner').hide();
     e.preventDefault();
     return false;
   });
+  
+  /* Hide the main menu on active menu item click */
+  $('.sidebar-first a.active').click(function(e) {
+    $('.sidebar-first .inner').hide();
+    e.preventDefault();
+    return false;
+  });
+  
+  $('body').click(function(e) {
+    $('.sidebar-first .inner').hide();
+    e.preventDefault();
+    return false;
+  }).find('.sidebar-first .inner ul').click(function(e) {
+    e.stopPropagation();
+  });;
 
   /* Show general preloader when clicking an external link */
   $('a').click(function(e) {
