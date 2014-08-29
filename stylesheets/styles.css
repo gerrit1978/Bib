@@ -8446,16 +8446,29 @@ button.close {
   .eboeken form .form-text {
     width: auto;
   }
+  /* line 568, ../sass/components/_desktop.scss */
+  .eboeken table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 572, ../sass/components/_desktop.scss */
+  .eboeken table tr.odd {
+    background: #e6edf7;
+  }
+  /* line 575, ../sass/components/_desktop.scss */
+  .eboeken table tr td, .eboeken table tr th {
+    padding: 10px 4px;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 574, ../sass/components/_desktop.scss */
+  /* line 587, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 579, ../sass/components/_desktop.scss */
+  /* line 592, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -9743,21 +9756,15 @@ a.tooltipinit {
 .gopress ul.icons li.read {
   background-position: left -879px;
 }
-/* line 626, ../sass/styles.scss */
-.gopress p em {
-  display: block;
-  text-align: right;
-  color: #7a868d;
-}
 
 /* Eboeken */
-/* line 636, ../sass/styles.scss */
+/* line 629, ../sass/styles.scss */
 .eboeken .leentegoed {
   background: url(../images/sprite.png) no-repeat left -938px;
   min-height: 40px;
   padding-left: 70px;
 }
-/* line 641, ../sass/styles.scss */
+/* line 634, ../sass/styles.scss */
 .eboeken .tooltipinit {
   display: inline-block;
   float: none;
@@ -9766,7 +9773,19 @@ a.tooltipinit {
   top: 8px;
   left: 10px;
 }
-/* line 651, ../sass/styles.scss */
+/* line 644, ../sass/styles.scss */
 .eboeken form .form-text {
   margin-right: 15px;
+}
+
+/* Consumer pages: "je hebt toegang..." */
+/* line 651, ../sass/styles.scss */
+p.access {
+  margin-top: 20px;
+}
+/* line 653, ../sass/styles.scss */
+p.access em {
+  display: block;
+  text-align: right;
+  color: #7a868d;
 }

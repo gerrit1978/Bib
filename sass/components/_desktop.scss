@@ -565,6 +565,19 @@
         width: auto;
       }
     }
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      tr {
+        &.odd {
+          background: $lightBlue;
+        }
+        td, th {
+          padding: 10px 4px;
+        }
+      }
+    }
+    
   }
   
 }

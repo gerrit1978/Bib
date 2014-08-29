@@ -622,13 +622,6 @@ a.tooltipinit {
       }
     }
   }
-  p {
-    em {
-      display: block;
-      text-align: right;
-      color: $grey;
-    }
-  }
 }
 
 /* Eboeken */
@@ -651,5 +644,15 @@ a.tooltipinit {
     .form-text {
       margin-right: 15px;
     }
+  }
+}
+
+/* Consumer pages: "je hebt toegang..." */
+p.access {
+  margin-top: 20px;
+  em {
+    display: block;
+    text-align: right;
+    color: $grey;
   }
 }

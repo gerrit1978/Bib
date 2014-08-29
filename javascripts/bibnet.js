@@ -86,5 +86,17 @@ jQuery(document).ready(function($) {
   /* Tooltips */
   $(".tooltipinit").tooltip();
 
+  /* Toggle E-boeken lijst */
+  $('a.show-details-eboeken').click(function(e) {
+    var textVisible = $(this).data('text-visible');
+    var textHidden = $(this).data('text-hidden');
+    var details = $(this).parent().find('.details');
+    details.toggle();
+    if (details.is(':visible')) {
+      $(this).html(textVisible);
+    } else {
+      $(this).html(textHidden);
+    }
+  });
 	
 });
