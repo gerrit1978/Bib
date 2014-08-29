@@ -97,6 +97,8 @@ jQuery(document).ready(function($) {
     } else {
       $(this).html(textHidden);
     }
+    e.preventDefault();
+    return false;
   });
 	
 });

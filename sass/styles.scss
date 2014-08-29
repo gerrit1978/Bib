@@ -645,6 +645,60 @@ a.tooltipinit {
       margin-right: 15px;
     }
   }
+  
+  section.fullwidth {
+    &.blue {
+      background: $ebookBlue;
+      color: $white;
+      margin-bottom: 20px;
+      padding: 20px 0;
+      h2 {
+        color: $ebookYellow;
+        font-weight: lighter;
+      }
+    }
+    .devices {
+      a {
+        display: inline-block;
+        margin-right: 15px;
+        &.last {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+	section.icons {
+    text-align: center;
+    color: $grey;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+	      display: inline-block;
+	      text-align: center;
+	      margin: 0;
+	      padding: 0;
+	      margin-right: 30px;
+	      list-style: none;
+	      background: url(../images/sprite.png) no-repeat;
+	      width: 115px;
+	      padding-top: 50px;
+	      &.info {
+	        background-position: right -488px;
+	      }
+	      &.manual {
+	        background-position: right -600px;
+	      }
+	      &.questions {
+	        background-position: right -728px;
+	      }
+	      &.last {
+	        margin-right: 0;
+	      }
+	    }
+	  }
+	}
+
 }
 
 /* Consumer pages: "je hebt toegang..." */
@@ -652,7 +706,7 @@ p.access {
   margin-top: 20px;
   em {
     display: block;
-    text-align: right;
     color: $grey;
+    text-align: left;
   }
 }
