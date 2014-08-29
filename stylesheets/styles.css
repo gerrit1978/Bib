@@ -8430,16 +8430,32 @@ button.close {
   .form-item-birthday select {
     width: 30%;
   }
+
+  /* E-boeken */
+  /* line 555, ../sass/components/_desktop.scss */
+  .eboeken .boekenkaart {
+    background: url(../images/sprite.png) no-repeat left -1010px;
+    padding-left: 70px;
+  }
+  /* line 559, ../sass/components/_desktop.scss */
+  .eboeken .betaling {
+    background: url(../images/sprite.png) no-repeat left -1120px;
+    padding-left: 70px;
+  }
+  /* line 564, ../sass/components/_desktop.scss */
+  .eboeken form .form-text {
+    width: auto;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 557, ../sass/components/_desktop.scss */
+  /* line 574, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 562, ../sass/components/_desktop.scss */
+  /* line 579, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -8936,6 +8952,12 @@ button.close {
   table.historiek tr td.title, table.kosten tr td.title {
     font-size: 16px !important;
     margin-bottom: 8px;
+  }
+
+  /* E-boeken */
+  /* line 493, ../sass/components/_smartphone.scss */
+  .eboeken form .form-text {
+    margin-bottom: 20px;
   }
 }
 /* HTML elements */
@@ -9726,4 +9748,25 @@ a.tooltipinit {
   display: block;
   text-align: right;
   color: #7a868d;
+}
+
+/* Eboeken */
+/* line 636, ../sass/styles.scss */
+.eboeken .leentegoed {
+  background: url(../images/sprite.png) no-repeat left -938px;
+  min-height: 40px;
+  padding-left: 70px;
+}
+/* line 641, ../sass/styles.scss */
+.eboeken .tooltipinit {
+  display: inline-block;
+  float: none;
+  margin: 0;
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+/* line 651, ../sass/styles.scss */
+.eboeken form .form-text {
+  margin-right: 15px;
 }

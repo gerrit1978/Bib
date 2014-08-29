@@ -630,3 +630,26 @@ a.tooltipinit {
     }
   }
 }
+
+/* Eboeken */
+.eboeken {
+  .leentegoed {
+    background: url(../images/sprite.png) no-repeat left -938px;
+    min-height: 40px;
+    padding-left: 70px;
+  }
+  .tooltipinit {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    position: relative;
+    top: 8px;
+    left: 10px;
+  }
+  
+  form {
+    .form-text {
+      margin-right: 15px;
+    }
+  }
+}

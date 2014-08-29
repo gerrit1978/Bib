@@ -550,6 +550,23 @@
     width: 30%;
   }
   
+  /* E-boeken */
+  .eboeken {
+    .boekenkaart {
+      background: url(../images/sprite.png) no-repeat left -1010px;
+      padding-left: 70px;
+    }
+    .betaling {
+      background: url(../images/sprite.png) no-repeat left -1120px;
+      padding-left: 70px;
+    }
+    form {
+      .form-text {
+        width: auto;
+      }
+    }
+  }
+  
 }
 
 /* Desktop only */
