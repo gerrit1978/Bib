@@ -596,3 +596,37 @@ a.tooltipinit {
   text-indent: -999em;
   overflow: hidden;
 }
+
+/* Gopress */
+.gopress {
+  ul.icons {
+    margin: 0;
+    padding: 0;
+    li {
+      display: block;
+      background: url(../images/sprite.png) no-repeat;
+      line-height: 30px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px;
+      padding-left: 50px;      
+      &.search {
+        background-position: left -792px;
+      }
+      &.profile {
+        background-position: left -836px;
+      }
+      &.read {
+        background-position: left -879px;
+      }
+    }
+  }
+  p {
+    em {
+      display: block;
+      text-align: right;
+      color: $grey;
+    }
+  }
+}
