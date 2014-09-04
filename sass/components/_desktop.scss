@@ -32,11 +32,15 @@
   #header {
 	  .logo {
 	    a {
-	      width: 67px;
-	      height: 70px;
-	      background-position: left -143px;
-	      float: left;
-	      margin-right: 20px;
+	      text-indent: 0 !important;
+	      background-repeat: no-repeat;
+	      background-position: left -2562px;
+	      padding-left: 85px;
+	      color: $black;
+	      text-decoration: none;
+	      &:hover {
+	        text-decoration: none;
+	      }
 	    }
 	    h1, h2 {
 	      display: block;
@@ -65,10 +69,15 @@
 	    padding-bottom: 3em;
 	    margin-bottom: 1em;
 	    .inner {
-	      background: #f4f4f4 url(../images/bg-main.png) no-repeat left top;
+	      background: $bgMainContent url(../images/bg-main.png) no-repeat left top;
 	      padding: 20px;
 	    }
 	    &.dashboard {
+	      .inner {
+	        padding: 0;
+	      }
+	    }
+	    &.mijn-bibliotheken {
 	      .inner {
 	        padding: 0;
 	      }
@@ -272,6 +281,7 @@
 
   /* Forms */
   .form-item {
+    position: relative;
     .form-text, .form-email, .form-password, select {
       width: 90%;
     }
@@ -423,6 +433,24 @@
       }
     }
   }
+
+  /* Dashboard */
+  .mijn-bibliotheken {
+    section.library {
+      border-bottom: 15px solid white !important;
+      padding-left: 20px !important; 
+      padding-right: 20px !important;
+      &.first {
+        padding-top: 20px;
+      }
+      section.messages {
+        padding: 0;
+      }
+      div.actions {
+        text-align: left !important;
+      }
+    }
+  }
   
   /* Extra space right */
   .space-left {
@@ -552,13 +580,18 @@
   
   /* E-boeken */
   .eboeken {
+    .leentegoed {
+      background-position: left -1785px !important;
+      min-height: 50px !important;
+      padding-left: 80px !important;
+    }
     .boekenkaart {
-      background: url(../images/sprite.png) no-repeat left -1010px;
-      padding-left: 70px;
+      background-position: left -1415px !important;
+      padding-left: 80px;
     }
     .betaling {
-      background: url(../images/sprite.png) no-repeat left -1120px;
-      padding-left: 70px;
+      background-position: left -1565px !important;
+      padding-left: 80px;
     }
     form {
       .form-text {
@@ -589,16 +622,40 @@
     
     .devices {
       background: url(../images/devices.png) no-repeat right top;
-      padding-right: 150px;
+      padding-top: 5px;
+      padding-right: 175px;
       padding-left: 50px;
       text-align: right;
+      min-height: 180px;
     }
+    
+    /* Current & historiek */
+    .expand {
+      background: $expand;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      a.show-details {
+        padding: 10px;
+        display: block;
+        background: url(../images/sprite.png) no-repeat;
+        &.collapsed {
+          background-position: right -2920px;
+        }
+        &.expanded {
+          background-position: right -2964px;
+        }
+      }
+      &.current {
+        margin-bottom: 20px;
+      }
+    }
+    
   }
 
 	/* Consumer pages: "je hebt toegang..." */
 	p.access {
 	  em {
-      text-align: right;
+      text-align: right !important;
 	  }
 	}
   

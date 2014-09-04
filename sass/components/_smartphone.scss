@@ -5,7 +5,7 @@
     .sidebar-first {
       .inner {
         .close-menu {
-          right: 10% !important
+          right: 12% !important
         }
         ul {
           li {
@@ -271,11 +271,11 @@
         .close-menu {
           position: absolute;
           top: 5px;
-          right: 10%;
+          right: 12%;
           a {
             display: block;
-            width: 35px;
-            height: 35px;
+            width: 27px;
+            height: 27px;
             background: url(../images/sprite.png) right -358px;
             text-indent: -999em;
             overflow: hidden;
@@ -489,6 +489,17 @@
   
   /* E-boeken */
   .eboeken {
+	  .boekenkaart {
+	    background-position: left -1015px !important;
+	    p {
+	      padding-left: 60px;
+	    }
+    }
+    .betaling {
+      p {
+        padding-left: 60px;
+      }
+    }
     form {
       .form-text {
         margin-bottom: 20px;
@@ -509,4 +520,17 @@
     }
     
   }  
+
+  .section {
+    .item {
+      .value {
+        font-weight: normal !important;
+      }
+    }
+  }
+  
+  .space-below {
+    margin-bottom: 15px;
+  }
+
 }

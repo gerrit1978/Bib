@@ -146,7 +146,7 @@ ul.steps {
     border-top: 1px solid #d1d1d1;
     padding-top: 20px;
     a {
-      display: block;
+      display: inline-block;
     }
   }
 }
@@ -157,12 +157,10 @@ ul.items {
   padding: 0;
   margin-top: 1em;
   padding-top: 1em;
-  border-top: 1px dotted $lightGrey;
   li.item {
     position: relative;
     padding-bottom: 1em;
     list-style: none;
-    border-bottom: 1px  dotted $lightGrey;
     .title {
       color: $blue;
     }
@@ -340,6 +338,7 @@ a.cancel-remove {
   line-height: 2em;
   padding-left: 20px !important;
   text-align: left !important;
+  display: inline-block;
 }
 
 /* Voeg een lidmaatschap toe - TODO: test! */
@@ -577,6 +576,7 @@ a.lost-password {
       margin-bottom: 20px;
       .title {
         color: $black;
+        font-weight: bold;
       }
       .extra {
         font-size: 14px;
@@ -591,10 +591,13 @@ a.tooltipinit {
   display: inline-block;
   width: 25px;
   height: 25px;
-  float: right;
-  margin-right: 20px;
   text-indent: -999em;
   overflow: hidden;
+/*
+  position: absolute;
+  left: 0;
+  top: 0;
+*/
 }
 
 /* Gopress */
@@ -626,19 +629,25 @@ a.tooltipinit {
 
 /* Eboeken */
 .eboeken {
+  .boekenkaart {
+    background: url(../images/sprite.png) no-repeat left -1010px;
+  }
+  .betaling {
+    background: url(../images/sprite.png) no-repeat left -1200px;
+  }
   .leentegoed {
     background: url(../images/sprite.png) no-repeat left -938px;
     min-height: 40px;
     padding-left: 70px;
   }
+/*
   .tooltipinit {
     display: inline-block;
     float: none;
     margin: 0;
     position: relative;
-    top: 8px;
-    left: 10px;
   }
+*/
   
   form {
     .form-text {
@@ -682,15 +691,15 @@ a.tooltipinit {
 	      list-style: none;
 	      background: url(../images/sprite.png) no-repeat;
 	      width: 115px;
-	      padding-top: 50px;
+	      padding-top: 75px;
 	      &.info {
-	        background-position: right -488px;
+	        background-position: left -1934px;
 	      }
 	      &.manual {
-	        background-position: right -600px;
+	        background-position: left -2104px;
 	      }
 	      &.questions {
-	        background-position: right -728px;
+	        background-position: left -2293px;
 	      }
 	      &.last {
 	        margin-right: 0;
@@ -708,5 +717,37 @@ p.access {
     display: block;
     color: $grey;
     text-align: left;
+  }
+}
+
+/* Vergeten pagina */
+.bib-eboeken {
+  ul.libraries {
+    margin: 0;
+    padding: 0;
+    li.library {
+      list-style: none;
+    }
+  }
+}
+
+.mijn-bibliotheken {
+  section.library {
+    &.first {
+      padding-top: 20px;
+    }
+    section.messages {
+      padding: 0;
+    }
+    div.actions {
+      text-align: left !important;
+    }
+    ul.items {
+      border: none !important;
+      padding-top: 0 !important;
+      li.item {
+        border: none !important;
+      }
+    }
   }
 }

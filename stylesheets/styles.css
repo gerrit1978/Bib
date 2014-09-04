@@ -7925,83 +7925,92 @@ button.close {
 
   /* line 34, ../sass/components/_desktop.scss */
   #header .logo a {
-    width: 67px;
-    height: 70px;
-    background-position: left -143px;
-    float: left;
-    margin-right: 20px;
+    text-indent: 0 !important;
+    background-repeat: no-repeat;
+    background-position: left -2562px;
+    padding-left: 85px;
+    color: black;
+    text-decoration: none;
   }
   /* line 41, ../sass/components/_desktop.scss */
+  #header .logo a:hover {
+    text-decoration: none;
+  }
+  /* line 45, ../sass/components/_desktop.scss */
   #header .logo h1, #header .logo h2 {
     display: block;
     font-family: Arial;
   }
-  /* line 45, ../sass/components/_desktop.scss */
+  /* line 49, ../sass/components/_desktop.scss */
   #header .logo h1 {
     margin: 0;
     font-weight: bold;
     font-size: 40px;
   }
-  /* line 50, ../sass/components/_desktop.scss */
+  /* line 54, ../sass/components/_desktop.scss */
   #header .logo h2 {
     margin: 0;
     font-weight: lighter;
     font-size: 17px;
   }
 
-  /* line 59, ../sass/components/_desktop.scss */
+  /* line 63, ../sass/components/_desktop.scss */
   #main .container {
     background: white;
     margin-top: 30px;
   }
-  /* line 64, ../sass/components/_desktop.scss */
+  /* line 68, ../sass/components/_desktop.scss */
   #main .main-content {
     padding-bottom: 3em;
     margin-bottom: 1em;
   }
-  /* line 67, ../sass/components/_desktop.scss */
+  /* line 71, ../sass/components/_desktop.scss */
   #main .main-content .inner {
     background: #f4f4f4 url(../images/bg-main.png) no-repeat left top;
     padding: 20px;
   }
-  /* line 72, ../sass/components/_desktop.scss */
+  /* line 76, ../sass/components/_desktop.scss */
   #main .main-content.dashboard .inner {
     padding: 0;
   }
-
   /* line 81, ../sass/components/_desktop.scss */
+  #main .main-content.mijn-bibliotheken .inner {
+    padding: 0;
+  }
+
+  /* line 90, ../sass/components/_desktop.scss */
   h1.title.full-width {
     margin-left: 0;
   }
 
   /* "Splash page" */
-  /* line 88, ../sass/components/_desktop.scss */
+  /* line 97, ../sass/components/_desktop.scss */
   .left {
     width: 50%;
     float: left;
   }
 
-  /* line 93, ../sass/components/_desktop.scss */
+  /* line 102, ../sass/components/_desktop.scss */
   .right {
     width: 50%;
     float: left;
   }
 
   /* Main menu */
-  /* line 101, ../sass/components/_desktop.scss */
+  /* line 110, ../sass/components/_desktop.scss */
   #main .sidebar-first ul {
     font-size: 0.95em;
     margin: 0;
     padding: 0;
   }
-  /* line 105, ../sass/components/_desktop.scss */
+  /* line 114, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li {
     list-style: none;
     color: #a6a6a6;
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 110, ../sass/components/_desktop.scss */
+  /* line 119, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a {
     padding-left: 5px;
     color: #444444;
@@ -8009,16 +8018,16 @@ button.close {
     height: 36px;
     overflow: hidden;
   }
-  /* line 116, ../sass/components/_desktop.scss */
+  /* line 125, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.title {
     text-transform: uppercase;
   }
-  /* line 119, ../sass/components/_desktop.scss */
+  /* line 128, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a:hover {
     background: #d9d8d8;
     text-decoration: none;
   }
-  /* line 123, ../sass/components/_desktop.scss */
+  /* line 132, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.active {
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
@@ -8026,161 +8035,165 @@ button.close {
     z-index: 100;
     width: 120%;
   }
-  /* line 131, ../sass/components/_desktop.scss */
+  /* line 140, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li.last {
     border-bottom: none;
   }
-  /* line 135, ../sass/components/_desktop.scss */
+  /* line 144, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li {
     border-bottom: none;
   }
-  /* line 137, ../sass/components/_desktop.scss */
+  /* line 146, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li a {
     padding-left: 20px;
   }
-  /* line 141, ../sass/components/_desktop.scss */
+  /* line 150, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li {
     border-bottom: none;
   }
-  /* line 142, ../sass/components/_desktop.scss */
+  /* line 151, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li a {
     padding-left: 40px;
   }
 
-  /* line 155, ../sass/components/_desktop.scss */
+  /* line 164, ../sass/components/_desktop.scss */
   h1.title {
     margin-left: 25%;
     padding-left: 10px;
   }
 
-  /* line 161, ../sass/components/_desktop.scss */
+  /* line 170, ../sass/components/_desktop.scss */
   body.narrow-page h1.title {
     padding-left: 0;
   }
 
   /* Registration Steps */
-  /* line 169, ../sass/components/_desktop.scss */
+  /* line 178, ../sass/components/_desktop.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 174, ../sass/components/_desktop.scss */
+  /* line 183, ../sass/components/_desktop.scss */
   ul.steps li.step span {
     display: none;
   }
-  /* line 177, ../sass/components/_desktop.scss */
+  /* line 186, ../sass/components/_desktop.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 181, ../sass/components/_desktop.scss */
+  /* line 190, ../sass/components/_desktop.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 184, ../sass/components/_desktop.scss */
+  /* line 193, ../sass/components/_desktop.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 187, ../sass/components/_desktop.scss */
+  /* line 196, ../sass/components/_desktop.scss */
   ul.steps li.step.step-3 {
     width: 49px;
   }
-  /* line 194, ../sass/components/_desktop.scss */
+  /* line 203, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 199, ../sass/components/_desktop.scss */
+  /* line 208, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 204, ../sass/components/_desktop.scss */
+  /* line 213, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-3 a {
     background-position: -170px -55px;
   }
-  /* line 210, ../sass/components/_desktop.scss */
+  /* line 219, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 214, ../sass/components/_desktop.scss */
+  /* line 223, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 219, ../sass/components/_desktop.scss */
+  /* line 228, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 224, ../sass/components/_desktop.scss */
+  /* line 233, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-3 a {
     background-position: -170px -83px;
   }
-  /* line 230, ../sass/components/_desktop.scss */
+  /* line 239, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 234, ../sass/components/_desktop.scss */
+  /* line 243, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 239, ../sass/components/_desktop.scss */
+  /* line 248, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
-  /* line 244, ../sass/components/_desktop.scss */
+  /* line 253, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-3 a {
     background-position: -170px -112px;
   }
-  /* line 250, ../sass/components/_desktop.scss */
+  /* line 259, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-0 {
     background-position: left -472px;
   }
-  /* line 254, ../sass/components/_desktop.scss */
+  /* line 263, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-1 a {
     background-position: -63px -472px;
   }
-  /* line 259, ../sass/components/_desktop.scss */
+  /* line 268, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-2 a {
     background-position: -115px -472px;
   }
-  /* line 264, ../sass/components/_desktop.scss */
+  /* line 273, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-3 a {
     background-position: -170px -472px;
   }
 
   /* Forms */
-  /* line 275, ../sass/components/_desktop.scss */
+  /* line 283, ../sass/components/_desktop.scss */
+  .form-item {
+    position: relative;
+  }
+  /* line 285, ../sass/components/_desktop.scss */
   .form-item .form-text, .form-item .form-email, .form-item .form-password, .form-item select {
     width: 90%;
   }
-  /* line 278, ../sass/components/_desktop.scss */
+  /* line 288, ../sass/components/_desktop.scss */
   .form-item textarea {
     width: 90% !important;
   }
-  /* line 281, ../sass/components/_desktop.scss */
+  /* line 291, ../sass/components/_desktop.scss */
   .form-item span.validation {
     float: right;
     width: 30px;
     height: 30px;
   }
-  /* line 285, ../sass/components/_desktop.scss */
+  /* line 295, ../sass/components/_desktop.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 288, ../sass/components/_desktop.scss */
+  /* line 298, ../sass/components/_desktop.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 292, ../sass/components/_desktop.scss */
+  /* line 302, ../sass/components/_desktop.scss */
   .form-item .message {
     font-size: 0.9375em;
   }
-  /* line 294, ../sass/components/_desktop.scss */
+  /* line 304, ../sass/components/_desktop.scss */
   .form-item .message.error {
     color: #c6151d;
   }
 
   /* General Preloader */
-  /* line 301, ../sass/components/_desktop.scss */
+  /* line 311, ../sass/components/_desktop.scss */
   #preloader-general {
     max-width: 1140px;
     margin-left: auto;
@@ -8188,231 +8201,251 @@ button.close {
   }
 
   /* Items */
-  /* line 311, ../sass/components/_desktop.scss */
+  /* line 321, ../sass/components/_desktop.scss */
   ul.items li.item .actions a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1em !important;
   }
-  /* line 317, ../sass/components/_desktop.scss */
+  /* line 327, ../sass/components/_desktop.scss */
   ul.items li.item .actions span.late {
     font-size: 1em;
   }
 
-  /* line 326, ../sass/components/_desktop.scss */
+  /* line 336, ../sass/components/_desktop.scss */
   .section .item .value {
     font-weight: normal !important;
   }
 
-  /* line 332, ../sass/components/_desktop.scss */
+  /* line 342, ../sass/components/_desktop.scss */
   .footer {
     margin-top: 10px;
     text-align: right;
     color: #a6a6a6;
     font-size: 0.875em;
   }
-  /* line 337, ../sass/components/_desktop.scss */
+  /* line 347, ../sass/components/_desktop.scss */
   .footer a {
     color: #a6a6a6;
   }
 
-  /* line 342, ../sass/components/_desktop.scss */
+  /* line 352, ../sass/components/_desktop.scss */
   .no-bg {
     background: none !important;
     border: none !important;
     color: #444444 !important;
   }
-  /* line 346, ../sass/components/_desktop.scss */
+  /* line 356, ../sass/components/_desktop.scss */
   .no-bg a {
     color: #444444 !important;
     border-bottom: 1px solid #444444 !important;
   }
 
-  /* line 352, ../sass/components/_desktop.scss */
+  /* line 362, ../sass/components/_desktop.scss */
   .form-submit {
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     behavior: url(pie/PIE.htc);
   }
-  /* line 354, ../sass/components/_desktop.scss */
+  /* line 364, ../sass/components/_desktop.scss */
   .form-submit.next {
     padding-right: 40px !important;
   }
-  /* line 356, ../sass/components/_desktop.scss */
+  /* line 366, ../sass/components/_desktop.scss */
   .form-submit.next.red {
     background-position: right -411px !important;
   }
-  /* line 359, ../sass/components/_desktop.scss */
+  /* line 369, ../sass/components/_desktop.scss */
   .form-submit.next.blue {
     background-position: right -411px !important;
   }
-  /* line 361, ../sass/components/_desktop.scss */
+  /* line 371, ../sass/components/_desktop.scss */
   .form-submit.next.blue:active, .form-submit.next.blue:focus {
     background-color: #004e68;
   }
 
-  /* line 368, ../sass/components/_desktop.scss */
+  /* line 378, ../sass/components/_desktop.scss */
   form.narrow {
     width: 60%;
   }
 
   /* Profile page */
-  /* line 374, ../sass/components/_desktop.scss */
+  /* line 384, ../sass/components/_desktop.scss */
   .section .item {
     clear: both;
   }
-  /* line 376, ../sass/components/_desktop.scss */
+  /* line 386, ../sass/components/_desktop.scss */
   .section .item .label {
     width: 20%;
     float: left;
     text-align: left;
   }
-  /* line 381, ../sass/components/_desktop.scss */
+  /* line 391, ../sass/components/_desktop.scss */
   .section .item .value {
     float: left;
   }
 
   /* Lost Password */
-  /* line 388, ../sass/components/_desktop.scss */
+  /* line 398, ../sass/components/_desktop.scss */
   a.lost-password {
     float: right;
     margin-right: -130px;
     margin-top: 5px;
   }
 
-  /* line 395, ../sass/components/_desktop.scss */
+  /* line 405, ../sass/components/_desktop.scss */
   .lost-password.form-submit {
     width: 105px;
   }
 
   /* Consistent buttons */
-  /* line 402, ../sass/components/_desktop.scss */
+  /* line 412, ../sass/components/_desktop.scss */
   .form-submit.equal-width {
     width: 220px;
   }
 
   /* Dashboard */
-  /* line 409, ../sass/components/_desktop.scss */
+  /* line 419, ../sass/components/_desktop.scss */
   .dashboard .section {
     border-bottom: 15px solid white;
     padding: 20px;
   }
-  /* line 412, ../sass/components/_desktop.scss */
+  /* line 422, ../sass/components/_desktop.scss */
   .dashboard .section h3 {
     margin-top: 0;
   }
-  /* line 416, ../sass/components/_desktop.scss */
+  /* line 426, ../sass/components/_desktop.scss */
   .dashboard .section .actions .col {
     padding-right: 20px !important;
   }
-  /* line 419, ../sass/components/_desktop.scss */
+  /* line 429, ../sass/components/_desktop.scss */
   .dashboard .section .actions a.button {
     width: 100%;
     padding: 6px 10px !important;
   }
 
+  /* Dashboard */
+  /* line 439, ../sass/components/_desktop.scss */
+  .mijn-bibliotheken section.library {
+    border-bottom: 15px solid white !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  /* line 443, ../sass/components/_desktop.scss */
+  .mijn-bibliotheken section.library.first {
+    padding-top: 20px;
+  }
+  /* line 446, ../sass/components/_desktop.scss */
+  .mijn-bibliotheken section.library section.messages {
+    padding: 0;
+  }
+  /* line 449, ../sass/components/_desktop.scss */
+  .mijn-bibliotheken section.library div.actions {
+    text-align: left !important;
+  }
+
   /* Extra space right */
-  /* line 428, ../sass/components/_desktop.scss */
+  /* line 456, ../sass/components/_desktop.scss */
   .space-left {
     margin-left: 20px;
   }
 
-  /* line 431, ../sass/components/_desktop.scss */
+  /* line 459, ../sass/components/_desktop.scss */
   .space-right {
     margin-right: 20px;
   }
 
   /* Bibliotheek pagina */
-  /* line 437, ../sass/components/_desktop.scss */
+  /* line 465, ../sass/components/_desktop.scss */
   .library .inner {
     padding: 0 !important;
     background: white !important;
   }
-  /* line 442, ../sass/components/_desktop.scss */
+  /* line 470, ../sass/components/_desktop.scss */
   .library section.first {
     background: #f4f4f4 url(../images/bg-main.png) no-repeat left top;
     margin-bottom: 0 !important;
   }
-  /* line 447, ../sass/components/_desktop.scss */
+  /* line 475, ../sass/components/_desktop.scss */
   .library section.section, .library section.links {
     background: #f4f4f4;
     margin-bottom: 15px;
     padding: 20px;
     padding-bottom: 0;
   }
-  /* line 453, ../sass/components/_desktop.scss */
+  /* line 481, ../sass/components/_desktop.scss */
   .library section.section {
     padding-bottom: 20px;
   }
-  /* line 457, ../sass/components/_desktop.scss */
+  /* line 485, ../sass/components/_desktop.scss */
   .library section.betaling, .library section.historiek {
     padding-bottom: 20px;
   }
-  /* line 460, ../sass/components/_desktop.scss */
+  /* line 488, ../sass/components/_desktop.scss */
   .library section.messages {
     padding: 20px;
   }
-  /* line 463, ../sass/components/_desktop.scss */
+  /* line 491, ../sass/components/_desktop.scss */
   .library section.icons {
     background: white;
   }
-  /* line 470, ../sass/components/_desktop.scss */
+  /* line 498, ../sass/components/_desktop.scss */
   .library ul.items li.item .actions {
     text-align: center;
   }
-  /* line 476, ../sass/components/_desktop.scss */
+  /* line 504, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 480, ../sass/components/_desktop.scss */
+  /* line 508, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr.odd {
     background: #e6edf7;
   }
-  /* line 483, ../sass/components/_desktop.scss */
+  /* line 511, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td, .library table.uitleenhistoriek tr th {
     padding: 10px 4px;
   }
-  /* line 485, ../sass/components/_desktop.scss */
+  /* line 513, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.title, .library table.uitleenhistoriek tr th.title {
     width: 40%;
   }
-  /* line 488, ../sass/components/_desktop.scss */
+  /* line 516, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.dates, .library table.uitleenhistoriek tr td.library, .library table.uitleenhistoriek tr th.dates, .library table.uitleenhistoriek tr th.library {
     width: 30%;
   }
-  /* line 495, ../sass/components/_desktop.scss */
+  /* line 523, ../sass/components/_desktop.scss */
   .library table {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 499, ../sass/components/_desktop.scss */
+  /* line 527, ../sass/components/_desktop.scss */
   .library table tr.odd {
     background: #e6edf7;
   }
-  /* line 502, ../sass/components/_desktop.scss */
+  /* line 530, ../sass/components/_desktop.scss */
   .library table tr td, .library table tr th {
     padding: 10px 4px;
   }
-  /* line 511, ../sass/components/_desktop.scss */
+  /* line 539, ../sass/components/_desktop.scss */
   .library table.kosten tr td.title, .library table.kosten tr th.title {
     width: 60%;
   }
-  /* line 514, ../sass/components/_desktop.scss */
+  /* line 542, ../sass/components/_desktop.scss */
   .library table.kosten tr td.type, .library table.kosten tr td.date, .library table.kosten tr td.bedrag, .library table.kosten tr th.type, .library table.kosten tr th.date, .library table.kosten tr th.bedrag {
     width: 12%;
   }
-  /* line 524, ../sass/components/_desktop.scss */
+  /* line 552, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.title, .library table.uitleenhistoriek tr th.title {
     width: 40%;
   }
-  /* line 527, ../sass/components/_desktop.scss */
+  /* line 555, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.dates, .library table.uitleenhistoriek tr td.library, .library table.uitleenhistoriek tr th.dates, .library table.uitleenhistoriek tr th.library {
     width: 30%;
   }
-  /* line 535, ../sass/components/_desktop.scss */
+  /* line 563, ../sass/components/_desktop.scss */
   .library a.download {
     display: block;
     margin-left: 70%;
@@ -8420,75 +8453,111 @@ button.close {
   }
 
   /* Tooltips */
-  /* line 544, ../sass/components/_desktop.scss */
+  /* line 572, ../sass/components/_desktop.scss */
   .tooltipinit {
     margin-right: 40px !important;
   }
 
   /* Register birthday */
-  /* line 549, ../sass/components/_desktop.scss */
+  /* line 577, ../sass/components/_desktop.scss */
   .form-item-birthday select {
     width: 30%;
   }
 
   /* E-boeken */
-  /* line 555, ../sass/components/_desktop.scss */
+  /* line 582, ../sass/components/_desktop.scss */
+  .eboeken {
+    /* Current & historiek */
+  }
+  /* line 583, ../sass/components/_desktop.scss */
+  .eboeken .leentegoed {
+    background-position: left -1785px !important;
+    min-height: 50px !important;
+    padding-left: 80px !important;
+  }
+  /* line 588, ../sass/components/_desktop.scss */
   .eboeken .boekenkaart {
-    background: url(../images/sprite.png) no-repeat left -1010px;
-    padding-left: 70px;
+    background-position: left -1415px !important;
+    padding-left: 80px;
   }
-  /* line 559, ../sass/components/_desktop.scss */
+  /* line 592, ../sass/components/_desktop.scss */
   .eboeken .betaling {
-    background: url(../images/sprite.png) no-repeat left -1120px;
-    padding-left: 70px;
+    background-position: left -1565px !important;
+    padding-left: 80px;
   }
-  /* line 564, ../sass/components/_desktop.scss */
+  /* line 597, ../sass/components/_desktop.scss */
   .eboeken form .form-text {
     width: auto;
   }
-  /* line 568, ../sass/components/_desktop.scss */
+  /* line 601, ../sass/components/_desktop.scss */
   .eboeken table {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 572, ../sass/components/_desktop.scss */
+  /* line 605, ../sass/components/_desktop.scss */
   .eboeken table tr.odd {
     background: #e6edf7;
   }
-  /* line 575, ../sass/components/_desktop.scss */
+  /* line 608, ../sass/components/_desktop.scss */
   .eboeken table tr td, .eboeken table tr th {
     padding: 10px 4px;
   }
-  /* line 582, ../sass/components/_desktop.scss */
+  /* line 615, ../sass/components/_desktop.scss */
   .eboeken .section.fullwidth.blue {
     margin-left: -20px;
     margin-right: -20px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 590, ../sass/components/_desktop.scss */
+  /* line 623, ../sass/components/_desktop.scss */
   .eboeken .devices {
     background: url(../images/devices.png) no-repeat right top;
-    padding-right: 150px;
+    padding-top: 5px;
+    padding-right: 175px;
     padding-left: 50px;
     text-align: right;
+    min-height: 180px;
+  }
+  /* line 633, ../sass/components/_desktop.scss */
+  .eboeken .expand {
+    background: #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 637, ../sass/components/_desktop.scss */
+  .eboeken .expand a.show-details {
+    padding: 10px;
+    display: block;
+    background: url(../images/sprite.png) no-repeat;
+  }
+  /* line 641, ../sass/components/_desktop.scss */
+  .eboeken .expand a.show-details.collapsed {
+    background-position: right -2920px;
+  }
+  /* line 644, ../sass/components/_desktop.scss */
+  .eboeken .expand a.show-details.expanded {
+    background-position: right -2964px;
+  }
+  /* line 648, ../sass/components/_desktop.scss */
+  .eboeken .expand.current {
+    margin-bottom: 20px;
   }
 
   /* Consumer pages: "je hebt toegang..." */
-  /* line 600, ../sass/components/_desktop.scss */
+  /* line 657, ../sass/components/_desktop.scss */
   p.access em {
-    text-align: right;
+    text-align: right !important;
   }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 610, ../sass/components/_desktop.scss */
+  /* line 667, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 615, ../sass/components/_desktop.scss */
+  /* line 672, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -8510,7 +8579,7 @@ button.close {
   /* Menu fix for "between" resolutions */
   /* line 7, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner .close-menu {
-    right: 10% !important;
+    right: 12% !important;
   }
   /* line 13, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner ul li a.active {
@@ -8758,13 +8827,13 @@ button.close {
   #main .sidebar-first .inner .close-menu {
     position: absolute;
     top: 5px;
-    right: 10%;
+    right: 12%;
   }
   /* line 275, ../sass/components/_smartphone.scss */
   #main .sidebar-first .inner .close-menu a {
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 27px;
+    height: 27px;
     background: url(../images/sprite.png) right -358px;
     text-indent: -999em;
     overflow: hidden;
@@ -8968,7 +9037,7 @@ button.close {
     display: block;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #d1d1d1;
+    border-bottom: 1px solid #a6a6a6;
   }
   /* line 474, ../sass/components/_smartphone.scss */
   table.historiek tr th, table.kosten tr th, table.eboeken tr th {
@@ -8988,20 +9057,42 @@ button.close {
   }
 
   /* E-boeken */
-  /* line 493, ../sass/components/_smartphone.scss */
+  /* line 492, ../sass/components/_smartphone.scss */
+  .eboeken .boekenkaart {
+    background-position: left -1015px !important;
+  }
+  /* line 494, ../sass/components/_smartphone.scss */
+  .eboeken .boekenkaart p {
+    padding-left: 60px;
+  }
+  /* line 499, ../sass/components/_smartphone.scss */
+  .eboeken .betaling p {
+    padding-left: 60px;
+  }
+  /* line 504, ../sass/components/_smartphone.scss */
   .eboeken form .form-text {
     margin-bottom: 20px;
   }
-  /* line 498, ../sass/components/_smartphone.scss */
+  /* line 509, ../sass/components/_smartphone.scss */
   .eboeken .section.fullwidth.blue {
     margin-left: -15px;
     margin-right: -15px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 506, ../sass/components/_smartphone.scss */
+  /* line 517, ../sass/components/_smartphone.scss */
   .eboeken .devices a {
     margin-bottom: 20px;
+  }
+
+  /* line 526, ../sass/components/_smartphone.scss */
+  .section .item .value {
+    font-weight: normal !important;
+  }
+
+  /* line 532, ../sass/components/_smartphone.scss */
+  .space-below {
+    margin-bottom: 15px;
   }
 }
 /* HTML elements */
@@ -9086,7 +9177,7 @@ a {
 }
 /* line 66, ../sass/components/_elements.scss */
 .form-submit.grey {
-  background-color: #7a868d;
+  background-color: #aab1b5;
 }
 /* line 68, ../sass/components/_elements.scss */
 .form-submit.grey:active, .form-submit.grey:focus {
@@ -9187,7 +9278,7 @@ a.inline {
 /* line 74, ../sass/styles.scss */
 .button.grey {
   color: white;
-  background: #7a868d;
+  background: #aab1b5;
 }
 /* line 77, ../sass/styles.scss */
 .button.grey:active, .button.grey:focus {
@@ -9248,7 +9339,7 @@ ul.steps li.step a:hover {
 }
 /* line 130, ../sass/styles.scss */
 .section .item .value {
-  color: #7a868d;
+  color: #aab1b5;
   font-weight: 600;
 }
 /* line 134, ../sass/styles.scss */
@@ -9268,7 +9359,7 @@ ul.steps li.step a:hover {
 }
 /* line 148, ../sass/styles.scss */
 .section.remove a {
-  display: block;
+  display: inline-block;
 }
 
 /* Lijst met items */
@@ -9278,29 +9369,27 @@ ul.items {
   padding: 0;
   margin-top: 1em;
   padding-top: 1em;
-  border-top: 1px dotted #a6a6a6;
 }
-/* line 161, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 ul.items li.item {
   position: relative;
   padding-bottom: 1em;
   list-style: none;
-  border-bottom: 1px dotted #a6a6a6;
 }
-/* line 166, ../sass/styles.scss */
+/* line 164, ../sass/styles.scss */
 ul.items li.item .title {
   color: #018bb9;
 }
-/* line 169, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 ul.items li.item .lid {
   color: black;
   margin-bottom: 10px;
 }
-/* line 175, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 ul.items li.item .actions {
   margin-top: 0.5em;
 }
-/* line 177, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 ul.items li.item .actions a {
   text-align: center;
   font-size: 1em;
@@ -9312,61 +9401,61 @@ ul.items li.item .actions a {
   -webkit-border-radius: 8px;
   behavior: url(pie/PIE.htc);
 }
-/* line 184, ../sass/styles.scss */
+/* line 182, ../sass/styles.scss */
 ul.items li.item .actions a.blue {
   background: #018bb9;
   color: white;
 }
-/* line 187, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 ul.items li.item .actions a.blue:focus, ul.items li.item .actions a.blue:active {
   background: #004e68;
 }
-/* line 191, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 ul.items li.item .actions a.red {
   background: #c6151d;
   color: white;
   border: 2px solid #c6151d;
 }
-/* line 196, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 ul.items li.item .actions a.grey {
-  background: #7a868d;
+  background: #aab1b5;
   color: white;
 }
-/* line 199, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 ul.items li.item .actions a.grey:focus, ul.items li.item .actions a.grey:active {
   background: #545e64;
 }
 
 /* Secondary Menu */
-/* line 209, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 #secondary-menu {
   background: #363636;
   color: #d9d8d8;
   height: 30px;
   line-height: 30px;
 }
-/* line 214, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 #secondary-menu a {
   color: #d9d8d8;
 }
-/* line 217, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 #secondary-menu .container {
   text-align: right;
 }
-/* line 219, ../sass/styles.scss */
+/* line 217, ../sass/styles.scss */
 #secondary-menu .container span {
   border-right: 1px solid #d9d8d8;
   padding: 0 0.7em;
 }
-/* line 223, ../sass/styles.scss */
+/* line 221, ../sass/styles.scss */
 #secondary-menu .container span a.active {
   text-decoration: underline;
 }
-/* line 227, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 #secondary-menu .container span.last {
   border-right: none;
 }
-/* line 230, ../sass/styles.scss */
+/* line 228, ../sass/styles.scss */
 #secondary-menu .container span.action {
   background: #646464;
   padding-right: 0.7em;
@@ -9376,12 +9465,12 @@ ul.items li.item .actions a.grey:focus, ul.items li.item .actions a.grey:active 
 }
 
 /* General Preloader */
-/* line 242, ../sass/styles.scss */
+/* line 240, ../sass/styles.scss */
 #preloader-general {
   display: none;
   text-align: center;
 }
-/* line 245, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
 #preloader-general span {
   display: inline-block;
   font-size: 1.25em;
@@ -9392,12 +9481,12 @@ ul.items li.item .actions a.grey:focus, ul.items li.item .actions a.grey:active 
 }
 
 /* Small Preloader */
-/* line 256, ../sass/styles.scss */
+/* line 254, ../sass/styles.scss */
 .loader {
   display: none;
   text-align: center;
 }
-/* line 259, ../sass/styles.scss */
+/* line 257, ../sass/styles.scss */
 .loader span {
   display: inline-block;
   width: 35px;
@@ -9406,27 +9495,27 @@ ul.items li.item .actions a.grey:focus, ul.items li.item .actions a.grey:active 
 }
 
 /* Bib page */
-/* line 268, ../sass/styles.scss */
+/* line 266, ../sass/styles.scss */
 span.late {
   color: #c6151d;
 }
 
-/* line 272, ../sass/styles.scss */
+/* line 270, ../sass/styles.scss */
 section.bib-details {
   margin-bottom: 15px;
 }
-/* line 274, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 section.bib-details a {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 278, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 section.bib-details span {
   color: #444444;
 }
 
 /* Messages */
-/* line 285, ../sass/styles.scss */
+/* line 283, ../sass/styles.scss */
 section.messages .message {
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -9435,137 +9524,138 @@ section.messages .message {
   padding: 15px;
   margin-bottom: 15px;
 }
-/* line 289, ../sass/styles.scss */
+/* line 287, ../sass/styles.scss */
 section.messages .message.error {
   border: 2px solid #c6151d;
   color: #c6151d;
 }
-/* line 292, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 section.messages .message.error a {
   color: #c6151d;
   border-bottom: 1px solid #c6151d;
 }
-/* line 295, ../sass/styles.scss */
+/* line 293, ../sass/styles.scss */
 section.messages .message.error a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 300, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
 section.messages .message.error .form-submit {
   color: #c6151d;
 }
-/* line 304, ../sass/styles.scss */
+/* line 302, ../sass/styles.scss */
 section.messages .message.info {
   border: 2px solid #018bb9;
   color: #018bb9;
 }
-/* line 307, ../sass/styles.scss */
+/* line 305, ../sass/styles.scss */
 section.messages .message.info a {
   color: #018bb9;
   border-bottom: 1px solid #018bb9;
 }
-/* line 310, ../sass/styles.scss */
+/* line 308, ../sass/styles.scss */
 section.messages .message.info a:hover {
   border-bottom: none;
   text-decoration: none;
 }
-/* line 315, ../sass/styles.scss */
+/* line 313, ../sass/styles.scss */
 section.messages .message.info .form-submit {
   color: #018bb9;
 }
-/* line 319, ../sass/styles.scss */
+/* line 317, ../sass/styles.scss */
 section.messages .message .form-submit {
   background: white;
   margin: 10px 0;
 }
 
 /* Link (no button) */
-/* line 327, ../sass/styles.scss */
+/* line 325, ../sass/styles.scss */
 a.link {
   border: none !important;
 }
 
-/* line 331, ../sass/styles.scss */
+/* line 329, ../sass/styles.scss */
 a.previous {
   min-width: 250px;
   font-weight: bolder;
 }
 
 /* Remove - cancel stuff */
-/* line 337, ../sass/styles.scss */
+/* line 335, ../sass/styles.scss */
 a.cancel-remove {
   color: #c6151d;
   background: url(../images/sprite.png) no-repeat left -506px;
   line-height: 2em;
   padding-left: 20px !important;
   text-align: left !important;
+  display: inline-block;
 }
 
 /* Voeg een lidmaatschap toe - TODO: test! */
-/* line 346, ../sass/styles.scss */
+/* line 345, ../sass/styles.scss */
 input#library {
   width: 80% !important;
 }
 
 /* Voeg lidmaatschap toe steps */
-/* line 353, ../sass/styles.scss */
+/* line 352, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step a {
   background: url(../images/sprite.png) no-repeat left -554px;
   display: block;
   height: 28px;
 }
-/* line 358, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step span {
   display: none;
 }
-/* line 361, ../sass/styles.scss */
+/* line 360, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step.step-0 {
   width: 63px;
   background: url(../images/sprite.png) no-repeat left -554px;
 }
-/* line 365, ../sass/styles.scss */
+/* line 364, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step.step-1 {
   width: 52px;
 }
-/* line 368, ../sass/styles.scss */
+/* line 367, ../sass/styles.scss */
 ul.steps.max-steps-2 li.step.step-2 {
   width: 55px;
 }
-/* line 374, ../sass/styles.scss */
+/* line 373, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-0 li.step-1 a {
   background-position: -63px -554px;
 }
-/* line 379, ../sass/styles.scss */
+/* line 378, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-0 li.step-2 a {
   background-position: -115px -554px;
 }
-/* line 385, ../sass/styles.scss */
+/* line 384, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-1 li.step-0 {
   background-position: left -582px;
 }
-/* line 389, ../sass/styles.scss */
+/* line 388, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-1 li.step-1 a {
   background-position: -63px -582px;
 }
-/* line 394, ../sass/styles.scss */
+/* line 393, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-1 li.step-2 a {
   background-position: -115px -582px;
 }
-/* line 400, ../sass/styles.scss */
+/* line 399, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-2 li.step-0 {
   background-position: left -611px;
 }
-/* line 404, ../sass/styles.scss */
+/* line 403, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-2 li.step-1 a {
   background-position: -63px -611px;
 }
-/* line 409, ../sass/styles.scss */
+/* line 408, ../sass/styles.scss */
 ul.steps.max-steps-2.steps-2 li.step-2 a {
   background-position: -115px -611px;
 }
 
 /* Extra changes after holiday */
-/* line 417, ../sass/styles.scss */
+/* line 416, ../sass/styles.scss */
 .line {
   border-top: 1px solid #a6a6a6;
   margin-top: 15px;
@@ -9573,7 +9663,7 @@ ul.steps.max-steps-2.steps-2 li.step-2 a {
 }
 
 /* Aanmelden */
-/* line 424, ../sass/styles.scss */
+/* line 423, ../sass/styles.scss */
 a.lost-password {
   text-decoration: underline;
   display: block;
@@ -9581,18 +9671,18 @@ a.lost-password {
 }
 
 /* Dashboard */
-/* line 433, ../sass/styles.scss */
+/* line 432, ../sass/styles.scss */
 .dashboard .section.last {
   margin-top: 0;
 }
-/* line 437, ../sass/styles.scss */
+/* line 436, ../sass/styles.scss */
 .dashboard .section ul.items {
   margin-top: 0;
   margin-left: 1em;
   padding-top: 0;
   border: none;
 }
-/* line 442, ../sass/styles.scss */
+/* line 441, ../sass/styles.scss */
 .dashboard .section ul.items li.item {
   border: none;
   list-style: disc;
@@ -9600,31 +9690,31 @@ a.lost-password {
   padding: 0;
   margin-bottom: 0.5em;
 }
-/* line 448, ../sass/styles.scss */
+/* line 447, ../sass/styles.scss */
 .dashboard .section ul.items li.item .title {
   color: black;
 }
-/* line 452, ../sass/styles.scss */
+/* line 451, ../sass/styles.scss */
 .dashboard .section ul.items li.item .content.blue {
   color: #018bb9;
 }
-/* line 458, ../sass/styles.scss */
+/* line 457, ../sass/styles.scss */
 .dashboard .section .actions {
   margin-top: 20px;
 }
-/* line 460, ../sass/styles.scss */
+/* line 459, ../sass/styles.scss */
 .dashboard .section .actions .col {
   padding: 0;
 }
 
 /* Mijn Bibliotheken */
-/* line 471, ../sass/styles.scss */
+/* line 470, ../sass/styles.scss */
 .mijn-bibliotheken ul.items li.item {
   margin-top: 10px;
 }
 
 /* Bibliotheek-pagina */
-/* line 480, ../sass/styles.scss */
+/* line 479, ../sass/styles.scss */
 .library h2 {
   margin-top: 0;
   background: #018bb9;
@@ -9633,58 +9723,58 @@ a.lost-password {
   font-weight: lighter;
   line-height: 1;
 }
-/* line 489, ../sass/styles.scss */
+/* line 488, ../sass/styles.scss */
 .library ul.items {
-  border-top: 1px solid #d1d1d1;
+  border-top: 1px solid #a6a6a6;
 }
-/* line 491, ../sass/styles.scss */
+/* line 490, ../sass/styles.scss */
 .library ul.items li.item {
   list-style: none;
-  border-bottom: 1px solid #d1d1d1;
+  border-bottom: 1px solid #a6a6a6;
 }
-/* line 494, ../sass/styles.scss */
+/* line 493, ../sass/styles.scss */
 .library ul.items li.item .description {
   padding-left: 0;
 }
-/* line 496, ../sass/styles.scss */
+/* line 495, ../sass/styles.scss */
 .library ul.items li.item .description .title {
   color: #018bb9;
   margin-bottom: 10px;
 }
-/* line 502, ../sass/styles.scss */
+/* line 501, ../sass/styles.scss */
 .library ul.items li.item .actions span {
   display: block;
 }
-/* line 504, ../sass/styles.scss */
+/* line 503, ../sass/styles.scss */
 .library ul.items li.item .actions span.extra {
   font-size: 10px;
   margin-bottom: 10px;
 }
-/* line 509, ../sass/styles.scss */
+/* line 508, ../sass/styles.scss */
 .library ul.items li.item .actions .button {
   width: 100%;
   padding: 6px 0px !important;
 }
-/* line 514, ../sass/styles.scss */
+/* line 513, ../sass/styles.scss */
 .library ul.items li.item.last {
   border-bottom: none;
   margin-bottom: 0;
 }
-/* line 521, ../sass/styles.scss */
+/* line 520, ../sass/styles.scss */
 .library .show-details {
   display: block;
   padding-bottom: 10px;
 }
-/* line 526, ../sass/styles.scss */
+/* line 525, ../sass/styles.scss */
 .library section.icons {
   text-align: center;
 }
-/* line 528, ../sass/styles.scss */
+/* line 527, ../sass/styles.scss */
 .library section.icons ul {
   margin: 0;
   padding: 0;
 }
-/* line 531, ../sass/styles.scss */
+/* line 530, ../sass/styles.scss */
 .library section.icons ul li {
   display: inline-block;
   text-align: center;
@@ -9693,42 +9783,42 @@ a.lost-password {
   margin-right: 30px;
   list-style: none;
 }
-/* line 538, ../sass/styles.scss */
+/* line 537, ../sass/styles.scss */
 .library section.icons ul li.last {
   margin-right: 0;
 }
-/* line 541, ../sass/styles.scss */
+/* line 540, ../sass/styles.scss */
 .library section.icons ul li a {
   font-size: 14px;
 }
-/* line 543, ../sass/styles.scss */
+/* line 542, ../sass/styles.scss */
 .library section.icons ul li a span {
   background: url(../images/sprite.png);
   display: block;
   height: 35px;
 }
-/* line 547, ../sass/styles.scss */
+/* line 546, ../sass/styles.scss */
 .library section.icons ul li a span.contact {
   background-position: left -667px;
 }
-/* line 550, ../sass/styles.scss */
+/* line 549, ../sass/styles.scss */
 .library section.icons ul li a span.catalog {
   background-position: left -705px;
 }
-/* line 553, ../sass/styles.scss */
+/* line 552, ../sass/styles.scss */
 .library section.icons ul li a span.site {
   background-position: left -743px;
 }
 
 /* Digitale Collecties */
-/* line 567, ../sass/styles.scss */
+/* line 566, ../sass/styles.scss */
 .digitale-collecties ul.items {
   margin: 0;
   padding: 0;
   border: none;
   margin-left: 20px;
 }
-/* line 572, ../sass/styles.scss */
+/* line 571, ../sass/styles.scss */
 .digitale-collecties ul.items li.item {
   margin: 0;
   padding: 0;
@@ -9736,9 +9826,10 @@ a.lost-password {
   border: none;
   margin-bottom: 20px;
 }
-/* line 578, ../sass/styles.scss */
+/* line 577, ../sass/styles.scss */
 .digitale-collecties ul.items li.item .title {
   color: black;
+  font-weight: bold;
 }
 /* line 581, ../sass/styles.scss */
 .digitale-collecties ul.items li.item .extra {
@@ -9752,19 +9843,22 @@ a.tooltipinit {
   display: inline-block;
   width: 25px;
   height: 25px;
-  float: right;
-  margin-right: 20px;
   text-indent: -999em;
   overflow: hidden;
+  /*
+    position: absolute;
+    left: 0;
+    top: 0;
+  */
 }
 
 /* Gopress */
-/* line 602, ../sass/styles.scss */
+/* line 605, ../sass/styles.scss */
 .gopress ul.icons {
   margin: 0;
   padding: 0;
 }
-/* line 605, ../sass/styles.scss */
+/* line 608, ../sass/styles.scss */
 .gopress ul.icons li {
   display: block;
   background: url(../images/sprite.png) no-repeat;
@@ -9775,71 +9869,81 @@ a.tooltipinit {
   margin-bottom: 10px;
   padding-left: 50px;
 }
-/* line 614, ../sass/styles.scss */
+/* line 617, ../sass/styles.scss */
 .gopress ul.icons li.search {
   background-position: left -792px;
 }
-/* line 617, ../sass/styles.scss */
+/* line 620, ../sass/styles.scss */
 .gopress ul.icons li.profile {
   background-position: left -836px;
 }
-/* line 620, ../sass/styles.scss */
+/* line 623, ../sass/styles.scss */
 .gopress ul.icons li.read {
   background-position: left -879px;
 }
 
 /* Eboeken */
-/* line 629, ../sass/styles.scss */
+/* line 631, ../sass/styles.scss */
+.eboeken {
+  /*
+    .tooltipinit {
+      display: inline-block;
+      float: none;
+      margin: 0;
+      position: relative;
+    }
+  */
+}
+/* line 632, ../sass/styles.scss */
+.eboeken .boekenkaart {
+  background: url(../images/sprite.png) no-repeat left -1010px;
+}
+/* line 635, ../sass/styles.scss */
+.eboeken .betaling {
+  background: url(../images/sprite.png) no-repeat left -1200px;
+}
+/* line 638, ../sass/styles.scss */
 .eboeken .leentegoed {
   background: url(../images/sprite.png) no-repeat left -938px;
   min-height: 40px;
   padding-left: 70px;
 }
-/* line 634, ../sass/styles.scss */
-.eboeken .tooltipinit {
-  display: inline-block;
-  float: none;
-  margin: 0;
-  position: relative;
-  top: 8px;
-  left: 10px;
-}
-/* line 644, ../sass/styles.scss */
+/* line 653, ../sass/styles.scss */
 .eboeken form .form-text {
   margin-right: 15px;
 }
-/* line 650, ../sass/styles.scss */
+/* line 659, ../sass/styles.scss */
 .eboeken section.fullwidth.blue {
   background: #0f6eb2;
   color: white;
   margin-bottom: 20px;
   padding: 20px 0;
 }
-/* line 655, ../sass/styles.scss */
+/* line 664, ../sass/styles.scss */
 .eboeken section.fullwidth.blue h2 {
   color: #d2da54;
   font-weight: lighter;
 }
-/* line 661, ../sass/styles.scss */
+/* line 670, ../sass/styles.scss */
 .eboeken section.fullwidth .devices a {
   display: inline-block;
   margin-right: 15px;
 }
-/* line 664, ../sass/styles.scss */
+/* line 673, ../sass/styles.scss */
 .eboeken section.fullwidth .devices a.last {
   margin-right: 0;
 }
-/* line 670, ../sass/styles.scss */
+/* line 679, ../sass/styles.scss */
 .eboeken section.icons {
   text-align: center;
-  color: #7a868d;
+  color: #aab1b5;
 }
-/* line 673, ../sass/styles.scss */
+/* line 682, ../sass/styles.scss */
 .eboeken section.icons ul {
   margin: 0;
   padding: 0;
 }
-/* line 676, ../sass/styles.scss */
+/* line 685, ../sass/styles.scss */
 .eboeken section.icons ul li {
   display: inline-block;
   text-align: center;
@@ -9849,33 +9953,66 @@ a.tooltipinit {
   list-style: none;
   background: url(../images/sprite.png) no-repeat;
   width: 115px;
-  padding-top: 50px;
-}
-/* line 686, ../sass/styles.scss */
-.eboeken section.icons ul li.info {
-  background-position: right -488px;
-}
-/* line 689, ../sass/styles.scss */
-.eboeken section.icons ul li.manual {
-  background-position: right -600px;
-}
-/* line 692, ../sass/styles.scss */
-.eboeken section.icons ul li.questions {
-  background-position: right -728px;
+  padding-top: 75px;
 }
 /* line 695, ../sass/styles.scss */
+.eboeken section.icons ul li.info {
+  background-position: left -1934px;
+}
+/* line 698, ../sass/styles.scss */
+.eboeken section.icons ul li.manual {
+  background-position: left -2104px;
+}
+/* line 701, ../sass/styles.scss */
+.eboeken section.icons ul li.questions {
+  background-position: left -2293px;
+}
+/* line 704, ../sass/styles.scss */
 .eboeken section.icons ul li.last {
   margin-right: 0;
 }
 
 /* Consumer pages: "je hebt toegang..." */
-/* line 705, ../sass/styles.scss */
+/* line 714, ../sass/styles.scss */
 p.access {
   margin-top: 20px;
 }
-/* line 707, ../sass/styles.scss */
+/* line 716, ../sass/styles.scss */
 p.access em {
   display: block;
-  color: #7a868d;
+  color: #aab1b5;
   text-align: left;
+}
+
+/* Vergeten pagina */
+/* line 725, ../sass/styles.scss */
+.bib-eboeken ul.libraries {
+  margin: 0;
+  padding: 0;
+}
+/* line 728, ../sass/styles.scss */
+.bib-eboeken ul.libraries li.library {
+  list-style: none;
+}
+
+/* line 736, ../sass/styles.scss */
+.mijn-bibliotheken section.library.first {
+  padding-top: 20px;
+}
+/* line 739, ../sass/styles.scss */
+.mijn-bibliotheken section.library section.messages {
+  padding: 0;
+}
+/* line 742, ../sass/styles.scss */
+.mijn-bibliotheken section.library div.actions {
+  text-align: left !important;
+}
+/* line 745, ../sass/styles.scss */
+.mijn-bibliotheken section.library ul.items {
+  border: none !important;
+  padding-top: 0 !important;
+}
+/* line 748, ../sass/styles.scss */
+.mijn-bibliotheken section.library ul.items li.item {
+  border: none !important;
 }

@@ -88,14 +88,14 @@ jQuery(document).ready(function($) {
 
   /* Toggle E-boeken lijst */
   $('a.show-details-eboeken').click(function(e) {
-    var textVisible = $(this).data('text-visible');
-    var textHidden = $(this).data('text-hidden');
     var details = $(this).parent().find('.details');
     details.toggle();
     if (details.is(':visible')) {
-      $(this).html(textVisible);
+      $(this).removeClass("collapsed");
+      $(this).addClass("expanded");
     } else {
-      $(this).html(textHidden);
+      $(this).removeClass("expanded");
+      $(this).addClass("collapsed");
     }
     e.preventDefault();
     return false;
