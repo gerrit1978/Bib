@@ -490,9 +490,15 @@
   /* E-boeken */
   .eboeken {
 	  .boekenkaart {
-	    background-position: left -1015px !important;
+	    background-position: left -1000px !important;
 	    p {
 	      padding-left: 60px;
+	    }
+	    h3 {
+	      width: 100%;
+	    }
+	    .tooltipinit {
+        float: right;
 	    }
     }
     .betaling {

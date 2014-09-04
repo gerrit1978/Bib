@@ -586,8 +586,12 @@
       padding-left: 80px !important;
     }
     .boekenkaart {
-      background-position: left -1415px !important;
+      background-position: left -1400px !important;
       padding-left: 80px;
+      .tooltip {
+        width: 200px !important;
+      }
+
     }
     .betaling {
       background-position: left -1565px !important;

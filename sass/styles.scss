@@ -588,7 +588,10 @@ a.lost-password {
 /* Tooltips */
 a.tooltipinit {
   background: url(../images/sprite.png) right -451px;
-  display: inline-block;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -3px;
   width: 25px;
   height: 25px;
   text-indent: -999em;
@@ -631,6 +634,26 @@ a.tooltipinit {
 .eboeken {
   .boekenkaart {
     background: url(../images/sprite.png) no-repeat left -1010px;
+    h3 {
+      display: inline-block;
+      padding-right: 80px;
+      position: relative;
+     .tooltipinit {
+        position: absolute !important;
+        right: 0;
+        top: -2px;
+      }
+/*
+      .tooltip {
+        border: 3px solid red;
+        max-width: 100% !important;
+      }
+      .tooltip-inner {
+        border: 4px solid blue;
+        max-width: 100% !important;
+      }
+*/
+    }
   }
   .betaling {
     background: url(../images/sprite.png) no-repeat left -1200px;
@@ -640,15 +663,6 @@ a.tooltipinit {
     min-height: 40px;
     padding-left: 70px;
   }
-/*
-  .tooltipinit {
-    display: inline-block;
-    float: none;
-    margin: 0;
-    position: relative;
-  }
-*/
-  
   form {
     .form-text {
       margin-right: 15px;

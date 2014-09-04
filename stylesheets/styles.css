@@ -8477,39 +8477,43 @@ button.close {
   }
   /* line 588, ../sass/components/_desktop.scss */
   .eboeken .boekenkaart {
-    background-position: left -1415px !important;
+    background-position: left -1400px !important;
     padding-left: 80px;
   }
-  /* line 592, ../sass/components/_desktop.scss */
+  /* line 591, ../sass/components/_desktop.scss */
+  .eboeken .boekenkaart .tooltip {
+    width: 200px !important;
+  }
+  /* line 596, ../sass/components/_desktop.scss */
   .eboeken .betaling {
     background-position: left -1565px !important;
     padding-left: 80px;
   }
-  /* line 597, ../sass/components/_desktop.scss */
+  /* line 601, ../sass/components/_desktop.scss */
   .eboeken form .form-text {
     width: auto;
   }
-  /* line 601, ../sass/components/_desktop.scss */
+  /* line 605, ../sass/components/_desktop.scss */
   .eboeken table {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 605, ../sass/components/_desktop.scss */
+  /* line 609, ../sass/components/_desktop.scss */
   .eboeken table tr.odd {
     background: #e6edf7;
   }
-  /* line 608, ../sass/components/_desktop.scss */
+  /* line 612, ../sass/components/_desktop.scss */
   .eboeken table tr td, .eboeken table tr th {
     padding: 10px 4px;
   }
-  /* line 615, ../sass/components/_desktop.scss */
+  /* line 619, ../sass/components/_desktop.scss */
   .eboeken .section.fullwidth.blue {
     margin-left: -20px;
     margin-right: -20px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 623, ../sass/components/_desktop.scss */
+  /* line 627, ../sass/components/_desktop.scss */
   .eboeken .devices {
     background: url(../images/devices.png) no-repeat right top;
     padding-top: 5px;
@@ -8518,46 +8522,46 @@ button.close {
     text-align: right;
     min-height: 180px;
   }
-  /* line 633, ../sass/components/_desktop.scss */
+  /* line 637, ../sass/components/_desktop.scss */
   .eboeken .expand {
     background: #f1f1f1;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  /* line 637, ../sass/components/_desktop.scss */
+  /* line 641, ../sass/components/_desktop.scss */
   .eboeken .expand a.show-details {
     padding: 10px;
     display: block;
     background: url(../images/sprite.png) no-repeat;
   }
-  /* line 641, ../sass/components/_desktop.scss */
+  /* line 645, ../sass/components/_desktop.scss */
   .eboeken .expand a.show-details.collapsed {
     background-position: right -2920px;
   }
-  /* line 644, ../sass/components/_desktop.scss */
+  /* line 648, ../sass/components/_desktop.scss */
   .eboeken .expand a.show-details.expanded {
     background-position: right -2964px;
   }
-  /* line 648, ../sass/components/_desktop.scss */
+  /* line 652, ../sass/components/_desktop.scss */
   .eboeken .expand.current {
     margin-bottom: 20px;
   }
 
   /* Consumer pages: "je hebt toegang..." */
-  /* line 657, ../sass/components/_desktop.scss */
+  /* line 661, ../sass/components/_desktop.scss */
   p.access em {
     text-align: right !important;
   }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 667, ../sass/components/_desktop.scss */
+  /* line 671, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 672, ../sass/components/_desktop.scss */
+  /* line 676, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -9059,38 +9063,46 @@ button.close {
   /* E-boeken */
   /* line 492, ../sass/components/_smartphone.scss */
   .eboeken .boekenkaart {
-    background-position: left -1015px !important;
+    background-position: left -1000px !important;
   }
   /* line 494, ../sass/components/_smartphone.scss */
   .eboeken .boekenkaart p {
     padding-left: 60px;
   }
-  /* line 499, ../sass/components/_smartphone.scss */
+  /* line 497, ../sass/components/_smartphone.scss */
+  .eboeken .boekenkaart h3 {
+    width: 100%;
+  }
+  /* line 500, ../sass/components/_smartphone.scss */
+  .eboeken .boekenkaart .tooltipinit {
+    float: right;
+  }
+  /* line 505, ../sass/components/_smartphone.scss */
   .eboeken .betaling p {
     padding-left: 60px;
   }
-  /* line 504, ../sass/components/_smartphone.scss */
+  /* line 510, ../sass/components/_smartphone.scss */
   .eboeken form .form-text {
     margin-bottom: 20px;
   }
-  /* line 509, ../sass/components/_smartphone.scss */
+  /* line 515, ../sass/components/_smartphone.scss */
   .eboeken .section.fullwidth.blue {
     margin-left: -15px;
     margin-right: -15px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 517, ../sass/components/_smartphone.scss */
+  /* line 523, ../sass/components/_smartphone.scss */
   .eboeken .devices a {
     margin-bottom: 20px;
   }
 
-  /* line 526, ../sass/components/_smartphone.scss */
+  /* line 532, ../sass/components/_smartphone.scss */
   .section .item .value {
     font-weight: normal !important;
   }
 
-  /* line 532, ../sass/components/_smartphone.scss */
+  /* line 538, ../sass/components/_smartphone.scss */
   .space-below {
     margin-bottom: 15px;
   }
@@ -9840,7 +9852,10 @@ a.lost-password {
 /* line 589, ../sass/styles.scss */
 a.tooltipinit {
   background: url(../images/sprite.png) right -451px;
-  display: inline-block;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -3px;
   width: 25px;
   height: 25px;
   text-indent: -999em;
@@ -9853,12 +9868,12 @@ a.tooltipinit {
 }
 
 /* Gopress */
-/* line 605, ../sass/styles.scss */
+/* line 608, ../sass/styles.scss */
 .gopress ul.icons {
   margin: 0;
   padding: 0;
 }
-/* line 608, ../sass/styles.scss */
+/* line 611, ../sass/styles.scss */
 .gopress ul.icons li {
   display: block;
   background: url(../images/sprite.png) no-repeat;
@@ -9869,81 +9884,92 @@ a.tooltipinit {
   margin-bottom: 10px;
   padding-left: 50px;
 }
-/* line 617, ../sass/styles.scss */
+/* line 620, ../sass/styles.scss */
 .gopress ul.icons li.search {
   background-position: left -792px;
 }
-/* line 620, ../sass/styles.scss */
+/* line 623, ../sass/styles.scss */
 .gopress ul.icons li.profile {
   background-position: left -836px;
 }
-/* line 623, ../sass/styles.scss */
+/* line 626, ../sass/styles.scss */
 .gopress ul.icons li.read {
   background-position: left -879px;
 }
 
 /* Eboeken */
-/* line 631, ../sass/styles.scss */
-.eboeken {
-  /*
-    .tooltipinit {
-      display: inline-block;
-      float: none;
-      margin: 0;
-      position: relative;
-    }
-  */
-}
-/* line 632, ../sass/styles.scss */
+/* line 635, ../sass/styles.scss */
 .eboeken .boekenkaart {
   background: url(../images/sprite.png) no-repeat left -1010px;
 }
-/* line 635, ../sass/styles.scss */
+/* line 637, ../sass/styles.scss */
+.eboeken .boekenkaart h3 {
+  display: inline-block;
+  padding-right: 80px;
+  position: relative;
+  /*
+        .tooltip {
+          border: 3px solid red;
+          max-width: 100% !important;
+        }
+        .tooltip-inner {
+          border: 4px solid blue;
+          max-width: 100% !important;
+        }
+  */
+}
+/* line 641, ../sass/styles.scss */
+.eboeken .boekenkaart h3 .tooltipinit {
+  position: absolute !important;
+  right: 0;
+  top: -2px;
+}
+/* line 658, ../sass/styles.scss */
 .eboeken .betaling {
   background: url(../images/sprite.png) no-repeat left -1200px;
 }
-/* line 638, ../sass/styles.scss */
+/* line 661, ../sass/styles.scss */
 .eboeken .leentegoed {
   background: url(../images/sprite.png) no-repeat left -938px;
   min-height: 40px;
   padding-left: 70px;
 }
-/* line 653, ../sass/styles.scss */
+/* line 667, ../sass/styles.scss */
 .eboeken form .form-text {
   margin-right: 15px;
 }
-/* line 659, ../sass/styles.scss */
+/* line 673, ../sass/styles.scss */
 .eboeken section.fullwidth.blue {
   background: #0f6eb2;
   color: white;
   margin-bottom: 20px;
   padding: 20px 0;
 }
-/* line 664, ../sass/styles.scss */
+/* line 678, ../sass/styles.scss */
 .eboeken section.fullwidth.blue h2 {
   color: #d2da54;
   font-weight: lighter;
 }
-/* line 670, ../sass/styles.scss */
+/* line 684, ../sass/styles.scss */
 .eboeken section.fullwidth .devices a {
   display: inline-block;
   margin-right: 15px;
 }
-/* line 673, ../sass/styles.scss */
+/* line 687, ../sass/styles.scss */
 .eboeken section.fullwidth .devices a.last {
   margin-right: 0;
 }
-/* line 679, ../sass/styles.scss */
+/* line 693, ../sass/styles.scss */
 .eboeken section.icons {
   text-align: center;
   color: #aab1b5;
 }
-/* line 682, ../sass/styles.scss */
+/* line 696, ../sass/styles.scss */
 .eboeken section.icons ul {
   margin: 0;
   padding: 0;
 }
-/* line 685, ../sass/styles.scss */
+/* line 699, ../sass/styles.scss */
 .eboeken section.icons ul li {
   display: inline-block;
   text-align: center;
@@ -9955,29 +9981,29 @@ a.tooltipinit {
   width: 115px;
   padding-top: 75px;
 }
-/* line 695, ../sass/styles.scss */
+/* line 709, ../sass/styles.scss */
 .eboeken section.icons ul li.info {
   background-position: left -1934px;
 }
-/* line 698, ../sass/styles.scss */
+/* line 712, ../sass/styles.scss */
 .eboeken section.icons ul li.manual {
   background-position: left -2104px;
 }
-/* line 701, ../sass/styles.scss */
+/* line 715, ../sass/styles.scss */
 .eboeken section.icons ul li.questions {
   background-position: left -2293px;
 }
-/* line 704, ../sass/styles.scss */
+/* line 718, ../sass/styles.scss */
 .eboeken section.icons ul li.last {
   margin-right: 0;
 }
 
 /* Consumer pages: "je hebt toegang..." */
-/* line 714, ../sass/styles.scss */
+/* line 728, ../sass/styles.scss */
 p.access {
   margin-top: 20px;
 }
-/* line 716, ../sass/styles.scss */
+/* line 730, ../sass/styles.scss */
 p.access em {
   display: block;
   color: #aab1b5;
@@ -9985,34 +10011,34 @@ p.access em {
 }
 
 /* Vergeten pagina */
-/* line 725, ../sass/styles.scss */
+/* line 739, ../sass/styles.scss */
 .bib-eboeken ul.libraries {
   margin: 0;
   padding: 0;
 }
-/* line 728, ../sass/styles.scss */
+/* line 742, ../sass/styles.scss */
 .bib-eboeken ul.libraries li.library {
   list-style: none;
 }
 
-/* line 736, ../sass/styles.scss */
+/* line 750, ../sass/styles.scss */
 .mijn-bibliotheken section.library.first {
   padding-top: 20px;
 }
-/* line 739, ../sass/styles.scss */
+/* line 753, ../sass/styles.scss */
 .mijn-bibliotheken section.library section.messages {
   padding: 0;
 }
-/* line 742, ../sass/styles.scss */
+/* line 756, ../sass/styles.scss */
 .mijn-bibliotheken section.library div.actions {
   text-align: left !important;
 }
-/* line 745, ../sass/styles.scss */
+/* line 759, ../sass/styles.scss */
 .mijn-bibliotheken section.library ul.items {
   border: none !important;
   padding-top: 0 !important;
 }
-/* line 748, ../sass/styles.scss */
+/* line 762, ../sass/styles.scss */
 .mijn-bibliotheken section.library ul.items li.item {
   border: none !important;
 }
