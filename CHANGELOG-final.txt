@@ -21,11 +21,12 @@
 
 - slide 6: layout fundels pagina mobile. check je eens?
 ---> dat kan ik helaas ook niet reproduceren in mijn HTML :(; op dev zie ik bij johanmijs zo geen historiek staan.
-     Bij "uitleenhistoriek" bij een bibliotheek lijkt dit ook goed te zijn. Mogelijk device-afhankelijk? :s
-     TBD maandag. 
+     Bij "uitleenhistoriek" bij een bibliotheek lijkt dit ook goed te zijn. Mogelijk device-afhankelijk, dwz bij bepaalde browsers
+     op mobiele devices??? TBD maandag. 
 
 - slide 7: tooltips op mobile
----> Zie registreer-stap2-v2.html: "data-placement=left" om te vermijden dat tekst wordt afgebroken
+---> Zie registreer-stap2-v2.html: "data-placement=left" om te vermijden dat tekst wordt afgebroken. Ik hoop alleen dat nu
+     niet de commentaar komt dat dit over het tekstveldje komt.
 
 - slide 8 - 11: pagina die nog wat layout opsmuk nodig heeft
 ---> stylesheet aangepast. Zie nieuwe pagina vergeten-pagina-v2.html voor de precieze HTML-opmaak.
@@ -51,8 +52,10 @@
 ---> stylesheet aangepast
 
 - slide 25: opm 2 + 3
+---> leeg maken velden: werkt die "autocomplete='off'" niet? Toetsenbord-probleem: geen idee of hier een oplossing voor is? TBD maandag
+
 - slide 26, punt 3: ?
-{ vrijdag 12 - 13 }
+---> ik zie niet echt een punt 3 op slide 26 :)
 
 - slide 29
 ---> stylesheet en sprite aangepast
@@ -62,4 +65,5 @@
 ---> kleine HTML-wijziging in profiel-1-v2.html: "Dit heeft geen enkel..." staat nu tussen <p>-tags.
 
 - slide 32 en 34: css dingskes
----> stylesheet aangepast. Voeg steeds class="grey" ipv class="red" toe bij grijze knoppen, dan krijgen ze automatisch het nieuwe grijs als kleur
+---> stylesheet aangepast. Voeg steeds class="grey" ipv class="red" toe bij grijze knoppen, 
+     dan krijgen ze automatisch het nieuwe grijs als kleur
