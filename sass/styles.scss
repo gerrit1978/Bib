@@ -177,7 +177,6 @@ ul.items {
         font-size: 1em;
         line-height: 1;
         padding: 6px 12px;
-        font-weight: 400;
         @include rounded;
         &.blue {
           background: $blue;
@@ -501,7 +500,7 @@ a.lost-password {
         span {
           display: block;
 	        &.extra {
-	          font-size: 10px;
+	          font-size: 12px;
 	          margin-bottom: 10px;
 	        }
         }

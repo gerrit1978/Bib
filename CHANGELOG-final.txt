@@ -46,7 +46,24 @@
 ---> stylesheet en HTML-code (zie mijn-bibliotheken-v2.html) aangepast. Elke bib = <section class="library">
 
 - slide 19-23: bib pagina: deels voor jou. waarschijnlijk best maandag samen te integreren
-{ maandag }
+---> slide 19
+-----> punt 1: stylesheet aangepast
+-----> punt 2: Joeri
+-----> punt 3: sprite aangepast
+-----> punt 4: stylesheet aangepast
+-----> punt 5: class="button" weglaten, dus enkel class="blue"
+-----> punt 6: classes "odd" en "even": de 1e <tr> (met enkel <th>) krijgt dan class="odd", de volgende class="even" enz
+-----> punt 7: ???
+-----> punt 8: sprite aangepast - te verifiëren
+-----> punt 9: class="error" ipv class="message"??
+-----> punt 10: te verifiëren -> bij mij zien die titels er ook vet uit op mobile?
+-----> punt 11: maandag!
+---> slide 20
+-----> screenshot
+---> slide 21
+-----> maandag
+---> slide 22
+-----> zie ook slide 6; ik kan dit helaas niet reproduceren :(
 
 - slide 24 punt 1: class title bold zetten in digitale-collecties
 ---> stylesheet aangepast
