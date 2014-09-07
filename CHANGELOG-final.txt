@@ -17,7 +17,8 @@
 ---> (zie ook slide 7). Stylesheet wat aangepast. 
 
 - slide 5: enig idee waarom die tooltip bij e-boeken plots wit is?
----> geen idee, in mijn html staat die gewoon. TBD maandag om de uiteindelijke markup te checken
+---> geen idee, in mijn html staat die gewoon. TBD maandag om de uiteindelijke markup te checken. 
+---> Update: lijkt erop dat die overridden wordt door jQuery UI tooltip.... Is jQuery UI nodig op deze pagina?
 
 - slide 6: layout fundels pagina mobile. check je eens?
 ---> dat kan ik helaas ook niet reproduceren in mijn HTML :(; op dev zie ik bij johanmijs zo geen historiek staan.
