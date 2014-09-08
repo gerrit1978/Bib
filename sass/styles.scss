@@ -776,3 +776,14 @@ p.access {
     }
   }
 }
+
+/* Pseudo-collapsible */
+.section {
+  .pseudo-collapsible {
+    h2.title {
+      font-weight: 600;
+      background: $collapse;
+      color: $collapseText;
+    }
+  }
+}

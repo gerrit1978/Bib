@@ -10051,3 +10051,11 @@ p.access em {
 .mijn-bibliotheken section.library ul.items li.item {
   border: none !important;
 }
+
+/* Pseudo-collapsible */
+/* line 783, ../sass/styles.scss */
+.section .pseudo-collapsible h2.title {
+  font-weight: 600;
+  background: #e0e0e0;
+  color: #333333;
+}
