@@ -9771,21 +9771,31 @@ a.lost-password {
   border-bottom: none;
   margin-bottom: 0;
 }
-/* line 519, ../sass/styles.scss */
-.library .show-details {
-  display: block;
-  padding-bottom: 10px;
+/* line 520, ../sass/styles.scss */
+.library .collapsible h2.title {
+  cursor: pointer;
+  background: #e0e0e0 url(../images/sprite.png) no-repeat right -3075px;
+  color: #333333;
+  font-weight: 600;
 }
-/* line 524, ../sass/styles.scss */
+/* line 527, ../sass/styles.scss */
+.library .collapsible.collapsed h2.title {
+  background-position: right -3025px;
+}
+/* line 530, ../sass/styles.scss */
+.library .collapsible.collapsed .content {
+  display: none;
+}
+/* line 536, ../sass/styles.scss */
 .library section.icons {
   text-align: center;
 }
-/* line 526, ../sass/styles.scss */
+/* line 538, ../sass/styles.scss */
 .library section.icons ul {
   margin: 0;
   padding: 0;
 }
-/* line 529, ../sass/styles.scss */
+/* line 541, ../sass/styles.scss */
 .library section.icons ul li {
   display: inline-block;
   text-align: center;
@@ -9794,42 +9804,42 @@ a.lost-password {
   margin-right: 30px;
   list-style: none;
 }
-/* line 536, ../sass/styles.scss */
+/* line 548, ../sass/styles.scss */
 .library section.icons ul li.last {
   margin-right: 0;
 }
-/* line 539, ../sass/styles.scss */
+/* line 551, ../sass/styles.scss */
 .library section.icons ul li a {
   font-size: 14px;
 }
-/* line 541, ../sass/styles.scss */
+/* line 553, ../sass/styles.scss */
 .library section.icons ul li a span {
   background: url(../images/sprite.png);
   display: block;
   height: 35px;
 }
-/* line 545, ../sass/styles.scss */
+/* line 557, ../sass/styles.scss */
 .library section.icons ul li a span.contact {
   background-position: left -667px;
 }
-/* line 548, ../sass/styles.scss */
+/* line 560, ../sass/styles.scss */
 .library section.icons ul li a span.catalog {
   background-position: left -705px;
 }
-/* line 551, ../sass/styles.scss */
+/* line 563, ../sass/styles.scss */
 .library section.icons ul li a span.site {
   background-position: left -743px;
 }
 
 /* Digitale Collecties */
-/* line 565, ../sass/styles.scss */
+/* line 577, ../sass/styles.scss */
 .digitale-collecties ul.items {
   margin: 0;
   padding: 0;
   border: none;
   margin-left: 20px;
 }
-/* line 570, ../sass/styles.scss */
+/* line 582, ../sass/styles.scss */
 .digitale-collecties ul.items li.item {
   margin: 0;
   padding: 0;
@@ -9837,18 +9847,18 @@ a.lost-password {
   border: none;
   margin-bottom: 20px;
 }
-/* line 576, ../sass/styles.scss */
+/* line 588, ../sass/styles.scss */
 .digitale-collecties ul.items li.item .title {
   color: black;
   font-weight: bold;
 }
-/* line 580, ../sass/styles.scss */
+/* line 592, ../sass/styles.scss */
 .digitale-collecties ul.items li.item .extra {
   font-size: 14px;
 }
 
 /* Tooltips */
-/* line 588, ../sass/styles.scss */
+/* line 600, ../sass/styles.scss */
 a.tooltipinit {
   background: url(../images/sprite.png) right -451px;
   display: block;
@@ -9867,12 +9877,12 @@ a.tooltipinit {
 }
 
 /* Gopress */
-/* line 607, ../sass/styles.scss */
+/* line 619, ../sass/styles.scss */
 .gopress ul.icons {
   margin: 0;
   padding: 0;
 }
-/* line 610, ../sass/styles.scss */
+/* line 622, ../sass/styles.scss */
 .gopress ul.icons li {
   display: block;
   background: url(../images/sprite.png) no-repeat;
@@ -9883,25 +9893,25 @@ a.tooltipinit {
   margin-bottom: 10px;
   padding-left: 50px;
 }
-/* line 619, ../sass/styles.scss */
+/* line 631, ../sass/styles.scss */
 .gopress ul.icons li.search {
   background-position: left -792px;
 }
-/* line 622, ../sass/styles.scss */
+/* line 634, ../sass/styles.scss */
 .gopress ul.icons li.profile {
   background-position: left -836px;
 }
-/* line 625, ../sass/styles.scss */
+/* line 637, ../sass/styles.scss */
 .gopress ul.icons li.read {
   background-position: left -879px;
 }
 
 /* Eboeken */
-/* line 634, ../sass/styles.scss */
+/* line 646, ../sass/styles.scss */
 .eboeken .boekenkaart {
   background: url(../images/sprite.png) no-repeat left -1010px;
 }
-/* line 636, ../sass/styles.scss */
+/* line 648, ../sass/styles.scss */
 .eboeken .boekenkaart h3 {
   display: inline-block;
   padding-right: 80px;
@@ -9917,58 +9927,58 @@ a.tooltipinit {
         }
   */
 }
-/* line 640, ../sass/styles.scss */
+/* line 652, ../sass/styles.scss */
 .eboeken .boekenkaart h3 .tooltipinit {
   position: absolute !important;
   right: 0;
   top: -2px;
 }
-/* line 657, ../sass/styles.scss */
+/* line 669, ../sass/styles.scss */
 .eboeken .betaling {
   background: url(../images/sprite.png) no-repeat left -1200px;
 }
-/* line 660, ../sass/styles.scss */
+/* line 672, ../sass/styles.scss */
 .eboeken .leentegoed {
   background: url(../images/sprite.png) no-repeat left -938px;
   min-height: 40px;
   padding-left: 70px;
 }
-/* line 666, ../sass/styles.scss */
+/* line 678, ../sass/styles.scss */
 .eboeken form .form-text {
   margin-right: 15px;
 }
-/* line 672, ../sass/styles.scss */
+/* line 684, ../sass/styles.scss */
 .eboeken section.fullwidth.blue {
   background: #0f6eb2;
   color: white;
   margin-bottom: 20px;
   padding: 20px 0;
 }
-/* line 677, ../sass/styles.scss */
+/* line 689, ../sass/styles.scss */
 .eboeken section.fullwidth.blue h2 {
   color: #d2da54;
   font-weight: lighter;
 }
-/* line 683, ../sass/styles.scss */
+/* line 695, ../sass/styles.scss */
 .eboeken section.fullwidth .devices a {
   display: inline-block;
   margin-right: 15px;
 }
-/* line 686, ../sass/styles.scss */
+/* line 698, ../sass/styles.scss */
 .eboeken section.fullwidth .devices a.last {
   margin-right: 0;
 }
-/* line 692, ../sass/styles.scss */
+/* line 704, ../sass/styles.scss */
 .eboeken section.icons {
   text-align: center;
   color: #aab1b5;
 }
-/* line 695, ../sass/styles.scss */
+/* line 707, ../sass/styles.scss */
 .eboeken section.icons ul {
   margin: 0;
   padding: 0;
 }
-/* line 698, ../sass/styles.scss */
+/* line 710, ../sass/styles.scss */
 .eboeken section.icons ul li {
   display: inline-block;
   text-align: center;
@@ -9980,29 +9990,29 @@ a.tooltipinit {
   width: 115px;
   padding-top: 75px;
 }
-/* line 708, ../sass/styles.scss */
+/* line 720, ../sass/styles.scss */
 .eboeken section.icons ul li.info {
   background-position: left -1934px;
 }
-/* line 711, ../sass/styles.scss */
+/* line 723, ../sass/styles.scss */
 .eboeken section.icons ul li.manual {
   background-position: left -2104px;
 }
-/* line 714, ../sass/styles.scss */
+/* line 726, ../sass/styles.scss */
 .eboeken section.icons ul li.questions {
   background-position: left -2293px;
 }
-/* line 717, ../sass/styles.scss */
+/* line 729, ../sass/styles.scss */
 .eboeken section.icons ul li.last {
   margin-right: 0;
 }
 
 /* Consumer pages: "je hebt toegang..." */
-/* line 727, ../sass/styles.scss */
+/* line 739, ../sass/styles.scss */
 p.access {
   margin-top: 20px;
 }
-/* line 729, ../sass/styles.scss */
+/* line 741, ../sass/styles.scss */
 p.access em {
   display: block;
   color: #aab1b5;
@@ -10010,34 +10020,34 @@ p.access em {
 }
 
 /* Vergeten pagina */
-/* line 738, ../sass/styles.scss */
+/* line 750, ../sass/styles.scss */
 .bib-eboeken ul.libraries {
   margin: 0;
   padding: 0;
 }
-/* line 741, ../sass/styles.scss */
+/* line 753, ../sass/styles.scss */
 .bib-eboeken ul.libraries li.library {
   list-style: none;
 }
 
-/* line 749, ../sass/styles.scss */
+/* line 761, ../sass/styles.scss */
 .mijn-bibliotheken section.library.first {
   padding-top: 20px;
 }
-/* line 752, ../sass/styles.scss */
+/* line 764, ../sass/styles.scss */
 .mijn-bibliotheken section.library section.messages {
   padding: 0;
 }
-/* line 755, ../sass/styles.scss */
+/* line 767, ../sass/styles.scss */
 .mijn-bibliotheken section.library div.actions {
   text-align: left !important;
 }
-/* line 758, ../sass/styles.scss */
+/* line 770, ../sass/styles.scss */
 .mijn-bibliotheken section.library ul.items {
   border: none !important;
   padding-top: 0 !important;
 }
-/* line 761, ../sass/styles.scss */
+/* line 773, ../sass/styles.scss */
 .mijn-bibliotheken section.library ul.items li.item {
   border: none !important;
 }

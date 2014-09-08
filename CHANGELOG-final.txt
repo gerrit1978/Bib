@@ -58,11 +58,11 @@
 -----> punt 8: sprite aangepast - te verifiëren
 -----> punt 9: class="error" ipv class="message"??
 -----> punt 10: te verifiëren -> bij mij zien die titels er ook vet uit op mobile?
------> punt 11: maandag!
+-----> punt 11: stylesheet & sprite & bibnet.js aangepast, aangepaste HTML markup in bibliotheek-2-v2.html
 ---> slide 20
 -----> screenshot
 ---> slide 21
------> maandag
+-----> zie slide 19
 ---> slide 22
 -----> zie ook slide 6; ik kan dit helaas niet reproduceren :(
 

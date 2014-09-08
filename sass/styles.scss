@@ -516,11 +516,23 @@ a.lost-password {
     }
   }
   
-  .show-details {
-    display: block;
-    padding-bottom: 10px;
+  .collapsible {
+    h2.title {
+      cursor: pointer;
+      background: $collapse url(../images/sprite.png) no-repeat right -3075px;
+      color: $collapseText;
+      font-weight: 600;
+    }
+    &.collapsed {
+      h2.title {
+        background-position: right -3025px;
+      }
+      .content {
+        display: none;
+      }
+    }
   }
-
+  
 	section.icons {
 	  text-align: center;
 	  ul {

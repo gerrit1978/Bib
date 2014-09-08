@@ -59,7 +59,8 @@ jQuery(document).ready(function($) {
     return false;
 	});
 	
-	/* Toggle Details betalingen en uitleenhistoriek */
+	/* Toggle Details betalingen en uitleenhistoriek - DEPRECATED */
+/*
 	$('a.show-details-betaling').click(function(e) {
 	  var details = $(this).parent().find('.details');
     details.toggle();
@@ -82,9 +83,7 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     return false;
 	});
-
-  /* Tooltips */
-  $(".tooltipinit").tooltip();
+*/
 
   /* Toggle E-boeken lijst */
   $('a.show-details-eboeken').click(function(e) {
@@ -100,5 +99,16 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     return false;
   });
+  
+  /* Toggle Details Library page */
+  $('.collapsible h2.title').click(function(e) {
+    $(this).parent().find('.content').toggle();
+    $(this).parent().toggleClass('collapsed');
+  });
+
+  /* Tooltips */
+  $(".tooltipinit").tooltip();
+
+
 	
 });
