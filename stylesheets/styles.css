@@ -10065,3 +10065,8 @@ p.access em {
 .infomsg {
   margin-top: 20px;
 }
+
+/* line 797, ../sass/styles.scss */
+.mijn-bibliotheken .inner {
+  padding-top: 20px;
+}
