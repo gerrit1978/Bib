@@ -10059,3 +10059,9 @@ p.access em {
   background: #e0e0e0;
   color: #333333;
 }
+
+/* Info message */
+/* line 792, ../sass/styles.scss */
+.infomsg {
+  margin-top: 20px;
+}
