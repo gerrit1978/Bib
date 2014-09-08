@@ -8552,16 +8552,31 @@ button.close {
   p.access em {
     text-align: right !important;
   }
+
+  /* Pseudo-table */
+  /* line 668, ../sass/components/_desktop.scss */
+  .table .row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 672, ../sass/components/_desktop.scss */
+  .table .row.title .title {
+    padding-left: 10px !important;
+  }
+  /* line 677, ../sass/components/_desktop.scss */
+  .table .row.content .title {
+    padding-left: 10px !important;
+  }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 671, ../sass/components/_desktop.scss */
+  /* line 689, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 676, ../sass/components/_desktop.scss */
+  /* line 694, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
@@ -9106,6 +9121,23 @@ button.close {
   .space-below {
     margin-bottom: 15px;
   }
+
+  /* Pseudo-table */
+  /* line 544, ../sass/components/_smartphone.scss */
+  .table .row {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-bottom: 1px solid #a6a6a6;
+    background: none !important;
+  }
+  /* line 549, ../sass/components/_smartphone.scss */
+  .table .row.last {
+    border-bottom: none;
+  }
+  /* line 552, ../sass/components/_smartphone.scss */
+  .table .row.title {
+    display: none;
+  }
 }
 /* HTML elements */
 /* line 2, ../sass/components/_elements.scss */
@@ -9317,7 +9349,7 @@ ul.steps li.step {
   padding: 0;
   list-style: none;
   height: 28px;
-  line-height: 28px;
+  line-height: 1;
   float: left;
   display: block;
   text-align: center;
@@ -10069,4 +10101,25 @@ p.access em {
 /* line 797, ../sass/styles.scss */
 .mijn-bibliotheken .inner {
   padding-top: 20px;
+}
+
+/* Pseudo-table */
+/* line 804, ../sass/styles.scss */
+.table .row {
+  margin: 0 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 808, ../sass/styles.scss */
+.table .row div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 812, ../sass/styles.scss */
+.table .row.title {
+  font-weight: 600;
+}
+/* line 815, ../sass/styles.scss */
+.table .row.odd {
+  background: #e6edf7;
 }

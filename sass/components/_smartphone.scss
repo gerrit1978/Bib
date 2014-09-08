@@ -538,5 +538,21 @@
   .space-below {
     margin-bottom: 15px;
   }
+  
+  /* Pseudo-table */
+  .table {
+	  .row {
+	    padding-left: 10px !important;
+	    padding-right: 10px !important;
+	    border-bottom: 1px solid $line;
+	    background: none !important;
+	    &.last {
+	      border-bottom: none;
+	    }
+	    &.title {
+        display: none;
+	    }
+	  }
+  }
 
 }

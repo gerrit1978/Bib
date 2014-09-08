@@ -662,6 +662,24 @@
       text-align: right !important;
 	  }
 	}
+	
+	/* Pseudo-table */
+	.table {
+	  .row {
+      padding-left: 0 !important;
+	    padding-right: 0 !important;
+	    &.title {
+	      .title {
+	        padding-left: 10px !important;
+	      }
+	    }
+	    &.content {
+	      .title {
+	        padding-left: 10px !important;
+	      }
+	    }
+	  }
+	}
   
   
 }

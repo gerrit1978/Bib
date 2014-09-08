@@ -97,7 +97,7 @@ ul.steps {
     padding: 0;
     list-style: none;
     height: 28px;
-    line-height: 28px;
+    line-height:  1;
     float: left;
     display: block;
     text-align: center;
@@ -796,5 +796,24 @@ p.access {
 .mijn-bibliotheken {
   .inner {
     padding-top: 20px;
+  }
+}
+
+/* Pseudo-table */
+.table {
+  .row {
+    margin: 0 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    div {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    &.title {
+      font-weight: 600;
+    }
+    &.odd {
+      background: $lightBlue;
+    }
   }
 }
