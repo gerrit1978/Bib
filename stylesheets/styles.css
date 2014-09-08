@@ -9354,7 +9354,7 @@ ul.steps li.step {
   padding: 0;
   list-style: none;
   height: 28px;
-  line-height: 1;
+  line-height: 28px;
   float: left;
   display: block;
   text-align: center;
