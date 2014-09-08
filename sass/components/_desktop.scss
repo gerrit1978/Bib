@@ -80,6 +80,10 @@
 	    &.mijn-bibliotheken {
 	      .inner {
 	        padding: 0;
+	        padding-top: 10px;
+	        .infomsg {
+	          margin: 20px;
+	        }
 	      }
 	    }
 	  }
