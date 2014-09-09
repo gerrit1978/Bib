@@ -32,6 +32,7 @@
   #header {
 	  .logo {
 	    a {
+	      min-height: 65px;
 	      text-indent: 0 !important;
 	      background-repeat: no-repeat;
 	      background-position: left -2562px;
@@ -112,7 +113,7 @@
   #main {
     .sidebar-first {
       ul {
-        font-size: 0.95em;
+        font-size: 0.925em;
         margin: 0;
         padding: 0;
         li {
@@ -121,7 +122,7 @@
           line-height: 36px;
           border-bottom: 1px dotted $lightGrey;          
           a {
-            padding-left: 5px;
+            padding-left: 2px;
             color: $darkGrey;
             display: block;
             height: 36px;

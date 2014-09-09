@@ -7925,6 +7925,7 @@ button.close {
 
   /* line 34, ../sass/components/_desktop.scss */
   #header .logo a {
+    min-height: 65px;
     text-indent: 0 !important;
     background-repeat: no-repeat;
     background-position: left -2562px;
@@ -7932,107 +7933,107 @@ button.close {
     color: black;
     text-decoration: none;
   }
-  /* line 41, ../sass/components/_desktop.scss */
+  /* line 42, ../sass/components/_desktop.scss */
   #header .logo a:hover {
     text-decoration: none;
   }
-  /* line 45, ../sass/components/_desktop.scss */
+  /* line 46, ../sass/components/_desktop.scss */
   #header .logo h1, #header .logo h2 {
     display: block;
     font-family: Arial;
   }
-  /* line 49, ../sass/components/_desktop.scss */
+  /* line 50, ../sass/components/_desktop.scss */
   #header .logo h1 {
     margin: 0;
     font-weight: bold;
     font-size: 40px;
   }
-  /* line 54, ../sass/components/_desktop.scss */
+  /* line 55, ../sass/components/_desktop.scss */
   #header .logo h2 {
     margin: 0;
     font-weight: lighter;
     font-size: 17px;
   }
 
-  /* line 63, ../sass/components/_desktop.scss */
+  /* line 64, ../sass/components/_desktop.scss */
   #main .container {
     background: white;
     margin-top: 30px;
   }
-  /* line 68, ../sass/components/_desktop.scss */
+  /* line 69, ../sass/components/_desktop.scss */
   #main .main-content {
     padding-bottom: 3em;
     margin-bottom: 1em;
   }
-  /* line 71, ../sass/components/_desktop.scss */
+  /* line 72, ../sass/components/_desktop.scss */
   #main .main-content .inner {
     background: #f4f4f4 url(../images/bg-main.png) no-repeat left top;
     padding: 20px;
   }
-  /* line 76, ../sass/components/_desktop.scss */
+  /* line 77, ../sass/components/_desktop.scss */
   #main .main-content.dashboard .inner {
     padding: 0;
   }
-  /* line 81, ../sass/components/_desktop.scss */
+  /* line 82, ../sass/components/_desktop.scss */
   #main .main-content.mijn-bibliotheken .inner {
     padding: 0;
     padding-top: 10px;
   }
-  /* line 84, ../sass/components/_desktop.scss */
+  /* line 85, ../sass/components/_desktop.scss */
   #main .main-content.mijn-bibliotheken .inner .infomsg {
     margin: 20px;
   }
 
-  /* line 94, ../sass/components/_desktop.scss */
+  /* line 95, ../sass/components/_desktop.scss */
   h1.title.full-width {
     margin-left: 0;
   }
 
   /* "Splash page" */
-  /* line 101, ../sass/components/_desktop.scss */
+  /* line 102, ../sass/components/_desktop.scss */
   .left {
     width: 50%;
     float: left;
   }
 
-  /* line 106, ../sass/components/_desktop.scss */
+  /* line 107, ../sass/components/_desktop.scss */
   .right {
     width: 50%;
     float: left;
   }
 
   /* Main menu */
-  /* line 114, ../sass/components/_desktop.scss */
+  /* line 115, ../sass/components/_desktop.scss */
   #main .sidebar-first ul {
-    font-size: 0.95em;
+    font-size: 0.925em;
     margin: 0;
     padding: 0;
   }
-  /* line 118, ../sass/components/_desktop.scss */
+  /* line 119, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li {
     list-style: none;
     color: #a6a6a6;
     line-height: 36px;
     border-bottom: 1px dotted #a6a6a6;
   }
-  /* line 123, ../sass/components/_desktop.scss */
+  /* line 124, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a {
-    padding-left: 5px;
+    padding-left: 2px;
     color: #444444;
     display: block;
     height: 36px;
     overflow: hidden;
   }
-  /* line 129, ../sass/components/_desktop.scss */
+  /* line 130, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.title {
     text-transform: uppercase;
   }
-  /* line 132, ../sass/components/_desktop.scss */
+  /* line 133, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a:hover {
     background: #d9d8d8;
     text-decoration: none;
   }
-  /* line 136, ../sass/components/_desktop.scss */
+  /* line 137, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li a.active {
     background: url(../images/sprite.png) no-repeat right -256px;
     color: white;
@@ -8040,165 +8041,165 @@ button.close {
     z-index: 100;
     width: 120%;
   }
-  /* line 144, ../sass/components/_desktop.scss */
+  /* line 145, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li.last {
     border-bottom: none;
   }
-  /* line 148, ../sass/components/_desktop.scss */
+  /* line 149, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li {
     border-bottom: none;
   }
-  /* line 150, ../sass/components/_desktop.scss */
+  /* line 151, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li a {
     padding-left: 20px;
   }
-  /* line 154, ../sass/components/_desktop.scss */
+  /* line 155, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li {
     border-bottom: none;
   }
-  /* line 155, ../sass/components/_desktop.scss */
+  /* line 156, ../sass/components/_desktop.scss */
   #main .sidebar-first ul li ul li ul li a {
     padding-left: 40px;
   }
 
-  /* line 168, ../sass/components/_desktop.scss */
+  /* line 169, ../sass/components/_desktop.scss */
   h1.title {
     margin-left: 25%;
     padding-left: 10px;
   }
 
-  /* line 174, ../sass/components/_desktop.scss */
+  /* line 175, ../sass/components/_desktop.scss */
   body.narrow-page h1.title {
     padding-left: 0;
   }
 
   /* Registration Steps */
-  /* line 182, ../sass/components/_desktop.scss */
+  /* line 183, ../sass/components/_desktop.scss */
   ul.steps li.step a {
     background: url(../images/sprite.png) no-repeat left -55px;
     display: block;
     height: 28px;
   }
-  /* line 187, ../sass/components/_desktop.scss */
+  /* line 188, ../sass/components/_desktop.scss */
   ul.steps li.step span {
     display: none;
   }
-  /* line 190, ../sass/components/_desktop.scss */
+  /* line 191, ../sass/components/_desktop.scss */
   ul.steps li.step.step-0 {
     width: 63px;
     background: url(../images/sprite.png) no-repeat left -55px;
   }
-  /* line 194, ../sass/components/_desktop.scss */
+  /* line 195, ../sass/components/_desktop.scss */
   ul.steps li.step.step-1 {
     width: 52px;
   }
-  /* line 197, ../sass/components/_desktop.scss */
+  /* line 198, ../sass/components/_desktop.scss */
   ul.steps li.step.step-2 {
     width: 55px;
   }
-  /* line 200, ../sass/components/_desktop.scss */
+  /* line 201, ../sass/components/_desktop.scss */
   ul.steps li.step.step-3 {
     width: 49px;
   }
-  /* line 207, ../sass/components/_desktop.scss */
+  /* line 208, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-1 a {
     background-position: -63px -55px;
   }
-  /* line 212, ../sass/components/_desktop.scss */
+  /* line 213, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-2 a {
     background-position: -115px -55px;
   }
-  /* line 217, ../sass/components/_desktop.scss */
+  /* line 218, ../sass/components/_desktop.scss */
   ul.steps.steps-0 li.step-3 a {
     background-position: -170px -55px;
   }
-  /* line 223, ../sass/components/_desktop.scss */
+  /* line 224, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-0 {
     background-position: left -83px;
   }
-  /* line 227, ../sass/components/_desktop.scss */
+  /* line 228, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-1 a {
     background-position: -63px -83px;
   }
-  /* line 232, ../sass/components/_desktop.scss */
+  /* line 233, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-2 a {
     background-position: -115px -83px;
   }
-  /* line 237, ../sass/components/_desktop.scss */
+  /* line 238, ../sass/components/_desktop.scss */
   ul.steps.steps-1 li.step-3 a {
     background-position: -170px -83px;
   }
-  /* line 243, ../sass/components/_desktop.scss */
+  /* line 244, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-0 {
     background-position: left -112px;
   }
-  /* line 247, ../sass/components/_desktop.scss */
+  /* line 248, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-1 a {
     background-position: -63px -112px;
   }
-  /* line 252, ../sass/components/_desktop.scss */
+  /* line 253, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-2 a {
     background-position: -115px -112px;
   }
-  /* line 257, ../sass/components/_desktop.scss */
+  /* line 258, ../sass/components/_desktop.scss */
   ul.steps.steps-2 li.step-3 a {
     background-position: -170px -112px;
   }
-  /* line 263, ../sass/components/_desktop.scss */
+  /* line 264, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-0 {
     background-position: left -472px;
   }
-  /* line 267, ../sass/components/_desktop.scss */
+  /* line 268, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-1 a {
     background-position: -63px -472px;
   }
-  /* line 272, ../sass/components/_desktop.scss */
+  /* line 273, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-2 a {
     background-position: -115px -472px;
   }
-  /* line 277, ../sass/components/_desktop.scss */
+  /* line 278, ../sass/components/_desktop.scss */
   ul.steps.steps-3 li.step-3 a {
     background-position: -170px -472px;
   }
 
   /* Forms */
-  /* line 287, ../sass/components/_desktop.scss */
+  /* line 288, ../sass/components/_desktop.scss */
   .form-item {
     position: relative;
   }
-  /* line 289, ../sass/components/_desktop.scss */
+  /* line 290, ../sass/components/_desktop.scss */
   .form-item .form-text, .form-item .form-email, .form-item .form-password, .form-item select {
     width: 90%;
   }
-  /* line 292, ../sass/components/_desktop.scss */
+  /* line 293, ../sass/components/_desktop.scss */
   .form-item textarea {
     width: 90% !important;
   }
-  /* line 295, ../sass/components/_desktop.scss */
+  /* line 296, ../sass/components/_desktop.scss */
   .form-item span.validation {
     float: right;
     width: 30px;
     height: 30px;
   }
-  /* line 299, ../sass/components/_desktop.scss */
+  /* line 300, ../sass/components/_desktop.scss */
   .form-item span.validation.false {
     background: url(../images/sprite.png) no-repeat right -297px;
   }
-  /* line 302, ../sass/components/_desktop.scss */
+  /* line 303, ../sass/components/_desktop.scss */
   .form-item span.validation.true {
     background: url(../images/sprite.png) no-repeat right -327px;
   }
-  /* line 306, ../sass/components/_desktop.scss */
+  /* line 307, ../sass/components/_desktop.scss */
   .form-item .message {
     font-size: 0.9375em;
   }
-  /* line 308, ../sass/components/_desktop.scss */
+  /* line 309, ../sass/components/_desktop.scss */
   .form-item .message.error {
     color: #c6151d;
   }
 
   /* General Preloader */
-  /* line 315, ../sass/components/_desktop.scss */
+  /* line 316, ../sass/components/_desktop.scss */
   #preloader-general {
     max-width: 1140px;
     margin-left: auto;
@@ -8206,251 +8207,251 @@ button.close {
   }
 
   /* Items */
-  /* line 325, ../sass/components/_desktop.scss */
+  /* line 326, ../sass/components/_desktop.scss */
   ul.items li.item .actions a {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1em !important;
   }
-  /* line 331, ../sass/components/_desktop.scss */
+  /* line 332, ../sass/components/_desktop.scss */
   ul.items li.item .actions span.late {
     font-size: 1em;
   }
 
-  /* line 340, ../sass/components/_desktop.scss */
+  /* line 341, ../sass/components/_desktop.scss */
   .section .item .value {
     font-weight: normal !important;
   }
 
-  /* line 346, ../sass/components/_desktop.scss */
+  /* line 347, ../sass/components/_desktop.scss */
   .footer {
     margin-top: 10px;
     text-align: right;
     color: #a6a6a6;
     font-size: 0.875em;
   }
-  /* line 351, ../sass/components/_desktop.scss */
+  /* line 352, ../sass/components/_desktop.scss */
   .footer a {
     color: #a6a6a6;
   }
 
-  /* line 356, ../sass/components/_desktop.scss */
+  /* line 357, ../sass/components/_desktop.scss */
   .no-bg {
     background: none !important;
     border: none !important;
     color: #444444 !important;
   }
-  /* line 360, ../sass/components/_desktop.scss */
+  /* line 361, ../sass/components/_desktop.scss */
   .no-bg a {
     color: #444444 !important;
     border-bottom: 1px solid #444444 !important;
   }
 
-  /* line 366, ../sass/components/_desktop.scss */
+  /* line 367, ../sass/components/_desktop.scss */
   .form-submit {
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     behavior: url(pie/PIE.htc);
   }
-  /* line 368, ../sass/components/_desktop.scss */
+  /* line 369, ../sass/components/_desktop.scss */
   .form-submit.next {
     padding-right: 40px !important;
   }
-  /* line 370, ../sass/components/_desktop.scss */
+  /* line 371, ../sass/components/_desktop.scss */
   .form-submit.next.red {
     background-position: right -411px !important;
   }
-  /* line 373, ../sass/components/_desktop.scss */
+  /* line 374, ../sass/components/_desktop.scss */
   .form-submit.next.blue {
     background-position: right -411px !important;
   }
-  /* line 375, ../sass/components/_desktop.scss */
+  /* line 376, ../sass/components/_desktop.scss */
   .form-submit.next.blue:active, .form-submit.next.blue:focus {
     background-color: #004e68;
   }
 
-  /* line 382, ../sass/components/_desktop.scss */
+  /* line 383, ../sass/components/_desktop.scss */
   form.narrow {
     width: 60%;
   }
 
   /* Profile page */
-  /* line 388, ../sass/components/_desktop.scss */
+  /* line 389, ../sass/components/_desktop.scss */
   .section .item {
     clear: both;
   }
-  /* line 390, ../sass/components/_desktop.scss */
+  /* line 391, ../sass/components/_desktop.scss */
   .section .item .label {
     width: 20%;
     float: left;
     text-align: left;
   }
-  /* line 395, ../sass/components/_desktop.scss */
+  /* line 396, ../sass/components/_desktop.scss */
   .section .item .value {
     float: left;
   }
 
   /* Lost Password */
-  /* line 402, ../sass/components/_desktop.scss */
+  /* line 403, ../sass/components/_desktop.scss */
   a.lost-password {
     float: right;
     margin-right: -130px;
     margin-top: 5px;
   }
 
-  /* line 409, ../sass/components/_desktop.scss */
+  /* line 410, ../sass/components/_desktop.scss */
   .lost-password.form-submit {
     width: 105px;
   }
 
   /* Consistent buttons */
-  /* line 416, ../sass/components/_desktop.scss */
+  /* line 417, ../sass/components/_desktop.scss */
   .form-submit.equal-width {
     width: 220px;
   }
 
   /* Dashboard */
-  /* line 423, ../sass/components/_desktop.scss */
+  /* line 424, ../sass/components/_desktop.scss */
   .dashboard .section {
     border-bottom: 15px solid white;
     padding: 20px;
   }
-  /* line 426, ../sass/components/_desktop.scss */
+  /* line 427, ../sass/components/_desktop.scss */
   .dashboard .section h3 {
     margin-top: 0;
   }
-  /* line 430, ../sass/components/_desktop.scss */
+  /* line 431, ../sass/components/_desktop.scss */
   .dashboard .section .actions .col {
     padding-right: 20px !important;
   }
-  /* line 433, ../sass/components/_desktop.scss */
+  /* line 434, ../sass/components/_desktop.scss */
   .dashboard .section .actions a.button {
     width: 100%;
     padding: 6px 10px !important;
   }
 
   /* Dashboard */
-  /* line 443, ../sass/components/_desktop.scss */
+  /* line 444, ../sass/components/_desktop.scss */
   .mijn-bibliotheken section.library {
     border-bottom: 15px solid white !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
-  /* line 447, ../sass/components/_desktop.scss */
+  /* line 448, ../sass/components/_desktop.scss */
   .mijn-bibliotheken section.library.first {
     padding-top: 20px;
   }
-  /* line 450, ../sass/components/_desktop.scss */
+  /* line 451, ../sass/components/_desktop.scss */
   .mijn-bibliotheken section.library section.messages {
     padding: 0;
   }
-  /* line 453, ../sass/components/_desktop.scss */
+  /* line 454, ../sass/components/_desktop.scss */
   .mijn-bibliotheken section.library div.actions {
     text-align: left !important;
   }
 
   /* Extra space right */
-  /* line 460, ../sass/components/_desktop.scss */
+  /* line 461, ../sass/components/_desktop.scss */
   .space-left {
     margin-left: 20px;
   }
 
-  /* line 463, ../sass/components/_desktop.scss */
+  /* line 464, ../sass/components/_desktop.scss */
   .space-right {
     margin-right: 20px;
   }
 
   /* Bibliotheek pagina */
-  /* line 469, ../sass/components/_desktop.scss */
+  /* line 470, ../sass/components/_desktop.scss */
   .library .inner {
     padding: 0 !important;
     background: white !important;
   }
-  /* line 474, ../sass/components/_desktop.scss */
+  /* line 475, ../sass/components/_desktop.scss */
   .library section.first {
     background: #f4f4f4 url(../images/bg-main.png) no-repeat left top;
     margin-bottom: 0 !important;
   }
-  /* line 479, ../sass/components/_desktop.scss */
+  /* line 480, ../sass/components/_desktop.scss */
   .library section.section, .library section.links {
     background: #f4f4f4;
     margin-bottom: 15px;
     padding: 20px;
     padding-bottom: 0;
   }
-  /* line 485, ../sass/components/_desktop.scss */
+  /* line 486, ../sass/components/_desktop.scss */
   .library section.section {
     padding-bottom: 20px;
   }
-  /* line 489, ../sass/components/_desktop.scss */
+  /* line 490, ../sass/components/_desktop.scss */
   .library section.betaling, .library section.historiek {
     padding-bottom: 20px;
   }
-  /* line 492, ../sass/components/_desktop.scss */
+  /* line 493, ../sass/components/_desktop.scss */
   .library section.messages {
     padding: 20px;
   }
-  /* line 495, ../sass/components/_desktop.scss */
+  /* line 496, ../sass/components/_desktop.scss */
   .library section.icons {
     background: white;
   }
-  /* line 502, ../sass/components/_desktop.scss */
+  /* line 503, ../sass/components/_desktop.scss */
   .library ul.items li.item .actions {
     text-align: center;
   }
-  /* line 508, ../sass/components/_desktop.scss */
+  /* line 509, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 512, ../sass/components/_desktop.scss */
+  /* line 513, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr.odd {
     background: #e6edf7;
   }
-  /* line 515, ../sass/components/_desktop.scss */
+  /* line 516, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td, .library table.uitleenhistoriek tr th {
     padding: 10px 4px;
   }
-  /* line 517, ../sass/components/_desktop.scss */
+  /* line 518, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.title, .library table.uitleenhistoriek tr th.title {
     width: 40%;
   }
-  /* line 520, ../sass/components/_desktop.scss */
+  /* line 521, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.dates, .library table.uitleenhistoriek tr td.library, .library table.uitleenhistoriek tr th.dates, .library table.uitleenhistoriek tr th.library {
     width: 30%;
   }
-  /* line 527, ../sass/components/_desktop.scss */
+  /* line 528, ../sass/components/_desktop.scss */
   .library table {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 531, ../sass/components/_desktop.scss */
+  /* line 532, ../sass/components/_desktop.scss */
   .library table tr.odd {
     background: #e6edf7;
   }
-  /* line 534, ../sass/components/_desktop.scss */
+  /* line 535, ../sass/components/_desktop.scss */
   .library table tr td, .library table tr th {
     padding: 10px 4px;
   }
-  /* line 543, ../sass/components/_desktop.scss */
+  /* line 544, ../sass/components/_desktop.scss */
   .library table.kosten tr td.title, .library table.kosten tr th.title {
     width: 60%;
   }
-  /* line 546, ../sass/components/_desktop.scss */
+  /* line 547, ../sass/components/_desktop.scss */
   .library table.kosten tr td.type, .library table.kosten tr td.date, .library table.kosten tr td.bedrag, .library table.kosten tr th.type, .library table.kosten tr th.date, .library table.kosten tr th.bedrag {
     width: 12%;
   }
-  /* line 556, ../sass/components/_desktop.scss */
+  /* line 557, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.title, .library table.uitleenhistoriek tr th.title {
     width: 40%;
   }
-  /* line 559, ../sass/components/_desktop.scss */
+  /* line 560, ../sass/components/_desktop.scss */
   .library table.uitleenhistoriek tr td.dates, .library table.uitleenhistoriek tr td.library, .library table.uitleenhistoriek tr th.dates, .library table.uitleenhistoriek tr th.library {
     width: 30%;
   }
-  /* line 567, ../sass/components/_desktop.scss */
+  /* line 568, ../sass/components/_desktop.scss */
   .library a.download {
     display: block;
     margin-left: 70%;
@@ -8458,67 +8459,67 @@ button.close {
   }
 
   /* Tooltips */
-  /* line 576, ../sass/components/_desktop.scss */
+  /* line 577, ../sass/components/_desktop.scss */
   .tooltipinit {
     margin-right: 40px !important;
   }
 
   /* Register birthday */
-  /* line 581, ../sass/components/_desktop.scss */
+  /* line 582, ../sass/components/_desktop.scss */
   .form-item-birthday select {
     width: 30%;
   }
 
   /* E-boeken */
-  /* line 586, ../sass/components/_desktop.scss */
+  /* line 587, ../sass/components/_desktop.scss */
   .eboeken {
     /* Current & historiek */
   }
-  /* line 587, ../sass/components/_desktop.scss */
+  /* line 588, ../sass/components/_desktop.scss */
   .eboeken .leentegoed {
     background-position: left -1785px !important;
     min-height: 50px !important;
     padding-left: 80px !important;
   }
-  /* line 592, ../sass/components/_desktop.scss */
+  /* line 593, ../sass/components/_desktop.scss */
   .eboeken .boekenkaart {
     background-position: left -1400px !important;
     padding-left: 80px;
   }
-  /* line 595, ../sass/components/_desktop.scss */
+  /* line 596, ../sass/components/_desktop.scss */
   .eboeken .boekenkaart .tooltip {
     width: 200px !important;
   }
-  /* line 600, ../sass/components/_desktop.scss */
+  /* line 601, ../sass/components/_desktop.scss */
   .eboeken .betaling {
     background-position: left -1565px !important;
     padding-left: 80px;
   }
-  /* line 605, ../sass/components/_desktop.scss */
+  /* line 606, ../sass/components/_desktop.scss */
   .eboeken form .form-text {
     width: auto;
   }
-  /* line 609, ../sass/components/_desktop.scss */
+  /* line 610, ../sass/components/_desktop.scss */
   .eboeken table {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 613, ../sass/components/_desktop.scss */
+  /* line 614, ../sass/components/_desktop.scss */
   .eboeken table tr.odd {
     background: #e6edf7;
   }
-  /* line 616, ../sass/components/_desktop.scss */
+  /* line 617, ../sass/components/_desktop.scss */
   .eboeken table tr td, .eboeken table tr th {
     padding: 10px 4px;
   }
-  /* line 623, ../sass/components/_desktop.scss */
+  /* line 624, ../sass/components/_desktop.scss */
   .eboeken .section.fullwidth.blue {
     margin-left: -20px;
     margin-right: -20px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 631, ../sass/components/_desktop.scss */
+  /* line 632, ../sass/components/_desktop.scss */
   .eboeken .devices {
     background: url(../images/devices.png) no-repeat right top;
     padding-top: 5px;
@@ -8527,61 +8528,61 @@ button.close {
     text-align: right;
     min-height: 180px;
   }
-  /* line 641, ../sass/components/_desktop.scss */
+  /* line 642, ../sass/components/_desktop.scss */
   .eboeken .expand {
     background: #f1f1f1;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  /* line 645, ../sass/components/_desktop.scss */
+  /* line 646, ../sass/components/_desktop.scss */
   .eboeken .expand a.show-details {
     padding: 10px;
     display: block;
     background: url(../images/sprite.png) no-repeat;
   }
-  /* line 649, ../sass/components/_desktop.scss */
+  /* line 650, ../sass/components/_desktop.scss */
   .eboeken .expand a.show-details.collapsed {
     background-position: right -2920px;
   }
-  /* line 652, ../sass/components/_desktop.scss */
+  /* line 653, ../sass/components/_desktop.scss */
   .eboeken .expand a.show-details.expanded {
     background-position: right -2964px;
   }
-  /* line 656, ../sass/components/_desktop.scss */
+  /* line 657, ../sass/components/_desktop.scss */
   .eboeken .expand.current {
     margin-bottom: 20px;
   }
 
   /* Consumer pages: "je hebt toegang..." */
-  /* line 665, ../sass/components/_desktop.scss */
+  /* line 666, ../sass/components/_desktop.scss */
   p.access em {
     text-align: right !important;
   }
 
   /* Pseudo-table */
-  /* line 672, ../sass/components/_desktop.scss */
+  /* line 673, ../sass/components/_desktop.scss */
   .table .row {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  /* line 676, ../sass/components/_desktop.scss */
+  /* line 677, ../sass/components/_desktop.scss */
   .table .row.title .title {
     padding-left: 10px !important;
   }
-  /* line 681, ../sass/components/_desktop.scss */
+  /* line 682, ../sass/components/_desktop.scss */
   .table .row.content .title {
     padding-left: 10px !important;
   }
 }
 /* Desktop only */
 @media all and (min-width: 1023px) {
-  /* line 693, ../sass/components/_desktop.scss */
+  /* line 694, ../sass/components/_desktop.scss */
   #wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 698, ../sass/components/_desktop.scss */
+  /* line 699, ../sass/components/_desktop.scss */
   .button, .form-submit {
     font-size: 1em;
     font-weight: 300;
